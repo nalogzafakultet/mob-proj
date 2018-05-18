@@ -1,0 +1,37 @@
+version: '2.1'
+services:
+
+    mongodb:
+        container_name: mongodb
+        build:
+            context: ./mongodb/
+        restart: always
+        volumes:
+            - db-data:/data/db
+        ports:
+            - 27017:27017
+        healthcheck:
+            test: exit 0
+        networks:
+            - mobnet
+
+    test_app:
+        container_name: test_app
+        build:
+            context: ./test_app/
+        restart: always
+        ports:
+            - 80:80
+        depends_on:
+            mongodb:
+                condition: service_healthy
+        links:
+            - mongodb
+        networks:
+            - mobnet
+
+volumes:
+    db-data:
+
+networks:
+    mobnet:
