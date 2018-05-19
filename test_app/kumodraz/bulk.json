@@ -1,0 +1,9 @@
+{
+  "weathers": [
+    {"time": "2018-05-19 14:48:28.916507", "temperature": 39.2, "humidity": 0.5, "description": "sunny"},
+   	{"time": "2018-05-19 14:58:28.916507", "temperature": 38.2, "humidity": 0.5, "description": "clody"},
+    {"time": "2018-05-19 15:18:28.916507", "temperature": 39.0, "humidity": 0.5, "description": "rainy"},
+    {"time": "2018-05-19 18:50:28.916507", "temperature": 29.2, "humidity": 0.5, "description": "sunny"},
+    {"time": "2018-05-19 21:48:28.916507", "temperature": -1.2, "humidity": 0.5, "description": "rainy"}
+  ]
+}

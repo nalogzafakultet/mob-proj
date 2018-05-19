@@ -11,6 +11,7 @@
 
     <!-- Bootstrap core CSS -->
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet">
+      <link rel="icon" href="{{ url_for('static', filename='img/favicon.png') }}">
 
     <!-- Custom styles for this template -->
     <link href="{{ url_for('static', filename='css/jumbotron.css') }}" rel="stylesheet">
@@ -65,21 +66,16 @@
       <div class="container">
         <!-- Example row of columns -->
         <div class="row">
+            {% for weather in weathers %}
           <div class="col-md-4">
-            <h2>Heading</h2>
-            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+            <h2>Weather</h2>
+            <p>Temperature: {{ weather['temperature'] }}</p>
+              <p>Humidity: {{ weather['humidity'] }}</p>
+              <p>Time: {{ weather['time'] }}</p>
+              <p>Description: {{ weather['description'] }}</p>
+              <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
           </div>
-          <div class="col-md-4">
-            <h2>Heading</h2>
-            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
-          </div>
-          <div class="col-md-4">
-            <h2>Heading</h2>
-            <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
-          </div>
+          {% endfor %}
         </div>
 
         <hr>
@@ -89,7 +85,7 @@
     </main>
 
     <footer class="container">
-      <p>&copy; Company 2017-2018</p>
+      <p>&copy; RAF 2017-2018</p>
     </footer>
 
     <!-- Bootstrap core JavaScript
