@@ -1,3 +1,5 @@
+import logging
+
 class Weather:
 
     def __init__(self, db):
@@ -19,6 +21,10 @@ class Weather:
             if last_ten:
                 return last_ten
         except:
+            print('Exception occured while getting last 10 weathers.')
             return None
 
         return None
+
+    def get_x(self):
+        return 5
