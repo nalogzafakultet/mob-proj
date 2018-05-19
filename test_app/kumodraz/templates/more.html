@@ -12,23 +12,21 @@
 <div class="wrapper">
     <div class="container">
         <!-- Example row of columns -->
-        <div class="row">
+        <div class="row justify-content-md-center">
 
-            <div class="col-md-offset-3 col-md-6 border">
+            <div class="col-md-6 border">
                 <h2>Weather More</h2>
                 <img class="content-picture" src="{{ weather['img_url'] }}" alt="{{ weather['description'] }}">
                 <p>Temperature: {{ weather['temperature'] }}</p>
                 <p>Humidity: {{ weather['humidity'] }}</p>
                 <p>Time: {{ weather['time'] }}</p>
                 <p>Description: {{ weather['description'] }}</p>
-                <p><a class="btn btn-secondary btn-success" href="/more/{{ weather['_id'] }}" role="button">View details &raquo;</a></p>
               </div>
         </div>
 
         <hr>
 
     </div> <!-- /container -->
-
 </div>
 
 {% endblock %}
