@@ -1,15 +1,6 @@
 from kumodraz import app
-from flask import request, jsonify
+from flask import request, jsonify, render_template
 
 
-@app.route('/', methods=['GET'])
-def index():
-    return jsonify({
-        "status": "OK",
-        "result": {
-            "method": "GET",
-            "url": {},
-            "body": {}
-        }
-    })
+
 
