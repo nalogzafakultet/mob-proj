@@ -1,0 +1,7003 @@
+{ "weathers": [
+    {
+      "_id": "5b0059e36b24bd4a64aef49e",
+      "description": "sunny",
+      "temperature": 8.58,
+      "humidity": 0.72,
+      "time": "2016-03-13 03:26:18.393"
+    },
+    {
+      "_id": "5b0059e3ba76a43a60c43f54",
+      "description": "snowy",
+      "temperature": 15.66,
+      "humidity": 0.67,
+      "time": "2015-06-11 09:56:06.186"
+    },
+    {
+      "_id": "5b0059e3506573ecf24417c9",
+      "description": "rainy",
+      "temperature": 20.34,
+      "humidity": 0,
+      "time": "2015-11-10 05:00:23.190"
+    },
+    {
+      "_id": "5b0059e3535f3b8834bd6226",
+      "description": "cloudy",
+      "temperature": 35.31,
+      "humidity": 0.77,
+      "time": "2014-01-09 05:30:02.11"
+    },
+    {
+      "_id": "5b0059e341b71e2226334468",
+      "description": "sunny",
+      "temperature": 29.43,
+      "humidity": 0.82,
+      "time": "2016-04-16 11:43:22.374"
+    },
+    {
+      "_id": "5b0059e3e9c6998025c75f2b",
+      "description": "snowy",
+      "temperature": 42.74,
+      "humidity": 0.73,
+      "time": "2014-02-20 02:52:00.484"
+    },
+    {
+      "_id": "5b0059e316617bdb6a0ca5ff",
+      "description": "rainy",
+      "temperature": 11.44,
+      "humidity": 0.45,
+      "time": "2014-03-21 08:55:52.394"
+    },
+    {
+      "_id": "5b0059e3a09a75a952950e02",
+      "description": "sunny",
+      "temperature": 29.28,
+      "humidity": 0.8,
+      "time": "2014-03-20 11:38:04.11"
+    },
+    {
+      "_id": "5b0059e3a866bdf4449de56d",
+      "description": "sunny",
+      "temperature": -17.28,
+      "humidity": 0.26,
+      "time": "2017-10-04 05:45:51.83"
+    },
+    {
+      "_id": "5b0059e3e0d30ab16378cd1a",
+      "description": "cloudy",
+      "temperature": 7.73,
+      "humidity": 0.19,
+      "time": "2014-01-02 01:19:32.346"
+    },
+    {
+      "_id": "5b0059e3f19db806a4d14ec5",
+      "description": "cloudy",
+      "temperature": 10.18,
+      "humidity": 0.89,
+      "time": "2015-08-20 12:42:05.434"
+    },
+    {
+      "_id": "5b0059e3a244203d2004e3a5",
+      "description": "sunny",
+      "temperature": -12.51,
+      "humidity": 0.37,
+      "time": "2017-09-22 02:52:25.611"
+    },
+    {
+      "_id": "5b0059e38ed64584e2572ffe",
+      "description": "sunny",
+      "temperature": 43.3,
+      "humidity": 0.76,
+      "time": "2014-03-06 02:20:32.978"
+    },
+    {
+      "_id": "5b0059e38d8d0b21ab0fb97f",
+      "description": "snowy",
+      "temperature": 41.21,
+      "humidity": 0.24,
+      "time": "2016-08-12 05:26:24.419"
+    },
+    {
+      "_id": "5b0059e3fdfe864d3d850c6c",
+      "description": "cloudy",
+      "temperature": 22.13,
+      "humidity": 0.53,
+      "time": "2016-01-23 11:39:41.418"
+    },
+    {
+      "_id": "5b0059e37768f135d6458bbf",
+      "description": "rainy",
+      "temperature": -12.09,
+      "humidity": 0.68,
+      "time": "2017-05-19 09:43:05.661"
+    },
+    {
+      "_id": "5b0059e3aa8c061f62c08040",
+      "description": "cloudy",
+      "temperature": -3.65,
+      "humidity": 0.37,
+      "time": "2016-08-12 12:44:42.291"
+    },
+    {
+      "_id": "5b0059e3fd1891004e168e63",
+      "description": "rainy",
+      "temperature": 15.6,
+      "humidity": 0.09,
+      "time": "2014-08-08 09:50:38.449"
+    },
+    {
+      "_id": "5b0059e3199dabe51057aeac",
+      "description": "snowy",
+      "temperature": -15.82,
+      "humidity": 0.3,
+      "time": "2017-03-17 06:53:39.843"
+    },
+    {
+      "_id": "5b0059e36226554ee48efb42",
+      "description": "cloudy",
+      "temperature": -8.85,
+      "humidity": 0.17,
+      "time": "2014-01-05 06:44:54.418"
+    },
+    {
+      "_id": "5b0059e3d3a184f0e5714ee1",
+      "description": "sunny",
+      "temperature": -7.71,
+      "humidity": 0.62,
+      "time": "2018-04-03 03:54:33.537"
+    },
+    {
+      "_id": "5b0059e3666ecf5d559b0cd7",
+      "description": "rainy",
+      "temperature": -17,
+      "humidity": 0.22,
+      "time": "2015-06-02 10:54:14.706"
+    },
+    {
+      "_id": "5b0059e3305854dafafd6b5e",
+      "description": "snowy",
+      "temperature": 20.02,
+      "humidity": 0.44,
+      "time": "2016-08-13 08:42:26.269"
+    },
+    {
+      "_id": "5b0059e35270c54ae9f7feab",
+      "description": "sunny",
+      "temperature": 44.53,
+      "humidity": 0.25,
+      "time": "2014-11-02 03:19:58.159"
+    },
+    {
+      "_id": "5b0059e346eefe2b8d9b5b63",
+      "description": "snowy",
+      "temperature": 5.29,
+      "humidity": 0.53,
+      "time": "2015-08-20 01:43:09.806"
+    },
+    {
+      "_id": "5b0059e3dc5ddac3d509bff2",
+      "description": "cloudy",
+      "temperature": -9.51,
+      "humidity": 0.22,
+      "time": "2016-04-19 09:35:39.837"
+    },
+    {
+      "_id": "5b0059e37bf47b539e4536e5",
+      "description": "cloudy",
+      "temperature": -16.74,
+      "humidity": 0.05,
+      "time": "2014-09-27 07:53:46.267"
+    },
+    {
+      "_id": "5b0059e3a8e779ba9e5b4e2b",
+      "description": "rainy",
+      "temperature": 15.51,
+      "humidity": 0.65,
+      "time": "2014-10-06 06:48:57.258"
+    },
+    {
+      "_id": "5b0059e344b5fd920e47ab6a",
+      "description": "sunny",
+      "temperature": 5.06,
+      "humidity": 0.1,
+      "time": "2015-02-28 01:29:01.890"
+    },
+    {
+      "_id": "5b0059e3fcdf46c076a26c25",
+      "description": "snowy",
+      "temperature": 29.29,
+      "humidity": 0.02,
+      "time": "2017-07-28 07:17:29.306"
+    },
+    {
+      "_id": "5b0059e37c2cf3682cbf331b",
+      "description": "cloudy",
+      "temperature": 31.03,
+      "humidity": 0.89,
+      "time": "2017-04-12 02:24:59.875"
+    },
+    {
+      "_id": "5b0059e3e9d8f6fff19e2f84",
+      "description": "sunny",
+      "temperature": 17.88,
+      "humidity": 0.78,
+      "time": "2018-01-22 11:28:51.733"
+    },
+    {
+      "_id": "5b0059e354826e26efac8843",
+      "description": "rainy",
+      "temperature": 12.45,
+      "humidity": 0.78,
+      "time": "2016-03-23 12:17:55.674"
+    },
+    {
+      "_id": "5b0059e355f9705636f55267",
+      "description": "snowy",
+      "temperature": -14.33,
+      "humidity": 0.32,
+      "time": "2015-02-02 07:37:04.94"
+    },
+    {
+      "_id": "5b0059e3beb623d6cbf93dbf",
+      "description": "snowy",
+      "temperature": 25.11,
+      "humidity": 0.86,
+      "time": "2017-06-02 11:42:19.428"
+    },
+    {
+      "_id": "5b0059e3e64871eb41ed2295",
+      "description": "sunny",
+      "temperature": -17.28,
+      "humidity": 0.03,
+      "time": "2016-07-26 08:30:21.289"
+    },
+    {
+      "_id": "5b0059e306b77a762e77f4a1",
+      "description": "snowy",
+      "temperature": 3.34,
+      "humidity": 0.04,
+      "time": "2017-12-30 04:26:04.975"
+    },
+    {
+      "_id": "5b0059e3208f5e740ab48a3f",
+      "description": "rainy",
+      "temperature": 25.24,
+      "humidity": 0.42,
+      "time": "2018-03-15 08:05:44.612"
+    },
+    {
+      "_id": "5b0059e307f9555dcfbadae4",
+      "description": "snowy",
+      "temperature": 2.08,
+      "humidity": 0.23,
+      "time": "2016-12-26 03:29:15.444"
+    },
+    {
+      "_id": "5b0059e3ec6c5f902ef2274a",
+      "description": "snowy",
+      "temperature": 17.69,
+      "humidity": 0.82,
+      "time": "2014-01-05 09:19:48.350"
+    },
+    {
+      "_id": "5b0059e380fd84fb6796b530",
+      "description": "rainy",
+      "temperature": -10.41,
+      "humidity": 0.91,
+      "time": "2017-01-03 04:40:48.588"
+    },
+    {
+      "_id": "5b0059e3508e59135fefe15f",
+      "description": "snowy",
+      "temperature": 37.4,
+      "humidity": 0.86,
+      "time": "2016-03-01 09:11:27.183"
+    },
+    {
+      "_id": "5b0059e31c2a08457a0e8386",
+      "description": "sunny",
+      "temperature": -2.69,
+      "humidity": 0.84,
+      "time": "2016-08-17 01:43:46.385"
+    },
+    {
+      "_id": "5b0059e303ff967fde8afd93",
+      "description": "snowy",
+      "temperature": -10.06,
+      "humidity": 0.48,
+      "time": "2015-12-20 12:14:57.664"
+    },
+    {
+      "_id": "5b0059e3b8c7544f1f87f000",
+      "description": "snowy",
+      "temperature": 6.78,
+      "humidity": 0.62,
+      "time": "2017-09-09 10:53:51.150"
+    },
+    {
+      "_id": "5b0059e3d4a6df0c8da60cb2",
+      "description": "sunny",
+      "temperature": 20.41,
+      "humidity": 0.19,
+      "time": "2014-02-26 03:32:41.802"
+    },
+    {
+      "_id": "5b0059e36f3680a8da255462",
+      "description": "snowy",
+      "temperature": -19.72,
+      "humidity": 0.73,
+      "time": "2016-09-18 08:50:30.631"
+    },
+    {
+      "_id": "5b0059e309878490bced5117",
+      "description": "snowy",
+      "temperature": 29.64,
+      "humidity": 0.27,
+      "time": "2014-06-19 02:06:59.484"
+    },
+    {
+      "_id": "5b0059e37262798ccfc58863",
+      "description": "sunny",
+      "temperature": -16.93,
+      "humidity": 0.48,
+      "time": "2015-06-21 08:04:14.538"
+    },
+    {
+      "_id": "5b0059e3b825f72eb04152c3",
+      "description": "snowy",
+      "temperature": 25.81,
+      "humidity": 0,
+      "time": "2014-05-12 01:00:51.35"
+    },
+    {
+      "_id": "5b0059e3c1bf02104de8fa33",
+      "description": "sunny",
+      "temperature": 31.6,
+      "humidity": 0.7,
+      "time": "2014-07-28 01:41:46.881"
+    },
+    {
+      "_id": "5b0059e32b84c54fd25bf5a2",
+      "description": "sunny",
+      "temperature": 39.37,
+      "humidity": 0.83,
+      "time": "2017-05-16 03:58:13.740"
+    },
+    {
+      "_id": "5b0059e37abc1d7c2b743d54",
+      "description": "sunny",
+      "temperature": -15.11,
+      "humidity": 0.1,
+      "time": "2016-03-28 11:17:16.236"
+    },
+    {
+      "_id": "5b0059e36cf2f41bc64e1c82",
+      "description": "snowy",
+      "temperature": 0.84,
+      "humidity": 0.74,
+      "time": "2016-04-16 11:57:04.564"
+    },
+    {
+      "_id": "5b0059e33225a2d339710114",
+      "description": "cloudy",
+      "temperature": 31.35,
+      "humidity": 0.01,
+      "time": "2014-09-14 02:32:56.471"
+    },
+    {
+      "_id": "5b0059e376ec49e57abe5096",
+      "description": "snowy",
+      "temperature": 40.09,
+      "humidity": 0.18,
+      "time": "2015-11-08 03:56:00.700"
+    },
+    {
+      "_id": "5b0059e33644e97615b22699",
+      "description": "rainy",
+      "temperature": 9.4,
+      "humidity": 0.99,
+      "time": "2017-02-17 12:05:44.295"
+    },
+    {
+      "_id": "5b0059e31b1a4ef779ec436e",
+      "description": "cloudy",
+      "temperature": 15.8,
+      "humidity": 0.47,
+      "time": "2017-02-24 12:31:41.146"
+    },
+    {
+      "_id": "5b0059e3eb87352982ddcbde",
+      "description": "rainy",
+      "temperature": 26.74,
+      "humidity": 0.66,
+      "time": "2016-12-14 09:40:31.941"
+    },
+    {
+      "_id": "5b0059e3460c3e93c9b9c94d",
+      "description": "snowy",
+      "temperature": 2.28,
+      "humidity": 0.7,
+      "time": "2015-05-16 05:28:55.506"
+    },
+    {
+      "_id": "5b0059e3f7a8c67d6b893cce",
+      "description": "sunny",
+      "temperature": 36.92,
+      "humidity": 0.31,
+      "time": "2016-12-08 12:57:55.808"
+    },
+    {
+      "_id": "5b0059e37ec2e836a2332085",
+      "description": "cloudy",
+      "temperature": 12.65,
+      "humidity": 0.63,
+      "time": "2015-09-30 08:01:53.155"
+    },
+    {
+      "_id": "5b0059e39e30cbb5f4789e6e",
+      "description": "sunny",
+      "temperature": -16.83,
+      "humidity": 0.29,
+      "time": "2016-10-14 06:05:07.204"
+    },
+    {
+      "_id": "5b0059e3658248a2390fb693",
+      "description": "rainy",
+      "temperature": -5.92,
+      "humidity": 0.84,
+      "time": "2014-03-16 06:00:16.66"
+    },
+    {
+      "_id": "5b0059e30542d96bbda02743",
+      "description": "snowy",
+      "temperature": 12.58,
+      "humidity": 0.13,
+      "time": "2016-11-02 10:43:09.192"
+    },
+    {
+      "_id": "5b0059e38dd423d485176279",
+      "description": "cloudy",
+      "temperature": 18.39,
+      "humidity": 0.07,
+      "time": "2016-06-01 12:17:08.165"
+    },
+    {
+      "_id": "5b0059e3f62c9e70e093010f",
+      "description": "cloudy",
+      "temperature": -1.57,
+      "humidity": 0.96,
+      "time": "2014-09-04 01:17:31.711"
+    },
+    {
+      "_id": "5b0059e3e7082af2d1f56adc",
+      "description": "sunny",
+      "temperature": 7.73,
+      "humidity": 0.85,
+      "time": "2015-10-07 10:05:59.375"
+    },
+    {
+      "_id": "5b0059e3eb3705a4132327a3",
+      "description": "cloudy",
+      "temperature": 21.4,
+      "humidity": 0.07,
+      "time": "2017-02-23 12:35:51.98"
+    },
+    {
+      "_id": "5b0059e39cc31a9ecd6987e1",
+      "description": "cloudy",
+      "temperature": 21.76,
+      "humidity": 0.25,
+      "time": "2015-07-04 10:21:28.107"
+    },
+    {
+      "_id": "5b0059e30b7ce1da33b089da",
+      "description": "sunny",
+      "temperature": 44.51,
+      "humidity": 0,
+      "time": "2016-10-31 07:02:47.636"
+    },
+    {
+      "_id": "5b0059e3f1ce3e22d4653271",
+      "description": "rainy",
+      "temperature": 22.56,
+      "humidity": 0.87,
+      "time": "2017-03-31 02:19:01.295"
+    },
+    {
+      "_id": "5b0059e388021b15b9d1b103",
+      "description": "cloudy",
+      "temperature": 39.69,
+      "humidity": 0.8,
+      "time": "2016-07-04 07:13:51.342"
+    },
+    {
+      "_id": "5b0059e3bc526dd8f1fe58cf",
+      "description": "snowy",
+      "temperature": 1.05,
+      "humidity": 0.15,
+      "time": "2017-04-22 08:40:33.347"
+    },
+    {
+      "_id": "5b0059e38ff959b2ef29de28",
+      "description": "cloudy",
+      "temperature": 40.46,
+      "humidity": 0.26,
+      "time": "2015-06-01 07:44:54.656"
+    },
+    {
+      "_id": "5b0059e34623efd859f16bc4",
+      "description": "rainy",
+      "temperature": 7.49,
+      "humidity": 0.18,
+      "time": "2017-04-10 02:38:45.728"
+    },
+    {
+      "_id": "5b0059e3a58e96af0d046a82",
+      "description": "cloudy",
+      "temperature": 17.92,
+      "humidity": 0.5,
+      "time": "2015-10-04 01:45:14.333"
+    },
+    {
+      "_id": "5b0059e313548163bd7b1f88",
+      "description": "cloudy",
+      "temperature": 22.37,
+      "humidity": 0.88,
+      "time": "2016-07-14 09:46:11.254"
+    },
+    {
+      "_id": "5b0059e313f24be6bd6171e9",
+      "description": "cloudy",
+      "temperature": 25.08,
+      "humidity": 0.59,
+      "time": "2016-12-30 12:22:59.866"
+    },
+    {
+      "_id": "5b0059e3c8d2cb54e98591f4",
+      "description": "sunny",
+      "temperature": -13.89,
+      "humidity": 0.88,
+      "time": "2016-11-03 01:14:12.99"
+    },
+    {
+      "_id": "5b0059e39754efb457eb703b",
+      "description": "sunny",
+      "temperature": -3.72,
+      "humidity": 0.04,
+      "time": "2017-12-27 02:17:44.768"
+    },
+    {
+      "_id": "5b0059e3ff901a833f266723",
+      "description": "cloudy",
+      "temperature": -7.48,
+      "humidity": 0.91,
+      "time": "2014-08-14 08:24:51.418"
+    },
+    {
+      "_id": "5b0059e3cd1c46dcc7ba370b",
+      "description": "snowy",
+      "temperature": 36.59,
+      "humidity": 0.5,
+      "time": "2017-05-14 10:38:58.353"
+    },
+    {
+      "_id": "5b0059e30dfff9e8bf744d04",
+      "description": "sunny",
+      "temperature": 15.21,
+      "humidity": 0.88,
+      "time": "2017-01-09 07:10:01.146"
+    },
+    {
+      "_id": "5b0059e3644fae85139a49cb",
+      "description": "snowy",
+      "temperature": -5.89,
+      "humidity": 0.93,
+      "time": "2016-12-27 10:46:03.45"
+    },
+    {
+      "_id": "5b0059e3aed552b7fc826c25",
+      "description": "rainy",
+      "temperature": -4,
+      "humidity": 0.31,
+      "time": "2014-07-04 01:07:35.403"
+    },
+    {
+      "_id": "5b0059e3cea216870c16bc4a",
+      "description": "snowy",
+      "temperature": -4.44,
+      "humidity": 0.42,
+      "time": "2014-06-01 07:49:13.125"
+    },
+    {
+      "_id": "5b0059e399df0047501a1eb5",
+      "description": "snowy",
+      "temperature": 39.22,
+      "humidity": 0.6,
+      "time": "2016-10-06 11:35:45.65"
+    },
+    {
+      "_id": "5b0059e32869e3b6642cf3cc",
+      "description": "sunny",
+      "temperature": -8.01,
+      "humidity": 0.64,
+      "time": "2015-06-10 11:21:31.914"
+    },
+    {
+      "_id": "5b0059e31007f7ab09749a69",
+      "description": "sunny",
+      "temperature": -8.57,
+      "humidity": 0.4,
+      "time": "2014-07-07 02:42:04.571"
+    },
+    {
+      "_id": "5b0059e3bc8e48edaf881107",
+      "description": "rainy",
+      "temperature": 25.15,
+      "humidity": 0.57,
+      "time": "2016-01-18 01:24:27.8"
+    },
+    {
+      "_id": "5b0059e3a4a8218d290ab5bf",
+      "description": "cloudy",
+      "temperature": 19.18,
+      "humidity": 0.16,
+      "time": "2015-12-04 07:48:35.993"
+    },
+    {
+      "_id": "5b0059e3f7935e673b75d24e",
+      "description": "snowy",
+      "temperature": 10.23,
+      "humidity": 0.09,
+      "time": "2014-09-20 07:00:50.74"
+    },
+    {
+      "_id": "5b0059e34ac4e459335a0101",
+      "description": "sunny",
+      "temperature": 43.21,
+      "humidity": 0.32,
+      "time": "2015-01-19 04:25:39.897"
+    },
+    {
+      "_id": "5b0059e3610f9a52e62768f9",
+      "description": "snowy",
+      "temperature": 35.07,
+      "humidity": 0.29,
+      "time": "2016-07-21 03:19:16.433"
+    },
+    {
+      "_id": "5b0059e3ac1c754defc3ea71",
+      "description": "cloudy",
+      "temperature": 41.24,
+      "humidity": 0.17,
+      "time": "2016-01-18 09:09:48.590"
+    },
+    {
+      "_id": "5b0059e3bca26bddf612113e",
+      "description": "rainy",
+      "temperature": 44.13,
+      "humidity": 0.54,
+      "time": "2014-05-25 08:22:30.810"
+    },
+    {
+      "_id": "5b0059e3a94d251b5ff77942",
+      "description": "snowy",
+      "temperature": -12.07,
+      "humidity": 0.62,
+      "time": "2017-10-02 12:31:17.973"
+    },
+    {
+      "_id": "5b0059e363bc35aed2acdb05",
+      "description": "cloudy",
+      "temperature": 1.82,
+      "humidity": 0.14,
+      "time": "2017-07-19 09:45:42.220"
+    },
+    {
+      "_id": "5b0059e324c8d690537c1cff",
+      "description": "sunny",
+      "temperature": -10.19,
+      "humidity": 0.48,
+      "time": "2014-05-04 04:32:50.824"
+    },
+    {
+      "_id": "5b0059e370bb5c63c36d6584",
+      "description": "snowy",
+      "temperature": -9.95,
+      "humidity": 0.62,
+      "time": "2015-10-22 08:04:15.48"
+    },
+    {
+      "_id": "5b0059e3f1f63a5edbc8fcaf",
+      "description": "sunny",
+      "temperature": 19.79,
+      "humidity": 0.1,
+      "time": "2016-06-07 05:49:23.646"
+    },
+    {
+      "_id": "5b0059e3f11286428c59e23b",
+      "description": "rainy",
+      "temperature": 5.63,
+      "humidity": 0.2,
+      "time": "2017-04-22 09:12:46.691"
+    },
+    {
+      "_id": "5b0059e349e348925013965c",
+      "description": "cloudy",
+      "temperature": 24.26,
+      "humidity": 0.14,
+      "time": "2015-03-30 09:47:23.546"
+    },
+    {
+      "_id": "5b0059e34dbe5a8b2b93ec84",
+      "description": "rainy",
+      "temperature": 1.37,
+      "humidity": 0.94,
+      "time": "2014-05-24 05:54:40.823"
+    },
+    {
+      "_id": "5b0059e38bf656ca5a6060e3",
+      "description": "cloudy",
+      "temperature": 23.01,
+      "humidity": 0.74,
+      "time": "2016-01-01 10:44:59.222"
+    },
+    {
+      "_id": "5b0059e39826d8b6c06c1d70",
+      "description": "snowy",
+      "temperature": -10.53,
+      "humidity": 0.91,
+      "time": "2017-09-26 01:35:15.529"
+    },
+    {
+      "_id": "5b0059e3ce5db51500333a2f",
+      "description": "sunny",
+      "temperature": -6.37,
+      "humidity": 0.97,
+      "time": "2018-01-14 10:38:32.893"
+    },
+    {
+      "_id": "5b0059e3794b077156f4c99c",
+      "description": "rainy",
+      "temperature": 26.95,
+      "humidity": 0.61,
+      "time": "2015-05-08 11:44:37.109"
+    },
+    {
+      "_id": "5b0059e3609ad4a7f3c3c001",
+      "description": "sunny",
+      "temperature": 43.02,
+      "humidity": 0.93,
+      "time": "2018-05-08 06:09:39.233"
+    },
+    {
+      "_id": "5b0059e3c2fc6f361306f8c6",
+      "description": "snowy",
+      "temperature": 12.1,
+      "humidity": 0.29,
+      "time": "2016-03-04 01:50:45.523"
+    },
+    {
+      "_id": "5b0059e3dc4425bec19707c0",
+      "description": "rainy",
+      "temperature": 16.07,
+      "humidity": 0.87,
+      "time": "2015-07-14 02:23:56.463"
+    },
+    {
+      "_id": "5b0059e349ed7ee240ab04a2",
+      "description": "rainy",
+      "temperature": -18.94,
+      "humidity": 0.58,
+      "time": "2017-01-08 05:16:45.321"
+    },
+    {
+      "_id": "5b0059e35bae785c58876ab9",
+      "description": "rainy",
+      "temperature": -7.34,
+      "humidity": 0.54,
+      "time": "2015-07-24 03:45:05.45"
+    },
+    {
+      "_id": "5b0059e32b64f3835409e5d0",
+      "description": "cloudy",
+      "temperature": -19.29,
+      "humidity": 0.63,
+      "time": "2017-07-01 09:54:21.613"
+    },
+    {
+      "_id": "5b0059e36138407b8d4febf4",
+      "description": "cloudy",
+      "temperature": 39.72,
+      "humidity": 0.75,
+      "time": "2017-09-07 08:54:52.640"
+    },
+    {
+      "_id": "5b0059e3ebda157b82030b7f",
+      "description": "cloudy",
+      "temperature": 10.28,
+      "humidity": 0.35,
+      "time": "2015-05-29 01:06:46.141"
+    },
+    {
+      "_id": "5b0059e304739186b25acd19",
+      "description": "rainy",
+      "temperature": 16.78,
+      "humidity": 0.71,
+      "time": "2017-11-06 07:42:31.303"
+    },
+    {
+      "_id": "5b0059e3017e78e6133fc79c",
+      "description": "cloudy",
+      "temperature": 13.1,
+      "humidity": 0,
+      "time": "2014-02-08 03:09:21.841"
+    },
+    {
+      "_id": "5b0059e3c4adc7c5e548b7ba",
+      "description": "snowy",
+      "temperature": -11.67,
+      "humidity": 0.37,
+      "time": "2016-03-02 02:47:02.376"
+    },
+    {
+      "_id": "5b0059e3571d4606838b0944",
+      "description": "cloudy",
+      "temperature": -13.73,
+      "humidity": 0.99,
+      "time": "2017-05-08 10:04:09.526"
+    },
+    {
+      "_id": "5b0059e32b95016767a2d42d",
+      "description": "cloudy",
+      "temperature": 27.35,
+      "humidity": 0.81,
+      "time": "2015-06-29 04:27:27.660"
+    },
+    {
+      "_id": "5b0059e37a6289f71503280d",
+      "description": "rainy",
+      "temperature": -16.29,
+      "humidity": 0.68,
+      "time": "2015-07-10 03:52:33.467"
+    },
+    {
+      "_id": "5b0059e30442f78de19b76ae",
+      "description": "sunny",
+      "temperature": -11.8,
+      "humidity": 0.63,
+      "time": "2014-05-30 03:40:07.321"
+    },
+    {
+      "_id": "5b0059e359ffcf1f90ef089c",
+      "description": "rainy",
+      "temperature": -1.34,
+      "humidity": 0.81,
+      "time": "2015-07-17 04:54:42.449"
+    },
+    {
+      "_id": "5b0059e334f3d865b2e69692",
+      "description": "sunny",
+      "temperature": 4.94,
+      "humidity": 0.77,
+      "time": "2016-06-12 12:49:59.872"
+    },
+    {
+      "_id": "5b0059e3b4deca78d9554d91",
+      "description": "rainy",
+      "temperature": 13.87,
+      "humidity": 0.21,
+      "time": "2017-08-31 09:46:50.238"
+    },
+    {
+      "_id": "5b0059e3578e11a0fd6e2c48",
+      "description": "rainy",
+      "temperature": -9.69,
+      "humidity": 0.53,
+      "time": "2015-06-18 12:06:37.892"
+    },
+    {
+      "_id": "5b0059e3c5140948c865b9ac",
+      "description": "rainy",
+      "temperature": 44.55,
+      "humidity": 0.9,
+      "time": "2015-03-17 02:29:23.46"
+    },
+    {
+      "_id": "5b0059e318870f9d2d255b89",
+      "description": "snowy",
+      "temperature": -10.82,
+      "humidity": 0.73,
+      "time": "2017-06-22 07:30:35.554"
+    },
+    {
+      "_id": "5b0059e330f92bd85469a0d8",
+      "description": "cloudy",
+      "temperature": 28.93,
+      "humidity": 0.89,
+      "time": "2016-05-27 11:37:32.838"
+    },
+    {
+      "_id": "5b0059e38e4a2bbbb3544831",
+      "description": "cloudy",
+      "temperature": 12.05,
+      "humidity": 0.3,
+      "time": "2017-07-10 02:16:44.491"
+    },
+    {
+      "_id": "5b0059e3ef3c17883dd20ff6",
+      "description": "cloudy",
+      "temperature": 10.63,
+      "humidity": 0.29,
+      "time": "2017-04-09 06:07:52.361"
+    },
+    {
+      "_id": "5b0059e30c3281c48da3f76d",
+      "description": "cloudy",
+      "temperature": 4.63,
+      "humidity": 0.95,
+      "time": "2014-10-17 01:59:08.973"
+    },
+    {
+      "_id": "5b0059e32e78bfac0d9090de",
+      "description": "snowy",
+      "temperature": 39.5,
+      "humidity": 0.72,
+      "time": "2016-01-17 07:04:18.502"
+    },
+    {
+      "_id": "5b0059e326337c9166e44251",
+      "description": "snowy",
+      "temperature": 30.79,
+      "humidity": 0.14,
+      "time": "2015-02-07 09:43:31.100"
+    },
+    {
+      "_id": "5b0059e323ebebfdd37fa78c",
+      "description": "rainy",
+      "temperature": -1.99,
+      "humidity": 0.29,
+      "time": "2018-01-03 06:14:36.298"
+    },
+    {
+      "_id": "5b0059e3a2637d61c93247ab",
+      "description": "sunny",
+      "temperature": 3.36,
+      "humidity": 0.8,
+      "time": "2015-12-24 12:05:26.951"
+    },
+    {
+      "_id": "5b0059e3b7bc1155d3348cb5",
+      "description": "cloudy",
+      "temperature": 30.12,
+      "humidity": 0.58,
+      "time": "2015-11-13 07:34:20.202"
+    },
+    {
+      "_id": "5b0059e374f3460c4812bab7",
+      "description": "cloudy",
+      "temperature": -9.57,
+      "humidity": 0.64,
+      "time": "2015-03-09 04:49:13.845"
+    },
+    {
+      "_id": "5b0059e311abb85369e5c84b",
+      "description": "sunny",
+      "temperature": 11.29,
+      "humidity": 1,
+      "time": "2014-02-09 06:43:42.71"
+    },
+    {
+      "_id": "5b0059e3e56b27fe2617c0e8",
+      "description": "snowy",
+      "temperature": 28.63,
+      "humidity": 0.86,
+      "time": "2015-04-19 12:26:12.132"
+    },
+    {
+      "_id": "5b0059e32e3c04a83dde8b66",
+      "description": "rainy",
+      "temperature": 39.71,
+      "humidity": 0.84,
+      "time": "2014-07-09 03:58:05.512"
+    },
+    {
+      "_id": "5b0059e3aa3ca935262822cd",
+      "description": "snowy",
+      "temperature": 19.29,
+      "humidity": 0.72,
+      "time": "2015-04-24 10:55:26.721"
+    },
+    {
+      "_id": "5b0059e3658db3ec1b8f5d15",
+      "description": "sunny",
+      "temperature": -11.91,
+      "humidity": 0.53,
+      "time": "2016-12-28 01:33:46.351"
+    },
+    {
+      "_id": "5b0059e34c1197776ebfac4e",
+      "description": "rainy",
+      "temperature": 38.04,
+      "humidity": 0.08,
+      "time": "2015-07-11 02:37:17.191"
+    },
+    {
+      "_id": "5b0059e3637926dc500d412d",
+      "description": "snowy",
+      "temperature": 38.92,
+      "humidity": 0.41,
+      "time": "2014-12-13 01:01:57.890"
+    },
+    {
+      "_id": "5b0059e38c0c9eb8114a92aa",
+      "description": "snowy",
+      "temperature": -10.79,
+      "humidity": 0.13,
+      "time": "2015-02-07 07:45:56.613"
+    },
+    {
+      "_id": "5b0059e3ea8d1475f250921a",
+      "description": "snowy",
+      "temperature": 33.43,
+      "humidity": 0.08,
+      "time": "2016-03-27 12:27:36.963"
+    },
+    {
+      "_id": "5b0059e393dd692bec6b4b0e",
+      "description": "sunny",
+      "temperature": 5.57,
+      "humidity": 0.32,
+      "time": "2018-03-01 10:28:21.445"
+    },
+    {
+      "_id": "5b0059e3d44da91fafe17937",
+      "description": "cloudy",
+      "temperature": 26.56,
+      "humidity": 0.56,
+      "time": "2015-09-17 11:58:17.402"
+    },
+    {
+      "_id": "5b0059e350f1a9fcdb0e35bd",
+      "description": "sunny",
+      "temperature": 38.64,
+      "humidity": 0.02,
+      "time": "2015-04-15 10:25:20.414"
+    },
+    {
+      "_id": "5b0059e33b3700b4826a18ee",
+      "description": "sunny",
+      "temperature": -3.37,
+      "humidity": 0.66,
+      "time": "2014-10-18 06:47:46.527"
+    },
+    {
+      "_id": "5b0059e398e1efaa51768457",
+      "description": "snowy",
+      "temperature": 38.24,
+      "humidity": 0.22,
+      "time": "2016-01-13 06:31:09.536"
+    },
+    {
+      "_id": "5b0059e3173c0e9a471ba66c",
+      "description": "rainy",
+      "temperature": 11.83,
+      "humidity": 0.18,
+      "time": "2016-03-02 02:02:06.365"
+    },
+    {
+      "_id": "5b0059e32000a06ed7325e86",
+      "description": "snowy",
+      "temperature": 17.13,
+      "humidity": 0.01,
+      "time": "2015-01-13 03:42:34.47"
+    },
+    {
+      "_id": "5b0059e37df6e7b52e973274",
+      "description": "sunny",
+      "temperature": 11.39,
+      "humidity": 0.75,
+      "time": "2014-01-02 09:51:15.891"
+    },
+    {
+      "_id": "5b0059e39d18eead04bc266a",
+      "description": "sunny",
+      "temperature": 35.56,
+      "humidity": 0.28,
+      "time": "2017-09-26 05:03:30.387"
+    },
+    {
+      "_id": "5b0059e399986e099277e483",
+      "description": "cloudy",
+      "temperature": 0.25,
+      "humidity": 0.86,
+      "time": "2016-05-05 03:24:47.18"
+    },
+    {
+      "_id": "5b0059e3d5afc155c86884db",
+      "description": "snowy",
+      "temperature": 44.48,
+      "humidity": 0.59,
+      "time": "2014-09-14 12:58:21.34"
+    },
+    {
+      "_id": "5b0059e3419a053cd32f36d6",
+      "description": "snowy",
+      "temperature": 43.9,
+      "humidity": 0.29,
+      "time": "2015-06-10 02:21:36.354"
+    },
+    {
+      "_id": "5b0059e3773751121894767c",
+      "description": "cloudy",
+      "temperature": 3.04,
+      "humidity": 0.99,
+      "time": "2018-02-26 06:41:23.902"
+    },
+    {
+      "_id": "5b0059e31091498994b68435",
+      "description": "cloudy",
+      "temperature": 20.21,
+      "humidity": 0.8,
+      "time": "2018-01-13 05:59:09.491"
+    },
+    {
+      "_id": "5b0059e349cc61584cc57ff5",
+      "description": "cloudy",
+      "temperature": 38.98,
+      "humidity": 0.27,
+      "time": "2015-12-11 01:26:27.67"
+    },
+    {
+      "_id": "5b0059e379dab2e3efc35483",
+      "description": "sunny",
+      "temperature": -1.28,
+      "humidity": 0.76,
+      "time": "2016-04-25 09:28:35.59"
+    },
+    {
+      "_id": "5b0059e3b51adb893d12df5a",
+      "description": "sunny",
+      "temperature": 37.6,
+      "humidity": 0.63,
+      "time": "2016-10-31 09:32:09.184"
+    },
+    {
+      "_id": "5b0059e301c084569620a6ca",
+      "description": "snowy",
+      "temperature": 18.54,
+      "humidity": 0.38,
+      "time": "2016-03-19 06:17:32.436"
+    },
+    {
+      "_id": "5b0059e339a5f2f0474d2284",
+      "description": "rainy",
+      "temperature": 19.95,
+      "humidity": 0.01,
+      "time": "2017-02-04 01:18:10.174"
+    },
+    {
+      "_id": "5b0059e3a2e75fc081d6ed3c",
+      "description": "cloudy",
+      "temperature": 1.28,
+      "humidity": 0.96,
+      "time": "2015-10-13 12:48:32.663"
+    },
+    {
+      "_id": "5b0059e365b7da1141f0d955",
+      "description": "cloudy",
+      "temperature": 5.09,
+      "humidity": 0.06,
+      "time": "2014-04-19 02:58:53.207"
+    },
+    {
+      "_id": "5b0059e39454c462d31b8098",
+      "description": "rainy",
+      "temperature": 8.46,
+      "humidity": 0.4,
+      "time": "2018-05-13 10:58:45.761"
+    },
+    {
+      "_id": "5b0059e3ba689d8315224b2f",
+      "description": "cloudy",
+      "temperature": 33.11,
+      "humidity": 0.11,
+      "time": "2017-05-30 09:33:26.732"
+    },
+    {
+      "_id": "5b0059e396407e01bf23a1ec",
+      "description": "sunny",
+      "temperature": 40.03,
+      "humidity": 0.28,
+      "time": "2015-05-01 02:27:27.571"
+    },
+    {
+      "_id": "5b0059e34642eb548eb95cbb",
+      "description": "sunny",
+      "temperature": 22.09,
+      "humidity": 0.52,
+      "time": "2015-07-01 08:57:58.305"
+    },
+    {
+      "_id": "5b0059e3b1fe92c2810927bb",
+      "description": "sunny",
+      "temperature": 8.35,
+      "humidity": 0.2,
+      "time": "2014-09-27 10:40:36.103"
+    },
+    {
+      "_id": "5b0059e36cab2e2ac513bed2",
+      "description": "snowy",
+      "temperature": -16.39,
+      "humidity": 0.26,
+      "time": "2018-04-17 01:12:32.564"
+    },
+    {
+      "_id": "5b0059e39fdb27e779f7b302",
+      "description": "snowy",
+      "temperature": 39.8,
+      "humidity": 0.8,
+      "time": "2016-02-04 12:10:35.793"
+    },
+    {
+      "_id": "5b0059e31976de561d95ccb3",
+      "description": "rainy",
+      "temperature": 26.13,
+      "humidity": 0.29,
+      "time": "2018-02-26 08:35:23.419"
+    },
+    {
+      "_id": "5b0059e3a4fd89b2439adf25",
+      "description": "snowy",
+      "temperature": 42.32,
+      "humidity": 1,
+      "time": "2018-05-13 01:26:09.431"
+    },
+    {
+      "_id": "5b0059e3db99d2112c765f5a",
+      "description": "rainy",
+      "temperature": 32.67,
+      "humidity": 0.47,
+      "time": "2014-08-06 10:51:25.347"
+    },
+    {
+      "_id": "5b0059e3a8fdc2ecf08f5821",
+      "description": "cloudy",
+      "temperature": 43.12,
+      "humidity": 0,
+      "time": "2016-10-11 05:03:39.245"
+    },
+    {
+      "_id": "5b0059e3aae9a4f6ec444e70",
+      "description": "rainy",
+      "temperature": 1.39,
+      "humidity": 0.72,
+      "time": "2015-05-05 02:00:08.494"
+    },
+    {
+      "_id": "5b0059e3987a294a6d082da5",
+      "description": "rainy",
+      "temperature": 27.37,
+      "humidity": 0.9,
+      "time": "2018-04-02 01:26:29.32"
+    },
+    {
+      "_id": "5b0059e3031594de9fdf7c74",
+      "description": "rainy",
+      "temperature": 9.52,
+      "humidity": 0.52,
+      "time": "2014-01-09 07:37:27.8"
+    },
+    {
+      "_id": "5b0059e31f0f6bd43696570a",
+      "description": "rainy",
+      "temperature": -14.8,
+      "humidity": 0.49,
+      "time": "2015-11-03 12:03:47.768"
+    },
+    {
+      "_id": "5b0059e3884b5e34636c57c2",
+      "description": "snowy",
+      "temperature": -11.89,
+      "humidity": 0.23,
+      "time": "2018-04-26 05:12:12.381"
+    },
+    {
+      "_id": "5b0059e3eaedc9f4314e09f6",
+      "description": "sunny",
+      "temperature": 30.19,
+      "humidity": 0.86,
+      "time": "2016-03-28 01:03:51.680"
+    },
+    {
+      "_id": "5b0059e310d61e8eb0890eb7",
+      "description": "sunny",
+      "temperature": -19.5,
+      "humidity": 0.09,
+      "time": "2014-10-18 06:47:32.732"
+    },
+    {
+      "_id": "5b0059e3741bcbdda17ed137",
+      "description": "sunny",
+      "temperature": 7.44,
+      "humidity": 0.7,
+      "time": "2014-02-26 11:25:19.778"
+    },
+    {
+      "_id": "5b0059e3a00287afa31c75ee",
+      "description": "sunny",
+      "temperature": 13.12,
+      "humidity": 0.24,
+      "time": "2018-02-08 10:29:04.928"
+    },
+    {
+      "_id": "5b0059e3d592fa549cc6fd93",
+      "description": "cloudy",
+      "temperature": 12.31,
+      "humidity": 0.87,
+      "time": "2014-12-06 11:28:25.149"
+    },
+    {
+      "_id": "5b0059e3cc6ddb22c83a5029",
+      "description": "cloudy",
+      "temperature": 32.92,
+      "humidity": 0.17,
+      "time": "2018-05-05 06:26:15.194"
+    },
+    {
+      "_id": "5b0059e35a88cc42f732244d",
+      "description": "cloudy",
+      "temperature": -13.22,
+      "humidity": 0.32,
+      "time": "2015-09-25 07:35:50.590"
+    },
+    {
+      "_id": "5b0059e3a1615522e1cda682",
+      "description": "cloudy",
+      "temperature": 42,
+      "humidity": 0.65,
+      "time": "2018-01-23 12:02:45.753"
+    },
+    {
+      "_id": "5b0059e39482708dc9f241b6",
+      "description": "rainy",
+      "temperature": -6.97,
+      "humidity": 0.7,
+      "time": "2017-07-31 03:03:41.971"
+    },
+    {
+      "_id": "5b0059e3dea9afa4edbcf71c",
+      "description": "cloudy",
+      "temperature": 19.87,
+      "humidity": 0.74,
+      "time": "2017-02-19 05:39:52.433"
+    },
+    {
+      "_id": "5b0059e3f7cfceeefb532839",
+      "description": "sunny",
+      "temperature": 36.82,
+      "humidity": 0.38,
+      "time": "2015-03-25 11:04:23.577"
+    },
+    {
+      "_id": "5b0059e39e1d9f3c32c1c0a7",
+      "description": "rainy",
+      "temperature": -9.95,
+      "humidity": 0.28,
+      "time": "2017-02-05 08:53:13.445"
+    },
+    {
+      "_id": "5b0059e3ca5a07368485ab48",
+      "description": "cloudy",
+      "temperature": 8.21,
+      "humidity": 0.37,
+      "time": "2014-06-19 01:28:22.729"
+    },
+    {
+      "_id": "5b0059e301f737ee8127a606",
+      "description": "rainy",
+      "temperature": 29.5,
+      "humidity": 0.43,
+      "time": "2016-03-03 09:17:05.494"
+    },
+    {
+      "_id": "5b0059e32bb03ff6d1f09a2a",
+      "description": "sunny",
+      "temperature": -10.82,
+      "humidity": 0.78,
+      "time": "2018-05-02 06:47:28.943"
+    },
+    {
+      "_id": "5b0059e3bd89f426988edf28",
+      "description": "rainy",
+      "temperature": 26.73,
+      "humidity": 0.01,
+      "time": "2015-11-24 07:37:36.957"
+    },
+    {
+      "_id": "5b0059e36a8ab194cb692570",
+      "description": "snowy",
+      "temperature": 16.91,
+      "humidity": 0.97,
+      "time": "2015-01-25 08:45:48.948"
+    },
+    {
+      "_id": "5b0059e31c4e007724953085",
+      "description": "rainy",
+      "temperature": 29.3,
+      "humidity": 0.89,
+      "time": "2014-06-01 10:10:06.966"
+    },
+    {
+      "_id": "5b0059e33903160600e4b253",
+      "description": "snowy",
+      "temperature": 25.97,
+      "humidity": 0.72,
+      "time": "2015-06-14 02:00:51.961"
+    },
+    {
+      "_id": "5b0059e352a6299722c99664",
+      "description": "sunny",
+      "temperature": -8.1,
+      "humidity": 0.45,
+      "time": "2014-08-09 07:55:14.535"
+    },
+    {
+      "_id": "5b0059e3ebe35b63c69f19d4",
+      "description": "sunny",
+      "temperature": -17.81,
+      "humidity": 0.33,
+      "time": "2016-09-14 08:37:07.132"
+    },
+    {
+      "_id": "5b0059e372bed1d1a31ff5f3",
+      "description": "cloudy",
+      "temperature": 10.04,
+      "humidity": 0.79,
+      "time": "2016-07-26 01:06:31.678"
+    },
+    {
+      "_id": "5b0059e336345ac57a46a243",
+      "description": "rainy",
+      "temperature": -8.81,
+      "humidity": 0.53,
+      "time": "2018-01-25 09:40:22.706"
+    },
+    {
+      "_id": "5b0059e3a97ec9d4fb8873dd",
+      "description": "snowy",
+      "temperature": 30.64,
+      "humidity": 0.66,
+      "time": "2016-01-20 10:12:48.37"
+    },
+    {
+      "_id": "5b0059e3d71cd99f5b22c7a8",
+      "description": "snowy",
+      "temperature": 29.14,
+      "humidity": 0.25,
+      "time": "2014-02-12 07:53:26.323"
+    },
+    {
+      "_id": "5b0059e3093ff6e94b19d048",
+      "description": "cloudy",
+      "temperature": 27.03,
+      "humidity": 0.81,
+      "time": "2016-08-17 04:09:44.729"
+    },
+    {
+      "_id": "5b0059e323039b835bd9b47d",
+      "description": "cloudy",
+      "temperature": 2.69,
+      "humidity": 0.12,
+      "time": "2016-06-25 06:29:29.622"
+    },
+    {
+      "_id": "5b0059e36109fbe01db73600",
+      "description": "cloudy",
+      "temperature": 42.06,
+      "humidity": 0.08,
+      "time": "2016-09-15 05:47:32.545"
+    },
+    {
+      "_id": "5b0059e3efe260ca171c3e82",
+      "description": "snowy",
+      "temperature": 12.68,
+      "humidity": 0.64,
+      "time": "2014-09-01 08:29:21.841"
+    },
+    {
+      "_id": "5b0059e3a0b16bec1c82b47f",
+      "description": "cloudy",
+      "temperature": 44.99,
+      "humidity": 0.91,
+      "time": "2014-05-15 09:10:21.733"
+    },
+    {
+      "_id": "5b0059e3692c7a151c14d625",
+      "description": "snowy",
+      "temperature": -7.7,
+      "humidity": 0.06,
+      "time": "2017-06-26 10:42:49.542"
+    },
+    {
+      "_id": "5b0059e3a834fe7632e7c243",
+      "description": "sunny",
+      "temperature": 32.61,
+      "humidity": 0.58,
+      "time": "2015-01-17 10:28:44.697"
+    },
+    {
+      "_id": "5b0059e3873a904e6bfacb4f",
+      "description": "snowy",
+      "temperature": 18.27,
+      "humidity": 0.58,
+      "time": "2017-11-26 03:34:32.257"
+    },
+    {
+      "_id": "5b0059e355510c5fd6c34cbb",
+      "description": "cloudy",
+      "temperature": -15.64,
+      "humidity": 0.51,
+      "time": "2017-08-02 05:12:48.231"
+    },
+    {
+      "_id": "5b0059e3ad3406845c19840c",
+      "description": "sunny",
+      "temperature": -16.93,
+      "humidity": 0.86,
+      "time": "2017-02-25 12:08:26.754"
+    },
+    {
+      "_id": "5b0059e3e9920e671e7cac85",
+      "description": "rainy",
+      "temperature": 43.35,
+      "humidity": 0.73,
+      "time": "2014-11-04 12:43:47.391"
+    },
+    {
+      "_id": "5b0059e39e525906db087b3b",
+      "description": "cloudy",
+      "temperature": 35.07,
+      "humidity": 0.82,
+      "time": "2017-05-04 06:53:07.70"
+    },
+    {
+      "_id": "5b0059e3ad597d7677dcb833",
+      "description": "cloudy",
+      "temperature": 33.34,
+      "humidity": 0.43,
+      "time": "2015-01-03 05:46:40.375"
+    },
+    {
+      "_id": "5b0059e3efc7d61ac5e33caa",
+      "description": "sunny",
+      "temperature": -16.87,
+      "humidity": 0.55,
+      "time": "2015-07-17 11:23:05.261"
+    },
+    {
+      "_id": "5b0059e3f05c4668b33fcb44",
+      "description": "sunny",
+      "temperature": -15.5,
+      "humidity": 0.45,
+      "time": "2015-02-09 07:10:01.665"
+    },
+    {
+      "_id": "5b0059e33e749be67580a050",
+      "description": "rainy",
+      "temperature": 4.1,
+      "humidity": 0.61,
+      "time": "2016-01-18 07:43:58.473"
+    },
+    {
+      "_id": "5b0059e3274c4988d3fa12ee",
+      "description": "sunny",
+      "temperature": 6.63,
+      "humidity": 0.12,
+      "time": "2016-12-25 04:05:09.91"
+    },
+    {
+      "_id": "5b0059e331bdcf57f8ed5149",
+      "description": "cloudy",
+      "temperature": -6.72,
+      "humidity": 0.02,
+      "time": "2015-05-21 10:10:24.880"
+    },
+    {
+      "_id": "5b0059e363952c4898ed5450",
+      "description": "rainy",
+      "temperature": 0.86,
+      "humidity": 0.46,
+      "time": "2017-03-17 06:41:48.274"
+    },
+    {
+      "_id": "5b0059e35bec54c8235358ce",
+      "description": "sunny",
+      "temperature": 8.61,
+      "humidity": 0.04,
+      "time": "2017-02-27 06:33:14.919"
+    },
+    {
+      "_id": "5b0059e30e39fcbe7992ada5",
+      "description": "sunny",
+      "temperature": 14.31,
+      "humidity": 0.99,
+      "time": "2017-08-17 08:13:06.902"
+    },
+    {
+      "_id": "5b0059e34ba163d2e86bb741",
+      "description": "snowy",
+      "temperature": 41.84,
+      "humidity": 0.11,
+      "time": "2015-11-08 06:40:02.55"
+    },
+    {
+      "_id": "5b0059e363a7e45fcfb9151a",
+      "description": "rainy",
+      "temperature": -0.33,
+      "humidity": 0.86,
+      "time": "2015-02-06 07:13:40.830"
+    },
+    {
+      "_id": "5b0059e332979f7f9d33d45f",
+      "description": "sunny",
+      "temperature": -2.43,
+      "humidity": 0.56,
+      "time": "2016-02-24 11:13:53.829"
+    },
+    {
+      "_id": "5b0059e34da1d4f36fc2dc13",
+      "description": "snowy",
+      "temperature": 23.1,
+      "humidity": 0.46,
+      "time": "2015-02-05 08:03:18.568"
+    },
+    {
+      "_id": "5b0059e3744d45ad292b7fd1",
+      "description": "snowy",
+      "temperature": -17.05,
+      "humidity": 0.46,
+      "time": "2014-05-17 04:56:56.176"
+    },
+    {
+      "_id": "5b0059e31526a43d3e7568fa",
+      "description": "rainy",
+      "temperature": -8.41,
+      "humidity": 0.03,
+      "time": "2015-08-24 01:21:53.261"
+    },
+    {
+      "_id": "5b0059e36205edd5803a3b67",
+      "description": "cloudy",
+      "temperature": 16.74,
+      "humidity": 0.56,
+      "time": "2018-02-16 03:50:06.224"
+    },
+    {
+      "_id": "5b0059e36b00536169d85b38",
+      "description": "cloudy",
+      "temperature": -14.64,
+      "humidity": 0.16,
+      "time": "2016-02-29 11:32:58.571"
+    },
+    {
+      "_id": "5b0059e3477db528b3f342d2",
+      "description": "cloudy",
+      "temperature": 19.01,
+      "humidity": 0.29,
+      "time": "2017-11-19 05:54:59.591"
+    },
+    {
+      "_id": "5b0059e3bf9fc46eb853e080",
+      "description": "sunny",
+      "temperature": 10.3,
+      "humidity": 0.16,
+      "time": "2015-10-22 06:09:54.647"
+    },
+    {
+      "_id": "5b0059e3ad3bd69d5b6f5e9e",
+      "description": "snowy",
+      "temperature": 18.73,
+      "humidity": 0.63,
+      "time": "2016-07-23 06:38:52.90"
+    },
+    {
+      "_id": "5b0059e3a1ca48acff318696",
+      "description": "rainy",
+      "temperature": 18.54,
+      "humidity": 0.74,
+      "time": "2017-04-26 05:48:45.9"
+    },
+    {
+      "_id": "5b0059e344cd34a0065f0d8a",
+      "description": "snowy",
+      "temperature": 11.31,
+      "humidity": 0.9,
+      "time": "2015-11-05 06:49:31.682"
+    },
+    {
+      "_id": "5b0059e3efc993c3674b0d74",
+      "description": "rainy",
+      "temperature": 27.24,
+      "humidity": 0.83,
+      "time": "2014-09-02 10:03:40.300"
+    },
+    {
+      "_id": "5b0059e347354112dbe25b00",
+      "description": "rainy",
+      "temperature": 20.31,
+      "humidity": 0,
+      "time": "2014-01-05 07:44:39.790"
+    },
+    {
+      "_id": "5b0059e340c1ea5730026161",
+      "description": "rainy",
+      "temperature": 40.31,
+      "humidity": 0.94,
+      "time": "2015-05-08 12:33:27.509"
+    },
+    {
+      "_id": "5b0059e39ffa5f5b19de3e43",
+      "description": "sunny",
+      "temperature": 13.55,
+      "humidity": 0.82,
+      "time": "2015-10-04 03:41:16.10"
+    },
+    {
+      "_id": "5b0059e3675b7425ae2fc111",
+      "description": "sunny",
+      "temperature": 38.45,
+      "humidity": 0.88,
+      "time": "2018-02-07 02:44:26.208"
+    },
+    {
+      "_id": "5b0059e38d56ec567eaf882e",
+      "description": "sunny",
+      "temperature": 32.61,
+      "humidity": 0,
+      "time": "2015-03-04 11:24:21.765"
+    },
+    {
+      "_id": "5b0059e38a639c766caeb24f",
+      "description": "sunny",
+      "temperature": 17.53,
+      "humidity": 0.15,
+      "time": "2016-05-23 08:36:09.832"
+    },
+    {
+      "_id": "5b0059e3da769f0419b3bf02",
+      "description": "rainy",
+      "temperature": 28.39,
+      "humidity": 0.75,
+      "time": "2015-04-11 03:43:47.539"
+    },
+    {
+      "_id": "5b0059e304e9fccd137efb8e",
+      "description": "snowy",
+      "temperature": 33.32,
+      "humidity": 0.57,
+      "time": "2017-10-15 04:50:30.208"
+    },
+    {
+      "_id": "5b0059e3a6ba0ba44afab936",
+      "description": "snowy",
+      "temperature": 29.7,
+      "humidity": 0.84,
+      "time": "2017-05-26 08:16:18.976"
+    },
+    {
+      "_id": "5b0059e369dfe991a538bbb9",
+      "description": "sunny",
+      "temperature": 1.42,
+      "humidity": 0.74,
+      "time": "2017-09-03 07:47:53.207"
+    },
+    {
+      "_id": "5b0059e33f7bf6d10c6ff426",
+      "description": "snowy",
+      "temperature": -16.51,
+      "humidity": 0.57,
+      "time": "2017-10-21 09:55:30.204"
+    },
+    {
+      "_id": "5b0059e37b792f6f8502c163",
+      "description": "rainy",
+      "temperature": 43.18,
+      "humidity": 0.68,
+      "time": "2014-04-30 04:39:50.31"
+    },
+    {
+      "_id": "5b0059e31ebe7620f1c52dc4",
+      "description": "rainy",
+      "temperature": -9.46,
+      "humidity": 0.09,
+      "time": "2015-06-23 07:55:12.538"
+    },
+    {
+      "_id": "5b0059e3f53908ffee3b7ff4",
+      "description": "sunny",
+      "temperature": -12.34,
+      "humidity": 0.88,
+      "time": "2017-11-13 01:03:45.594"
+    },
+    {
+      "_id": "5b0059e3e522f411f521eed9",
+      "description": "sunny",
+      "temperature": 29.25,
+      "humidity": 0.14,
+      "time": "2014-03-18 07:18:59.236"
+    },
+    {
+      "_id": "5b0059e3ce3347395d13c6ff",
+      "description": "sunny",
+      "temperature": 9.71,
+      "humidity": 0.4,
+      "time": "2016-01-07 12:43:37.396"
+    },
+    {
+      "_id": "5b0059e30dcb3d21a21a99a4",
+      "description": "snowy",
+      "temperature": -15.57,
+      "humidity": 0.84,
+      "time": "2016-08-29 12:33:05.24"
+    },
+    {
+      "_id": "5b0059e33c586d24ee68e3e5",
+      "description": "snowy",
+      "temperature": 1.65,
+      "humidity": 0.23,
+      "time": "2016-11-19 05:08:40.404"
+    },
+    {
+      "_id": "5b0059e3f78c3ab758be99eb",
+      "description": "sunny",
+      "temperature": 26.78,
+      "humidity": 0.81,
+      "time": "2017-06-12 03:42:40.485"
+    },
+    {
+      "_id": "5b0059e3f418be7ad1ba8483",
+      "description": "cloudy",
+      "temperature": -14.85,
+      "humidity": 0.97,
+      "time": "2016-09-30 09:41:27.375"
+    },
+    {
+      "_id": "5b0059e3cf8d137adcc91407",
+      "description": "sunny",
+      "temperature": -7.34,
+      "humidity": 0.88,
+      "time": "2016-06-20 12:46:21.987"
+    },
+    {
+      "_id": "5b0059e36bc570574d036054",
+      "description": "sunny",
+      "temperature": -10.76,
+      "humidity": 0.62,
+      "time": "2014-04-11 03:49:51.602"
+    },
+    {
+      "_id": "5b0059e3658424cbe938dd60",
+      "description": "sunny",
+      "temperature": -3.45,
+      "humidity": 0.29,
+      "time": "2014-10-31 06:35:23.125"
+    },
+    {
+      "_id": "5b0059e3acd255cfd2a16b59",
+      "description": "snowy",
+      "temperature": 22.17,
+      "humidity": 0.72,
+      "time": "2014-06-24 07:07:08.942"
+    },
+    {
+      "_id": "5b0059e3ddd8fb50060cf9d4",
+      "description": "cloudy",
+      "temperature": 2.3,
+      "humidity": 0.61,
+      "time": "2017-06-07 05:19:40.632"
+    },
+    {
+      "_id": "5b0059e39f4175400fed0f09",
+      "description": "snowy",
+      "temperature": 1.21,
+      "humidity": 0.51,
+      "time": "2018-01-03 01:14:09.724"
+    },
+    {
+      "_id": "5b0059e3fd9af95958b4bdc6",
+      "description": "sunny",
+      "temperature": -6.34,
+      "humidity": 0.31,
+      "time": "2014-03-07 03:16:17.528"
+    },
+    {
+      "_id": "5b0059e3efc3d6dce60d5924",
+      "description": "cloudy",
+      "temperature": -5.81,
+      "humidity": 0.91,
+      "time": "2017-01-22 11:35:14.261"
+    },
+    {
+      "_id": "5b0059e34ae22f96b64ef0d7",
+      "description": "cloudy",
+      "temperature": 14.74,
+      "humidity": 0.19,
+      "time": "2017-03-13 11:56:05.899"
+    },
+    {
+      "_id": "5b0059e307334ec724a09e61",
+      "description": "sunny",
+      "temperature": 3.75,
+      "humidity": 0.21,
+      "time": "2016-10-06 12:10:34.901"
+    },
+    {
+      "_id": "5b0059e323c0bbb303e30c13",
+      "description": "rainy",
+      "temperature": 28.15,
+      "humidity": 0.45,
+      "time": "2015-09-24 01:05:58.724"
+    },
+    {
+      "_id": "5b0059e309c83f6c79d37fec",
+      "description": "snowy",
+      "temperature": 1.03,
+      "humidity": 0.11,
+      "time": "2014-09-20 06:04:07.642"
+    },
+    {
+      "_id": "5b0059e39b4e53a25699c800",
+      "description": "rainy",
+      "temperature": 32.27,
+      "humidity": 0.91,
+      "time": "2017-06-23 02:49:43.859"
+    },
+    {
+      "_id": "5b0059e3b315a89356d9b70f",
+      "description": "snowy",
+      "temperature": 22.49,
+      "humidity": 0.06,
+      "time": "2017-11-16 04:14:33.849"
+    },
+    {
+      "_id": "5b0059e36380878527d30965",
+      "description": "rainy",
+      "temperature": 10.85,
+      "humidity": 0.07,
+      "time": "2018-05-13 09:55:29.116"
+    },
+    {
+      "_id": "5b0059e3c8cd2771fc22e727",
+      "description": "snowy",
+      "temperature": 28.77,
+      "humidity": 0.04,
+      "time": "2017-10-24 08:59:04.233"
+    },
+    {
+      "_id": "5b0059e3249780486a80df03",
+      "description": "snowy",
+      "temperature": 25.86,
+      "humidity": 0.81,
+      "time": "2015-02-02 05:01:09.958"
+    },
+    {
+      "_id": "5b0059e3df1a986c30abf9c9",
+      "description": "sunny",
+      "temperature": 2.52,
+      "humidity": 0.55,
+      "time": "2017-05-22 05:54:14.861"
+    },
+    {
+      "_id": "5b0059e3b72b4bcb12e807c3",
+      "description": "cloudy",
+      "temperature": 35,
+      "humidity": 0.72,
+      "time": "2014-05-29 02:17:51.1"
+    },
+    {
+      "_id": "5b0059e38c6cfc5aeb40bf32",
+      "description": "snowy",
+      "temperature": 24.14,
+      "humidity": 0.3,
+      "time": "2017-01-30 12:55:13.327"
+    },
+    {
+      "_id": "5b0059e3111f27bc11206c18",
+      "description": "cloudy",
+      "temperature": 23.32,
+      "humidity": 0.41,
+      "time": "2015-05-25 04:40:09.36"
+    },
+    {
+      "_id": "5b0059e378a4b401345aac36",
+      "description": "snowy",
+      "temperature": 20.94,
+      "humidity": 1,
+      "time": "2016-05-12 02:28:46.386"
+    },
+    {
+      "_id": "5b0059e35a0ec3aabce9b808",
+      "description": "cloudy",
+      "temperature": 10.8,
+      "humidity": 0.04,
+      "time": "2014-05-30 02:59:46.109"
+    },
+    {
+      "_id": "5b0059e3d17fa2ef4ebcb38f",
+      "description": "cloudy",
+      "temperature": -9.53,
+      "humidity": 0.5,
+      "time": "2014-12-17 03:15:26.861"
+    },
+    {
+      "_id": "5b0059e33fcd01a4e17685e4",
+      "description": "cloudy",
+      "temperature": 14.76,
+      "humidity": 1,
+      "time": "2016-12-11 08:04:09.640"
+    },
+    {
+      "_id": "5b0059e342af9d98291b6afd",
+      "description": "rainy",
+      "temperature": -18.42,
+      "humidity": 0.72,
+      "time": "2016-02-20 01:22:48.810"
+    },
+    {
+      "_id": "5b0059e3afdf949fc09b6b44",
+      "description": "snowy",
+      "temperature": 1.47,
+      "humidity": 0.03,
+      "time": "2015-01-12 09:49:56.457"
+    },
+    {
+      "_id": "5b0059e314fb70f2012dcff8",
+      "description": "rainy",
+      "temperature": -4.46,
+      "humidity": 0.8,
+      "time": "2017-05-23 06:31:52.743"
+    },
+    {
+      "_id": "5b0059e36d8cff4f0776d433",
+      "description": "sunny",
+      "temperature": 25.75,
+      "humidity": 0.53,
+      "time": "2016-11-21 02:21:43.580"
+    },
+    {
+      "_id": "5b0059e352b0d140c3900245",
+      "description": "snowy",
+      "temperature": 40,
+      "humidity": 0.99,
+      "time": "2015-11-18 08:49:30.939"
+    },
+    {
+      "_id": "5b0059e31603218c90d30fa8",
+      "description": "snowy",
+      "temperature": 31.69,
+      "humidity": 0.06,
+      "time": "2014-02-14 12:25:21.749"
+    },
+    {
+      "_id": "5b0059e34534c2a44ad08888",
+      "description": "sunny",
+      "temperature": 18.57,
+      "humidity": 0.87,
+      "time": "2017-11-06 11:00:45.856"
+    },
+    {
+      "_id": "5b0059e3d40c8ff440fcf6ac",
+      "description": "rainy",
+      "temperature": -19.58,
+      "humidity": 0.85,
+      "time": "2017-12-30 04:23:33.664"
+    },
+    {
+      "_id": "5b0059e368c7a5bf943d9093",
+      "description": "rainy",
+      "temperature": 33.98,
+      "humidity": 0.48,
+      "time": "2016-12-30 03:54:04.314"
+    },
+    {
+      "_id": "5b0059e324f19480e09bc4e9",
+      "description": "sunny",
+      "temperature": 6.51,
+      "humidity": 0.86,
+      "time": "2016-05-01 09:33:51.498"
+    },
+    {
+      "_id": "5b0059e31451d512dae38753",
+      "description": "snowy",
+      "temperature": 16.42,
+      "humidity": 0.42,
+      "time": "2016-02-15 07:44:31.388"
+    },
+    {
+      "_id": "5b0059e3468d02741f8fbc71",
+      "description": "snowy",
+      "temperature": 27.57,
+      "humidity": 0.45,
+      "time": "2014-02-14 03:48:42.636"
+    },
+    {
+      "_id": "5b0059e320a9c1722170cf4e",
+      "description": "rainy",
+      "temperature": 17.76,
+      "humidity": 0.28,
+      "time": "2016-07-11 11:58:43.458"
+    },
+    {
+      "_id": "5b0059e3978ae7a54d58b7e4",
+      "description": "rainy",
+      "temperature": 18.47,
+      "humidity": 0.31,
+      "time": "2016-06-25 03:56:10.412"
+    },
+    {
+      "_id": "5b0059e339c2d0104aefb92f",
+      "description": "sunny",
+      "temperature": -1.94,
+      "humidity": 0.41,
+      "time": "2018-03-14 04:32:50.379"
+    },
+    {
+      "_id": "5b0059e381b3c12c43444454",
+      "description": "cloudy",
+      "temperature": 13.16,
+      "humidity": 0.55,
+      "time": "2014-09-14 08:24:08.238"
+    },
+    {
+      "_id": "5b0059e3909a8d11f902cd92",
+      "description": "snowy",
+      "temperature": 41.76,
+      "humidity": 0.33,
+      "time": "2017-01-24 03:36:41.674"
+    },
+    {
+      "_id": "5b0059e3fcf79b155730c727",
+      "description": "cloudy",
+      "temperature": -12.29,
+      "humidity": 0.95,
+      "time": "2016-09-24 07:32:05.584"
+    },
+    {
+      "_id": "5b0059e30d57e22aee88dc4a",
+      "description": "rainy",
+      "temperature": 26.7,
+      "humidity": 0.2,
+      "time": "2015-11-20 05:51:08.269"
+    },
+    {
+      "_id": "5b0059e3af1b1e83dd4279c2",
+      "description": "snowy",
+      "temperature": 40.75,
+      "humidity": 0.18,
+      "time": "2014-04-22 01:47:00.84"
+    },
+    {
+      "_id": "5b0059e33f188fe00b7c2e88",
+      "description": "snowy",
+      "temperature": -3.18,
+      "humidity": 0.5,
+      "time": "2016-12-14 03:02:19.856"
+    },
+    {
+      "_id": "5b0059e317226aa2a43c8e74",
+      "description": "sunny",
+      "temperature": 30.54,
+      "humidity": 0.7,
+      "time": "2014-12-14 11:15:31.962"
+    },
+    {
+      "_id": "5b0059e37ac3acf4e55d427e",
+      "description": "rainy",
+      "temperature": 33.75,
+      "humidity": 0.14,
+      "time": "2018-01-20 05:42:26.850"
+    },
+    {
+      "_id": "5b0059e3716bb89249c5ff07",
+      "description": "cloudy",
+      "temperature": -16.87,
+      "humidity": 0.43,
+      "time": "2014-02-11 10:26:30.961"
+    },
+    {
+      "_id": "5b0059e3e8e784ec78cca4ec",
+      "description": "sunny",
+      "temperature": 27.38,
+      "humidity": 0.2,
+      "time": "2014-05-23 08:49:47.832"
+    },
+    {
+      "_id": "5b0059e38c6c86f6255d0c8d",
+      "description": "rainy",
+      "temperature": 8.5,
+      "humidity": 0.45,
+      "time": "2018-04-11 08:15:34.325"
+    },
+    {
+      "_id": "5b0059e3cc70d68dbc74afdd",
+      "description": "sunny",
+      "temperature": 5.97,
+      "humidity": 0.14,
+      "time": "2016-12-12 10:55:55.976"
+    },
+    {
+      "_id": "5b0059e3c3e6e8fe454307ad",
+      "description": "snowy",
+      "temperature": 4.89,
+      "humidity": 0.73,
+      "time": "2014-03-08 08:15:48.723"
+    },
+    {
+      "_id": "5b0059e309c49250e9efa7de",
+      "description": "sunny",
+      "temperature": 1.49,
+      "humidity": 0.79,
+      "time": "2017-01-17 05:13:27.266"
+    },
+    {
+      "_id": "5b0059e350cee3b77e92df31",
+      "description": "cloudy",
+      "temperature": 31.22,
+      "humidity": 0.71,
+      "time": "2016-07-09 01:03:22.961"
+    },
+    {
+      "_id": "5b0059e39f5e49958ed5181c",
+      "description": "rainy",
+      "temperature": 6.8,
+      "humidity": 0.43,
+      "time": "2017-10-13 04:20:08.997"
+    },
+    {
+      "_id": "5b0059e3bbafea16d63e0bc2",
+      "description": "cloudy",
+      "temperature": -14.14,
+      "humidity": 0.88,
+      "time": "2016-05-01 01:36:20.641"
+    },
+    {
+      "_id": "5b0059e33cadab796de02abc",
+      "description": "snowy",
+      "temperature": -3.21,
+      "humidity": 0.84,
+      "time": "2018-05-10 09:50:19.718"
+    },
+    {
+      "_id": "5b0059e3ce362d93583278d3",
+      "description": "sunny",
+      "temperature": -8.77,
+      "humidity": 0.52,
+      "time": "2017-08-06 02:39:04.206"
+    },
+    {
+      "_id": "5b0059e3f06a24c68ed5ab64",
+      "description": "rainy",
+      "temperature": -1.66,
+      "humidity": 0.03,
+      "time": "2017-03-19 07:14:50.456"
+    },
+    {
+      "_id": "5b0059e33fc996a83e1cf5be",
+      "description": "rainy",
+      "temperature": 38.02,
+      "humidity": 0.88,
+      "time": "2016-12-16 07:32:19.82"
+    },
+    {
+      "_id": "5b0059e32337f8a47c5c2c01",
+      "description": "sunny",
+      "temperature": -5.22,
+      "humidity": 0.51,
+      "time": "2014-12-16 02:55:31.209"
+    },
+    {
+      "_id": "5b0059e3e7e0a96455d46e24",
+      "description": "sunny",
+      "temperature": -10.25,
+      "humidity": 0.18,
+      "time": "2017-11-26 12:16:26.16"
+    },
+    {
+      "_id": "5b0059e31d1d4f6adb65d927",
+      "description": "sunny",
+      "temperature": 21.56,
+      "humidity": 0.88,
+      "time": "2017-03-03 04:58:12.727"
+    },
+    {
+      "_id": "5b0059e3d6adf93e678efce7",
+      "description": "sunny",
+      "temperature": 6.24,
+      "humidity": 0,
+      "time": "2016-01-03 05:13:42.568"
+    },
+    {
+      "_id": "5b0059e3d8714856743dc4c3",
+      "description": "sunny",
+      "temperature": 4.44,
+      "humidity": 0.13,
+      "time": "2017-05-17 05:03:28.829"
+    },
+    {
+      "_id": "5b0059e389fef23d9f2d0a69",
+      "description": "sunny",
+      "temperature": 3.79,
+      "humidity": 0.53,
+      "time": "2014-03-15 06:51:13.145"
+    },
+    {
+      "_id": "5b0059e353f2e0e22b7d49c0",
+      "description": "sunny",
+      "temperature": 3.37,
+      "humidity": 0.11,
+      "time": "2017-06-17 06:22:25.520"
+    },
+    {
+      "_id": "5b0059e3ae5efe2948a08999",
+      "description": "rainy",
+      "temperature": -2.03,
+      "humidity": 0.53,
+      "time": "2015-03-21 09:53:36.55"
+    },
+    {
+      "_id": "5b0059e302f292802ac09318",
+      "description": "cloudy",
+      "temperature": -3.44,
+      "humidity": 0.53,
+      "time": "2016-08-15 05:36:55.397"
+    },
+    {
+      "_id": "5b0059e3e5693813a9ff1e4d",
+      "description": "rainy",
+      "temperature": 26,
+      "humidity": 0.79,
+      "time": "2018-03-24 10:59:19.879"
+    },
+    {
+      "_id": "5b0059e37fa147edef11c63c",
+      "description": "sunny",
+      "temperature": 4.45,
+      "humidity": 0.13,
+      "time": "2016-05-07 02:29:58.56"
+    },
+    {
+      "_id": "5b0059e3bd3037c774ea27dd",
+      "description": "snowy",
+      "temperature": -19.32,
+      "humidity": 0.87,
+      "time": "2015-05-23 06:55:52.493"
+    },
+    {
+      "_id": "5b0059e3af6221d894c453a7",
+      "description": "rainy",
+      "temperature": -1.95,
+      "humidity": 0.34,
+      "time": "2014-08-25 03:34:39.986"
+    },
+    {
+      "_id": "5b0059e39cc1aeb2c0d75d87",
+      "description": "sunny",
+      "temperature": 5.93,
+      "humidity": 0.65,
+      "time": "2016-11-08 10:47:10.801"
+    },
+    {
+      "_id": "5b0059e319285cae3423a7a0",
+      "description": "cloudy",
+      "temperature": -4.77,
+      "humidity": 0.95,
+      "time": "2014-03-10 02:16:08.432"
+    },
+    {
+      "_id": "5b0059e3c49a675d013ea913",
+      "description": "cloudy",
+      "temperature": 6.29,
+      "humidity": 0.35,
+      "time": "2018-05-11 05:40:03.200"
+    },
+    {
+      "_id": "5b0059e39af7aa5dfcfe268e",
+      "description": "cloudy",
+      "temperature": 15.47,
+      "humidity": 0.43,
+      "time": "2015-06-06 07:28:13.602"
+    },
+    {
+      "_id": "5b0059e3e7164eac85c7e13a",
+      "description": "snowy",
+      "temperature": 29.01,
+      "humidity": 0.13,
+      "time": "2015-05-01 03:12:15.787"
+    },
+    {
+      "_id": "5b0059e36def738d86966065",
+      "description": "rainy",
+      "temperature": -0.76,
+      "humidity": 0.6,
+      "time": "2017-05-08 07:39:02.20"
+    },
+    {
+      "_id": "5b0059e3f1f325b8bab6f294",
+      "description": "snowy",
+      "temperature": 8.31,
+      "humidity": 0.78,
+      "time": "2016-07-03 02:21:21.841"
+    },
+    {
+      "_id": "5b0059e33ae1e2c5d475334e",
+      "description": "cloudy",
+      "temperature": 6.61,
+      "humidity": 0.16,
+      "time": "2014-10-09 08:18:34.443"
+    },
+    {
+      "_id": "5b0059e3657c893c8145d69a",
+      "description": "rainy",
+      "temperature": 10.04,
+      "humidity": 0.8,
+      "time": "2017-06-15 10:45:56.977"
+    },
+    {
+      "_id": "5b0059e31d7264bb499aea2c",
+      "description": "cloudy",
+      "temperature": 18.64,
+      "humidity": 0.64,
+      "time": "2017-02-20 09:36:15.851"
+    },
+    {
+      "_id": "5b0059e3aa020a4c481c424d",
+      "description": "sunny",
+      "temperature": 16.57,
+      "humidity": 0.88,
+      "time": "2017-08-14 01:32:45.111"
+    },
+    {
+      "_id": "5b0059e3d0c0be2c639b1de4",
+      "description": "sunny",
+      "temperature": -18.89,
+      "humidity": 0.08,
+      "time": "2016-07-08 05:48:25.493"
+    },
+    {
+      "_id": "5b0059e3e7ab678ffb080684",
+      "description": "snowy",
+      "temperature": -10.32,
+      "humidity": 0.51,
+      "time": "2017-10-24 01:54:52.811"
+    },
+    {
+      "_id": "5b0059e3c15a5bcde0f53168",
+      "description": "rainy",
+      "temperature": 32.26,
+      "humidity": 0.98,
+      "time": "2017-07-23 08:15:18.461"
+    },
+    {
+      "_id": "5b0059e33dcadc87a97ba672",
+      "description": "sunny",
+      "temperature": -16.25,
+      "humidity": 0.66,
+      "time": "2017-11-05 01:06:18.412"
+    },
+    {
+      "_id": "5b0059e3087a7d1d1f3306ac",
+      "description": "cloudy",
+      "temperature": 30.6,
+      "humidity": 0.85,
+      "time": "2016-11-21 01:54:04.736"
+    },
+    {
+      "_id": "5b0059e333d5c962f4379320",
+      "description": "snowy",
+      "temperature": 38.05,
+      "humidity": 0.79,
+      "time": "2015-01-13 12:10:49.382"
+    },
+    {
+      "_id": "5b0059e32eb19024dc19bf4b",
+      "description": "sunny",
+      "temperature": -17.17,
+      "humidity": 0.76,
+      "time": "2017-09-13 08:09:57.725"
+    },
+    {
+      "_id": "5b0059e3fc96392442e867f5",
+      "description": "sunny",
+      "temperature": 35.39,
+      "humidity": 0.85,
+      "time": "2014-06-19 02:58:19.785"
+    },
+    {
+      "_id": "5b0059e34c574a9a33ac06ca",
+      "description": "snowy",
+      "temperature": -7.77,
+      "humidity": 0.54,
+      "time": "2016-06-15 07:25:19.949"
+    },
+    {
+      "_id": "5b0059e3ba6e1e96a346561f",
+      "description": "snowy",
+      "temperature": 7.09,
+      "humidity": 0.46,
+      "time": "2017-01-04 03:32:40.770"
+    },
+    {
+      "_id": "5b0059e39c644cbadbf02bf5",
+      "description": "sunny",
+      "temperature": 41.32,
+      "humidity": 0.85,
+      "time": "2017-02-10 08:49:38.714"
+    },
+    {
+      "_id": "5b0059e33e5da1e45c6fc34b",
+      "description": "sunny",
+      "temperature": -10.49,
+      "humidity": 0.73,
+      "time": "2015-09-09 06:57:05.239"
+    },
+    {
+      "_id": "5b0059e3dfa798387584fa2e",
+      "description": "sunny",
+      "temperature": 12.27,
+      "humidity": 0.83,
+      "time": "2014-10-01 05:06:49.449"
+    },
+    {
+      "_id": "5b0059e364b49f1d200af7cf",
+      "description": "rainy",
+      "temperature": 8.4,
+      "humidity": 0.11,
+      "time": "2015-08-12 05:05:38.984"
+    },
+    {
+      "_id": "5b0059e3bda7ea4e09b03e5c",
+      "description": "snowy",
+      "temperature": -0.49,
+      "humidity": 0.66,
+      "time": "2014-09-13 09:05:50.12"
+    },
+    {
+      "_id": "5b0059e37803bd7fadff02a1",
+      "description": "sunny",
+      "temperature": 41.54,
+      "humidity": 0.42,
+      "time": "2018-05-02 11:38:48.722"
+    },
+    {
+      "_id": "5b0059e3ed567223f195599f",
+      "description": "sunny",
+      "temperature": 27.77,
+      "humidity": 0.35,
+      "time": "2014-05-21 03:11:37.60"
+    },
+    {
+      "_id": "5b0059e3e9f5f3de2e0a8f20",
+      "description": "snowy",
+      "temperature": 33.94,
+      "humidity": 0.83,
+      "time": "2017-04-16 08:05:25.92"
+    },
+    {
+      "_id": "5b0059e3b2a99c391704d8ad",
+      "description": "rainy",
+      "temperature": 6.54,
+      "humidity": 0.23,
+      "time": "2018-04-04 02:53:43.99"
+    },
+    {
+      "_id": "5b0059e38295ead544c8b663",
+      "description": "rainy",
+      "temperature": 33.84,
+      "humidity": 0.37,
+      "time": "2014-01-01 12:38:19.471"
+    },
+    {
+      "_id": "5b0059e3e469c5ac45b15909",
+      "description": "sunny",
+      "temperature": 22.64,
+      "humidity": 0.88,
+      "time": "2016-09-17 04:19:47.926"
+    },
+    {
+      "_id": "5b0059e3b147c21d080e3bff",
+      "description": "sunny",
+      "temperature": 1.06,
+      "humidity": 0.91,
+      "time": "2014-05-25 11:09:10.320"
+    },
+    {
+      "_id": "5b0059e3f833ad665c377e41",
+      "description": "sunny",
+      "temperature": 22.11,
+      "humidity": 0.17,
+      "time": "2018-02-17 04:07:25.390"
+    },
+    {
+      "_id": "5b0059e3ac69d23c39ade8ac",
+      "description": "sunny",
+      "temperature": 30.11,
+      "humidity": 0.17,
+      "time": "2015-05-14 12:34:52.1"
+    },
+    {
+      "_id": "5b0059e30d7a6d29fc85fde6",
+      "description": "cloudy",
+      "temperature": 17.86,
+      "humidity": 0.01,
+      "time": "2016-09-13 02:50:03.362"
+    },
+    {
+      "_id": "5b0059e3de5fd81edd0059dd",
+      "description": "snowy",
+      "temperature": 40.57,
+      "humidity": 0.4,
+      "time": "2014-11-27 03:48:52.270"
+    },
+    {
+      "_id": "5b0059e35126d13e83b923dd",
+      "description": "cloudy",
+      "temperature": 42.25,
+      "humidity": 0.36,
+      "time": "2014-11-25 09:55:47.6"
+    },
+    {
+      "_id": "5b0059e3072802da757fddbd",
+      "description": "sunny",
+      "temperature": -6.91,
+      "humidity": 0.09,
+      "time": "2015-05-17 09:34:21.393"
+    },
+    {
+      "_id": "5b0059e3d2ec0463aa366630",
+      "description": "cloudy",
+      "temperature": 17.07,
+      "humidity": 0.57,
+      "time": "2014-05-10 05:54:11.468"
+    },
+    {
+      "_id": "5b0059e3c74968d0e5a9f2a0",
+      "description": "sunny",
+      "temperature": 14.61,
+      "humidity": 0.52,
+      "time": "2015-10-01 10:00:39.757"
+    },
+    {
+      "_id": "5b0059e3eac98e1270066c10",
+      "description": "snowy",
+      "temperature": -11.26,
+      "humidity": 0.68,
+      "time": "2016-06-13 09:47:48.371"
+    },
+    {
+      "_id": "5b0059e338d37c4d10ed8f42",
+      "description": "rainy",
+      "temperature": -9.84,
+      "humidity": 0.55,
+      "time": "2014-01-28 07:23:17.640"
+    },
+    {
+      "_id": "5b0059e3709c2c63f54c9aaf",
+      "description": "rainy",
+      "temperature": 17.99,
+      "humidity": 0.38,
+      "time": "2018-02-10 02:58:55.385"
+    },
+    {
+      "_id": "5b0059e3b9ac0c8c4bf043d4",
+      "description": "rainy",
+      "temperature": -4.91,
+      "humidity": 0.07,
+      "time": "2016-01-17 05:45:32.789"
+    },
+    {
+      "_id": "5b0059e362e3d5394078178d",
+      "description": "rainy",
+      "temperature": 7.86,
+      "humidity": 0.98,
+      "time": "2015-02-25 11:45:31.241"
+    },
+    {
+      "_id": "5b0059e3b95d2455f68d9ff1",
+      "description": "snowy",
+      "temperature": -17.53,
+      "humidity": 0.05,
+      "time": "2017-11-13 01:05:34.141"
+    },
+    {
+      "_id": "5b0059e35f3b270eb34618fa",
+      "description": "sunny",
+      "temperature": 0.56,
+      "humidity": 0.78,
+      "time": "2016-02-20 02:13:50.900"
+    },
+    {
+      "_id": "5b0059e3c7ffe9d09a397b06",
+      "description": "cloudy",
+      "temperature": -18.04,
+      "humidity": 0.83,
+      "time": "2017-01-16 05:42:20.668"
+    },
+    {
+      "_id": "5b0059e3a9fb79c7c4e8bd67",
+      "description": "sunny",
+      "temperature": 10.06,
+      "humidity": 0.34,
+      "time": "2015-12-25 11:41:20.518"
+    },
+    {
+      "_id": "5b0059e3e004afcbdd7b02b6",
+      "description": "rainy",
+      "temperature": -6.35,
+      "humidity": 0.19,
+      "time": "2018-05-12 07:54:54.953"
+    },
+    {
+      "_id": "5b0059e3744e3b750055e64f",
+      "description": "sunny",
+      "temperature": 1.92,
+      "humidity": 0.36,
+      "time": "2017-12-28 12:44:42.41"
+    },
+    {
+      "_id": "5b0059e3a0c9b98429a8146a",
+      "description": "cloudy",
+      "temperature": -16.17,
+      "humidity": 0.02,
+      "time": "2015-02-17 12:04:23.68"
+    },
+    {
+      "_id": "5b0059e3ac37cd7b8e117c5a",
+      "description": "snowy",
+      "temperature": 32.94,
+      "humidity": 0.56,
+      "time": "2018-05-09 11:31:01.246"
+    },
+    {
+      "_id": "5b0059e32697f5291adcfbba",
+      "description": "rainy",
+      "temperature": 14.37,
+      "humidity": 0.54,
+      "time": "2015-06-01 08:19:19.561"
+    },
+    {
+      "_id": "5b0059e39f8800f8b9078c9f",
+      "description": "rainy",
+      "temperature": -10.94,
+      "humidity": 0.54,
+      "time": "2014-01-15 06:53:47.185"
+    },
+    {
+      "_id": "5b0059e366119d878a6762dc",
+      "description": "snowy",
+      "temperature": 43.32,
+      "humidity": 0.19,
+      "time": "2016-10-15 09:53:28.225"
+    },
+    {
+      "_id": "5b0059e3acfbe07fcf52aba9",
+      "description": "sunny",
+      "temperature": 28.93,
+      "humidity": 0.87,
+      "time": "2018-03-14 11:26:24.266"
+    },
+    {
+      "_id": "5b0059e3c235ae49c229fdb6",
+      "description": "rainy",
+      "temperature": 13.64,
+      "humidity": 0.01,
+      "time": "2017-09-13 12:35:49.509"
+    },
+    {
+      "_id": "5b0059e35e2443f197e81236",
+      "description": "rainy",
+      "temperature": 13.56,
+      "humidity": 0.88,
+      "time": "2018-01-22 10:26:07.312"
+    },
+    {
+      "_id": "5b0059e354889b5233270548",
+      "description": "rainy",
+      "temperature": -8.81,
+      "humidity": 0.3,
+      "time": "2014-01-04 07:46:43.763"
+    },
+    {
+      "_id": "5b0059e3b39bf7b697f92bb3",
+      "description": "snowy",
+      "temperature": 36.98,
+      "humidity": 0.44,
+      "time": "2014-04-18 04:09:08.393"
+    },
+    {
+      "_id": "5b0059e3fcbb6273154b69a0",
+      "description": "snowy",
+      "temperature": 20.8,
+      "humidity": 0.28,
+      "time": "2015-08-01 05:57:31.591"
+    },
+    {
+      "_id": "5b0059e3f3f13339e422bbff",
+      "description": "sunny",
+      "temperature": 19.38,
+      "humidity": 0.23,
+      "time": "2014-02-08 05:37:02.417"
+    },
+    {
+      "_id": "5b0059e3dc81c00b97ca796c",
+      "description": "rainy",
+      "temperature": 41.99,
+      "humidity": 0.7,
+      "time": "2014-01-06 12:39:57.740"
+    },
+    {
+      "_id": "5b0059e30834e351b34efa12",
+      "description": "cloudy",
+      "temperature": 38.3,
+      "humidity": 0.19,
+      "time": "2015-03-11 04:10:16.748"
+    },
+    {
+      "_id": "5b0059e3b9271023612bdf75",
+      "description": "cloudy",
+      "temperature": 39.15,
+      "humidity": 0.22,
+      "time": "2017-10-14 11:40:47.760"
+    },
+    {
+      "_id": "5b0059e31e9be13e6d70fd28",
+      "description": "cloudy",
+      "temperature": 16.21,
+      "humidity": 0.91,
+      "time": "2015-05-08 02:39:21.379"
+    },
+    {
+      "_id": "5b0059e3f0eaeefbd7ec982c",
+      "description": "cloudy",
+      "temperature": 20.84,
+      "humidity": 0.84,
+      "time": "2015-11-25 01:47:08.430"
+    },
+    {
+      "_id": "5b0059e345b0727362380ab8",
+      "description": "sunny",
+      "temperature": -0.02,
+      "humidity": 0.6,
+      "time": "2014-08-06 06:05:39.247"
+    },
+    {
+      "_id": "5b0059e34ef619c03de60769",
+      "description": "snowy",
+      "temperature": -19.2,
+      "humidity": 0.92,
+      "time": "2015-07-03 07:28:06.423"
+    },
+    {
+      "_id": "5b0059e30a237e1c00a855bd",
+      "description": "cloudy",
+      "temperature": 39.43,
+      "humidity": 0.57,
+      "time": "2016-06-02 04:02:24.105"
+    },
+    {
+      "_id": "5b0059e3a0d0698fbe31c13e",
+      "description": "sunny",
+      "temperature": 30.87,
+      "humidity": 0.31,
+      "time": "2014-08-21 10:25:32.890"
+    },
+    {
+      "_id": "5b0059e3bc993a1808a55914",
+      "description": "rainy",
+      "temperature": 1.74,
+      "humidity": 0.93,
+      "time": "2018-04-20 09:37:10.278"
+    },
+    {
+      "_id": "5b0059e389031e993d62cfdf",
+      "description": "cloudy",
+      "temperature": -11.9,
+      "humidity": 0.96,
+      "time": "2016-07-14 07:04:07.215"
+    },
+    {
+      "_id": "5b0059e3dc4cee82a1d3ca84",
+      "description": "sunny",
+      "temperature": 21.5,
+      "humidity": 0.41,
+      "time": "2017-05-31 04:47:18.362"
+    },
+    {
+      "_id": "5b0059e39c2cca89de98cc21",
+      "description": "sunny",
+      "temperature": 43.13,
+      "humidity": 0.2,
+      "time": "2018-02-08 11:33:09.62"
+    },
+    {
+      "_id": "5b0059e36d63a4b3689a32e8",
+      "description": "rainy",
+      "temperature": -6.19,
+      "humidity": 0.03,
+      "time": "2016-09-29 09:14:24.620"
+    },
+    {
+      "_id": "5b0059e35a0a4537747a7f8b",
+      "description": "snowy",
+      "temperature": 23.74,
+      "humidity": 0.39,
+      "time": "2014-12-15 05:33:14.237"
+    },
+    {
+      "_id": "5b0059e368a58db17021415d",
+      "description": "cloudy",
+      "temperature": -5.85,
+      "humidity": 0.24,
+      "time": "2015-04-26 01:44:29.812"
+    },
+    {
+      "_id": "5b0059e3de22dfca689559c4",
+      "description": "snowy",
+      "temperature": 2.24,
+      "humidity": 0.9,
+      "time": "2015-09-28 03:27:47.762"
+    },
+    {
+      "_id": "5b0059e32198ab7841708d57",
+      "description": "cloudy",
+      "temperature": 16.52,
+      "humidity": 0.34,
+      "time": "2017-01-22 06:22:56.690"
+    },
+    {
+      "_id": "5b0059e3780edeee553075ff",
+      "description": "snowy",
+      "temperature": 33.22,
+      "humidity": 0.61,
+      "time": "2017-06-17 04:23:34.327"
+    },
+    {
+      "_id": "5b0059e36de2509a8ca5547f",
+      "description": "rainy",
+      "temperature": 27.22,
+      "humidity": 0.04,
+      "time": "2017-11-10 01:54:36.177"
+    },
+    {
+      "_id": "5b0059e3efc96b5894d04808",
+      "description": "cloudy",
+      "temperature": -15.72,
+      "humidity": 0.36,
+      "time": "2018-04-12 09:25:48.534"
+    },
+    {
+      "_id": "5b0059e3e3998bd2633140f9",
+      "description": "cloudy",
+      "temperature": 3.2,
+      "humidity": 0.9,
+      "time": "2018-03-11 08:44:14.567"
+    },
+    {
+      "_id": "5b0059e3f37357faacaead7c",
+      "description": "snowy",
+      "temperature": 32.75,
+      "humidity": 0.05,
+      "time": "2014-05-21 11:04:33.815"
+    },
+    {
+      "_id": "5b0059e39f3b0bd6a19a4402",
+      "description": "rainy",
+      "temperature": 7.98,
+      "humidity": 1,
+      "time": "2016-01-05 05:16:51.353"
+    },
+    {
+      "_id": "5b0059e3436800e43a339880",
+      "description": "sunny",
+      "temperature": -9.85,
+      "humidity": 0.78,
+      "time": "2015-07-19 08:23:28.936"
+    },
+    {
+      "_id": "5b0059e39b5cdd42c11a2002",
+      "description": "snowy",
+      "temperature": -16.12,
+      "humidity": 1,
+      "time": "2016-09-23 02:40:40.627"
+    },
+    {
+      "_id": "5b0059e3608dfb9a1c177828",
+      "description": "cloudy",
+      "temperature": 32.04,
+      "humidity": 0.42,
+      "time": "2014-07-31 07:41:58.194"
+    },
+    {
+      "_id": "5b0059e3014e92d6535c7838",
+      "description": "cloudy",
+      "temperature": 38.87,
+      "humidity": 0.19,
+      "time": "2017-03-04 02:58:18.510"
+    },
+    {
+      "_id": "5b0059e30f4fc7b26d9ae299",
+      "description": "sunny",
+      "temperature": 2.47,
+      "humidity": 0.88,
+      "time": "2014-09-23 03:15:58.576"
+    },
+    {
+      "_id": "5b0059e39deacc2e08c75a04",
+      "description": "rainy",
+      "temperature": 14.92,
+      "humidity": 0.04,
+      "time": "2015-02-03 07:43:16.503"
+    },
+    {
+      "_id": "5b0059e325a47b6bf92f08ef",
+      "description": "sunny",
+      "temperature": 18.61,
+      "humidity": 0.53,
+      "time": "2016-10-10 08:25:13.816"
+    },
+    {
+      "_id": "5b0059e335a17045568b1e04",
+      "description": "cloudy",
+      "temperature": -0.24,
+      "humidity": 0.36,
+      "time": "2014-03-21 12:14:19.289"
+    },
+    {
+      "_id": "5b0059e3582b543b0175dff2",
+      "description": "snowy",
+      "temperature": 37.98,
+      "humidity": 0.92,
+      "time": "2018-01-27 02:14:44.312"
+    },
+    {
+      "_id": "5b0059e3312a2ac670bcd9ca",
+      "description": "sunny",
+      "temperature": 9.49,
+      "humidity": 0.13,
+      "time": "2018-01-07 03:34:28.439"
+    },
+    {
+      "_id": "5b0059e30deac2604e89a460",
+      "description": "cloudy",
+      "temperature": 16.69,
+      "humidity": 0.64,
+      "time": "2015-10-16 01:35:51.272"
+    },
+    {
+      "_id": "5b0059e384ae0d3232a19fc9",
+      "description": "rainy",
+      "temperature": 32.05,
+      "humidity": 0.64,
+      "time": "2016-04-18 11:41:56.749"
+    },
+    {
+      "_id": "5b0059e3160a80d62cb98a67",
+      "description": "cloudy",
+      "temperature": 41.87,
+      "humidity": 0.13,
+      "time": "2017-07-20 01:52:18.858"
+    },
+    {
+      "_id": "5b0059e338e18adf4c87b4c6",
+      "description": "snowy",
+      "temperature": 0.4,
+      "humidity": 0.23,
+      "time": "2016-11-02 04:42:29.757"
+    },
+    {
+      "_id": "5b0059e3e85d61ad70f1f993",
+      "description": "sunny",
+      "temperature": -18.83,
+      "humidity": 0.71,
+      "time": "2018-04-26 04:41:20.492"
+    },
+    {
+      "_id": "5b0059e32e0f676d9252921c",
+      "description": "rainy",
+      "temperature": -10.44,
+      "humidity": 0.63,
+      "time": "2014-11-21 08:33:58.315"
+    },
+    {
+      "_id": "5b0059e365f098feb8bdc575",
+      "description": "sunny",
+      "temperature": 1.01,
+      "humidity": 0.48,
+      "time": "2018-02-27 12:22:52.70"
+    },
+    {
+      "_id": "5b0059e3bbb4973693e53204",
+      "description": "sunny",
+      "temperature": 11,
+      "humidity": 0.38,
+      "time": "2015-11-15 04:45:17.350"
+    },
+    {
+      "_id": "5b0059e302393c6c2c1b1d29",
+      "description": "sunny",
+      "temperature": 29.46,
+      "humidity": 0.44,
+      "time": "2018-01-31 07:20:39.606"
+    },
+    {
+      "_id": "5b0059e3950fef3fba1601fe",
+      "description": "sunny",
+      "temperature": 27.91,
+      "humidity": 0.59,
+      "time": "2015-09-24 07:08:02.468"
+    },
+    {
+      "_id": "5b0059e335b1beaeb5dbf565",
+      "description": "rainy",
+      "temperature": 3.6,
+      "humidity": 0.44,
+      "time": "2017-10-21 09:11:51.660"
+    },
+    {
+      "_id": "5b0059e39c99ce4c1107a1ac",
+      "description": "rainy",
+      "temperature": 2.43,
+      "humidity": 0.89,
+      "time": "2015-05-20 08:23:25.622"
+    },
+    {
+      "_id": "5b0059e358137a51df7aaaa4",
+      "description": "cloudy",
+      "temperature": -12.8,
+      "humidity": 0.39,
+      "time": "2017-09-04 04:25:08.403"
+    },
+    {
+      "_id": "5b0059e35963bae1380c43f5",
+      "description": "cloudy",
+      "temperature": 33.01,
+      "humidity": 0.65,
+      "time": "2015-01-29 11:03:07.174"
+    },
+    {
+      "_id": "5b0059e348adf0702031ad35",
+      "description": "snowy",
+      "temperature": -6.16,
+      "humidity": 0.12,
+      "time": "2014-12-30 04:24:27.319"
+    },
+    {
+      "_id": "5b0059e346757da7f8b7f7af",
+      "description": "cloudy",
+      "temperature": -6.53,
+      "humidity": 0.74,
+      "time": "2014-12-01 01:53:22.274"
+    },
+    {
+      "_id": "5b0059e30b5fe6830059ff0f",
+      "description": "cloudy",
+      "temperature": 16.43,
+      "humidity": 0.78,
+      "time": "2016-07-01 03:40:38.273"
+    },
+    {
+      "_id": "5b0059e3b1f5ba2febcfe403",
+      "description": "rainy",
+      "temperature": 19.13,
+      "humidity": 0.66,
+      "time": "2017-04-27 09:22:48.996"
+    },
+    {
+      "_id": "5b0059e319f0f004b1ac6532",
+      "description": "rainy",
+      "temperature": 30.33,
+      "humidity": 0.61,
+      "time": "2015-03-15 05:59:14.452"
+    },
+    {
+      "_id": "5b0059e334b9bf2096e91300",
+      "description": "cloudy",
+      "temperature": 35.51,
+      "humidity": 0.77,
+      "time": "2017-06-01 05:23:40.214"
+    },
+    {
+      "_id": "5b0059e34b855737ccfdfebe",
+      "description": "snowy",
+      "temperature": -10.04,
+      "humidity": 0.72,
+      "time": "2014-03-14 05:16:51.18"
+    },
+    {
+      "_id": "5b0059e36074f44791ccf9e7",
+      "description": "cloudy",
+      "temperature": 16.19,
+      "humidity": 0.97,
+      "time": "2014-05-18 09:15:48.12"
+    },
+    {
+      "_id": "5b0059e3a3a81a2a49717041",
+      "description": "cloudy",
+      "temperature": 33.51,
+      "humidity": 0.79,
+      "time": "2015-05-28 10:27:47.232"
+    },
+    {
+      "_id": "5b0059e350ccc5dfcbd09948",
+      "description": "sunny",
+      "temperature": 2.97,
+      "humidity": 0.32,
+      "time": "2017-07-21 12:05:22.625"
+    },
+    {
+      "_id": "5b0059e33e65dfff6253479f",
+      "description": "snowy",
+      "temperature": -1.71,
+      "humidity": 0.89,
+      "time": "2016-07-13 10:57:41.711"
+    },
+    {
+      "_id": "5b0059e365c7cafd70f3af22",
+      "description": "snowy",
+      "temperature": 25.97,
+      "humidity": 0.08,
+      "time": "2016-06-18 03:18:10.861"
+    },
+    {
+      "_id": "5b0059e37d06d6c4ac711dc9",
+      "description": "rainy",
+      "temperature": 29.98,
+      "humidity": 0.54,
+      "time": "2018-03-10 06:45:35.183"
+    },
+    {
+      "_id": "5b0059e33251ef33081a65ac",
+      "description": "cloudy",
+      "temperature": -0.86,
+      "humidity": 0.48,
+      "time": "2016-02-17 05:50:39.187"
+    },
+    {
+      "_id": "5b0059e3d78b572d8e333ad3",
+      "description": "rainy",
+      "temperature": 20.31,
+      "humidity": 0.49,
+      "time": "2014-04-24 01:44:42.53"
+    },
+    {
+      "_id": "5b0059e3bc633ff659336417",
+      "description": "rainy",
+      "temperature": 38.29,
+      "humidity": 0.92,
+      "time": "2016-04-27 09:53:04.468"
+    },
+    {
+      "_id": "5b0059e3ebc36f714505c50a",
+      "description": "rainy",
+      "temperature": 2.23,
+      "humidity": 0.22,
+      "time": "2018-03-19 09:32:30.904"
+    },
+    {
+      "_id": "5b0059e3efa369b0d1c509c7",
+      "description": "snowy",
+      "temperature": 0.74,
+      "humidity": 0.46,
+      "time": "2016-04-24 08:29:57.274"
+    },
+    {
+      "_id": "5b0059e368f320235f4a8a1c",
+      "description": "snowy",
+      "temperature": 21.16,
+      "humidity": 0.21,
+      "time": "2017-12-09 06:33:07.1"
+    },
+    {
+      "_id": "5b0059e31ab6d909206291dc",
+      "description": "snowy",
+      "temperature": 37.08,
+      "humidity": 0.46,
+      "time": "2018-02-17 11:04:49.194"
+    },
+    {
+      "_id": "5b0059e3cbb9c063890d39c6",
+      "description": "rainy",
+      "temperature": 5.54,
+      "humidity": 0.57,
+      "time": "2014-10-17 11:29:35.306"
+    },
+    {
+      "_id": "5b0059e3f25b83bb1099fb25",
+      "description": "rainy",
+      "temperature": 27.31,
+      "humidity": 0.35,
+      "time": "2015-08-15 06:58:37.463"
+    },
+    {
+      "_id": "5b0059e3435762c05d956fba",
+      "description": "sunny",
+      "temperature": 2.41,
+      "humidity": 0.13,
+      "time": "2016-07-16 05:03:42.85"
+    },
+    {
+      "_id": "5b0059e3848c9b93e2c9fc74",
+      "description": "snowy",
+      "temperature": -5.75,
+      "humidity": 0.63,
+      "time": "2015-11-11 12:27:49.505"
+    },
+    {
+      "_id": "5b0059e3876d96923822dd4e",
+      "description": "snowy",
+      "temperature": 25.03,
+      "humidity": 0.87,
+      "time": "2017-05-17 06:59:30.961"
+    },
+    {
+      "_id": "5b0059e3a648face366cc503",
+      "description": "sunny",
+      "temperature": -2.04,
+      "humidity": 0.09,
+      "time": "2017-09-14 03:34:30.787"
+    },
+    {
+      "_id": "5b0059e38edb90ecfc6aeb2e",
+      "description": "sunny",
+      "temperature": 40.44,
+      "humidity": 0.23,
+      "time": "2016-05-15 11:38:39.537"
+    },
+    {
+      "_id": "5b0059e3a25f237a630ae705",
+      "description": "rainy",
+      "temperature": 23.23,
+      "humidity": 0.91,
+      "time": "2014-03-15 12:07:29.46"
+    },
+    {
+      "_id": "5b0059e35367e918900e97f5",
+      "description": "rainy",
+      "temperature": -15.25,
+      "humidity": 0.22,
+      "time": "2016-09-12 10:31:48.419"
+    },
+    {
+      "_id": "5b0059e37e6f3a1385f607a0",
+      "description": "rainy",
+      "temperature": 26.03,
+      "humidity": 0.23,
+      "time": "2018-04-05 09:44:34.38"
+    },
+    {
+      "_id": "5b0059e39fe8485346de5177",
+      "description": "snowy",
+      "temperature": -6.05,
+      "humidity": 0.52,
+      "time": "2014-12-18 03:11:35.190"
+    },
+    {
+      "_id": "5b0059e3a7769b6414abe491",
+      "description": "rainy",
+      "temperature": 12.66,
+      "humidity": 0.72,
+      "time": "2014-05-31 07:27:39.873"
+    },
+    {
+      "_id": "5b0059e3580aaa7b1cc242d1",
+      "description": "cloudy",
+      "temperature": 37.97,
+      "humidity": 0.85,
+      "time": "2015-11-22 09:33:26.468"
+    },
+    {
+      "_id": "5b0059e3da9ce927dc8fb4ab",
+      "description": "cloudy",
+      "temperature": 1.91,
+      "humidity": 0.68,
+      "time": "2014-02-16 08:17:40.96"
+    },
+    {
+      "_id": "5b0059e3c6b6e93d0149369f",
+      "description": "snowy",
+      "temperature": 38.77,
+      "humidity": 0.18,
+      "time": "2016-06-29 05:32:28.88"
+    },
+    {
+      "_id": "5b0059e3405e0634fa910c40",
+      "description": "snowy",
+      "temperature": 43.81,
+      "humidity": 0.45,
+      "time": "2016-04-04 02:48:54.467"
+    },
+    {
+      "_id": "5b0059e3f362c34b764d89e1",
+      "description": "sunny",
+      "temperature": -4.92,
+      "humidity": 0.64,
+      "time": "2017-10-16 03:03:03.950"
+    },
+    {
+      "_id": "5b0059e3829e8cf498979aec",
+      "description": "sunny",
+      "temperature": 9.9,
+      "humidity": 1,
+      "time": "2014-09-09 02:33:27.99"
+    },
+    {
+      "_id": "5b0059e3d797121f24e1b95b",
+      "description": "rainy",
+      "temperature": 42.62,
+      "humidity": 0.79,
+      "time": "2014-01-02 07:20:23.126"
+    },
+    {
+      "_id": "5b0059e3cd37359a4b1c2521",
+      "description": "snowy",
+      "temperature": -18.66,
+      "humidity": 0.06,
+      "time": "2014-05-24 12:32:28.358"
+    },
+    {
+      "_id": "5b0059e381b6a8150b8e2bf8",
+      "description": "sunny",
+      "temperature": 29.57,
+      "humidity": 0.08,
+      "time": "2015-08-01 04:36:52.4"
+    },
+    {
+      "_id": "5b0059e341ed863002f55f39",
+      "description": "sunny",
+      "temperature": 26.87,
+      "humidity": 0.35,
+      "time": "2014-05-04 05:30:59.240"
+    },
+    {
+      "_id": "5b0059e3780b146c0a026a2e",
+      "description": "rainy",
+      "temperature": -5.1,
+      "humidity": 0.45,
+      "time": "2016-05-02 10:50:43.111"
+    },
+    {
+      "_id": "5b0059e3c27443f513ce42d7",
+      "description": "rainy",
+      "temperature": -13.89,
+      "humidity": 0.59,
+      "time": "2014-08-11 03:07:29.755"
+    },
+    {
+      "_id": "5b0059e3d242386b8b813af3",
+      "description": "snowy",
+      "temperature": -11.87,
+      "humidity": 0.96,
+      "time": "2018-01-03 05:54:15.104"
+    },
+    {
+      "_id": "5b0059e3e7e86f62c016095a",
+      "description": "cloudy",
+      "temperature": 42.86,
+      "humidity": 0.57,
+      "time": "2014-01-19 10:17:26.192"
+    },
+    {
+      "_id": "5b0059e3ecd677ddca6ee461",
+      "description": "cloudy",
+      "temperature": -6.31,
+      "humidity": 0.59,
+      "time": "2018-02-02 12:01:54.195"
+    },
+    {
+      "_id": "5b0059e31831cc1cc6d29ccd",
+      "description": "snowy",
+      "temperature": -15.79,
+      "humidity": 0.1,
+      "time": "2016-11-12 06:58:44.506"
+    },
+    {
+      "_id": "5b0059e372ea2f601dbe386f",
+      "description": "cloudy",
+      "temperature": 35.2,
+      "humidity": 0.76,
+      "time": "2018-04-18 05:48:50.943"
+    },
+    {
+      "_id": "5b0059e3a241ba12775a9031",
+      "description": "rainy",
+      "temperature": 5.23,
+      "humidity": 0.67,
+      "time": "2016-12-21 10:06:59.765"
+    },
+    {
+      "_id": "5b0059e38a7c800b1849610e",
+      "description": "snowy",
+      "temperature": 41.76,
+      "humidity": 0.56,
+      "time": "2015-03-26 02:50:04.367"
+    },
+    {
+      "_id": "5b0059e34876d62e2e00197e",
+      "description": "cloudy",
+      "temperature": -5.27,
+      "humidity": 0.31,
+      "time": "2014-10-12 07:26:55.805"
+    },
+    {
+      "_id": "5b0059e3e7fd25b2a60241a2",
+      "description": "snowy",
+      "temperature": 4.61,
+      "humidity": 0.24,
+      "time": "2015-09-20 11:17:38.600"
+    },
+    {
+      "_id": "5b0059e393f2e50d418888fb",
+      "description": "cloudy",
+      "temperature": 38.84,
+      "humidity": 0.43,
+      "time": "2014-03-11 09:11:36.490"
+    },
+    {
+      "_id": "5b0059e3f3555c12b5117a66",
+      "description": "snowy",
+      "temperature": -4.54,
+      "humidity": 0.61,
+      "time": "2017-08-28 06:20:04.825"
+    },
+    {
+      "_id": "5b0059e36552ae491475fc67",
+      "description": "rainy",
+      "temperature": 3.52,
+      "humidity": 0.59,
+      "time": "2018-03-25 01:32:32.447"
+    },
+    {
+      "_id": "5b0059e36ad1b682b1335380",
+      "description": "rainy",
+      "temperature": 42.6,
+      "humidity": 0.07,
+      "time": "2015-12-01 05:53:15.415"
+    },
+    {
+      "_id": "5b0059e3dce2cac67d122962",
+      "description": "cloudy",
+      "temperature": 43.01,
+      "humidity": 0.77,
+      "time": "2016-10-07 08:10:48.270"
+    },
+    {
+      "_id": "5b0059e37579eb5e446dcb09",
+      "description": "sunny",
+      "temperature": 31.51,
+      "humidity": 0.19,
+      "time": "2016-07-18 03:05:23.849"
+    },
+    {
+      "_id": "5b0059e37868bdb962ae81fd",
+      "description": "snowy",
+      "temperature": -8.54,
+      "humidity": 0.98,
+      "time": "2016-09-24 07:07:47.128"
+    },
+    {
+      "_id": "5b0059e3386de27a62ca38a4",
+      "description": "sunny",
+      "temperature": 37.69,
+      "humidity": 0.18,
+      "time": "2014-06-04 03:15:23.485"
+    },
+    {
+      "_id": "5b0059e33a83b7c5035ef16d",
+      "description": "cloudy",
+      "temperature": 14.08,
+      "humidity": 0.11,
+      "time": "2018-05-09 02:56:14.590"
+    },
+    {
+      "_id": "5b0059e376a5d050e0ec13a3",
+      "description": "sunny",
+      "temperature": 7.06,
+      "humidity": 0.02,
+      "time": "2016-06-17 05:24:11.157"
+    },
+    {
+      "_id": "5b0059e331a3ca80213cd34c",
+      "description": "snowy",
+      "temperature": -4.85,
+      "humidity": 0.87,
+      "time": "2018-03-07 06:10:49.420"
+    },
+    {
+      "_id": "5b0059e3810b7b1b8ff49fe5",
+      "description": "cloudy",
+      "temperature": -14.9,
+      "humidity": 0.68,
+      "time": "2016-01-30 05:48:17.923"
+    },
+    {
+      "_id": "5b0059e35845333474db8e22",
+      "description": "sunny",
+      "temperature": 13.73,
+      "humidity": 0.66,
+      "time": "2017-12-12 09:51:26.745"
+    },
+    {
+      "_id": "5b0059e3ac936a3bebadbf69",
+      "description": "cloudy",
+      "temperature": 8.44,
+      "humidity": 0.55,
+      "time": "2015-03-22 10:04:55.15"
+    },
+    {
+      "_id": "5b0059e31dac5898a8fa2d8b",
+      "description": "rainy",
+      "temperature": 14.86,
+      "humidity": 0.21,
+      "time": "2017-02-07 07:44:35.473"
+    },
+    {
+      "_id": "5b0059e358b2c1770111e47f",
+      "description": "cloudy",
+      "temperature": 28.68,
+      "humidity": 0.68,
+      "time": "2015-03-24 07:18:03.83"
+    },
+    {
+      "_id": "5b0059e32070233e1ac08635",
+      "description": "cloudy",
+      "temperature": 0.37,
+      "humidity": 0.09,
+      "time": "2018-04-13 06:34:51.526"
+    },
+    {
+      "_id": "5b0059e35e69b75b23e605b4",
+      "description": "cloudy",
+      "temperature": 35.9,
+      "humidity": 0.02,
+      "time": "2016-05-16 07:09:29.805"
+    },
+    {
+      "_id": "5b0059e3afc016107612db14",
+      "description": "cloudy",
+      "temperature": 3.11,
+      "humidity": 0.96,
+      "time": "2015-05-02 12:21:09.626"
+    },
+    {
+      "_id": "5b0059e3df50071b46f6e5a0",
+      "description": "cloudy",
+      "temperature": -8.42,
+      "humidity": 0.78,
+      "time": "2015-06-20 07:06:24.445"
+    },
+    {
+      "_id": "5b0059e3424c46d647ab9bed",
+      "description": "sunny",
+      "temperature": -4.75,
+      "humidity": 0.49,
+      "time": "2016-05-10 12:10:42.643"
+    },
+    {
+      "_id": "5b0059e3f92349e49fec6a7a",
+      "description": "snowy",
+      "temperature": 12.91,
+      "humidity": 0.22,
+      "time": "2017-03-16 05:09:05.665"
+    },
+    {
+      "_id": "5b0059e3c2fa7a7b5293058e",
+      "description": "rainy",
+      "temperature": 25.19,
+      "humidity": 0.05,
+      "time": "2015-02-10 12:53:27.888"
+    },
+    {
+      "_id": "5b0059e379b11fac848a0db2",
+      "description": "rainy",
+      "temperature": -1.03,
+      "humidity": 0.05,
+      "time": "2015-07-13 12:09:51.88"
+    },
+    {
+      "_id": "5b0059e3557c9043267f923b",
+      "description": "sunny",
+      "temperature": -13.79,
+      "humidity": 1,
+      "time": "2014-01-20 01:27:37.876"
+    },
+    {
+      "_id": "5b0059e3a89f2e2d52d2760e",
+      "description": "rainy",
+      "temperature": 40.1,
+      "humidity": 0.67,
+      "time": "2016-01-24 09:04:08.330"
+    },
+    {
+      "_id": "5b0059e3a7176e010c3b35a0",
+      "description": "cloudy",
+      "temperature": -0.25,
+      "humidity": 0.16,
+      "time": "2015-08-23 05:55:50.459"
+    },
+    {
+      "_id": "5b0059e3d9dd51eb829ccd07",
+      "description": "snowy",
+      "temperature": 16.42,
+      "humidity": 0.58,
+      "time": "2014-05-21 04:48:22.762"
+    },
+    {
+      "_id": "5b0059e3af81e27ce8d52e6b",
+      "description": "cloudy",
+      "temperature": 22.27,
+      "humidity": 0.66,
+      "time": "2016-02-12 03:05:31.48"
+    },
+    {
+      "_id": "5b0059e3f6da066d50014783",
+      "description": "cloudy",
+      "temperature": -10.82,
+      "humidity": 0.84,
+      "time": "2014-08-18 10:50:31.788"
+    },
+    {
+      "_id": "5b0059e3664731411d210447",
+      "description": "rainy",
+      "temperature": -3.42,
+      "humidity": 0.17,
+      "time": "2015-06-28 07:43:16.99"
+    },
+    {
+      "_id": "5b0059e34a5b81ab7105a918",
+      "description": "snowy",
+      "temperature": 2.42,
+      "humidity": 0.98,
+      "time": "2018-01-25 10:06:27.81"
+    },
+    {
+      "_id": "5b0059e38b0b07a6ccc98536",
+      "description": "cloudy",
+      "temperature": 44.91,
+      "humidity": 0.73,
+      "time": "2016-03-22 08:30:47.64"
+    },
+    {
+      "_id": "5b0059e3241f94f389b33f1a",
+      "description": "sunny",
+      "temperature": 33.72,
+      "humidity": 0.78,
+      "time": "2015-12-07 08:31:19.67"
+    },
+    {
+      "_id": "5b0059e39f90c79ae91f3567",
+      "description": "sunny",
+      "temperature": 18.49,
+      "humidity": 0.91,
+      "time": "2015-07-05 12:41:30.581"
+    },
+    {
+      "_id": "5b0059e38de54c353a58968b",
+      "description": "cloudy",
+      "temperature": -19.78,
+      "humidity": 0.81,
+      "time": "2014-07-15 05:10:57.914"
+    },
+    {
+      "_id": "5b0059e3346effcf92f6dfd5",
+      "description": "snowy",
+      "temperature": 1.98,
+      "humidity": 0.95,
+      "time": "2017-12-08 02:23:09.337"
+    },
+    {
+      "_id": "5b0059e3146a304e4e1a4ce0",
+      "description": "cloudy",
+      "temperature": 41.68,
+      "humidity": 0.56,
+      "time": "2017-10-16 05:34:29.955"
+    },
+    {
+      "_id": "5b0059e30cadc0dbb4aa9821",
+      "description": "rainy",
+      "temperature": -2.64,
+      "humidity": 0.42,
+      "time": "2015-02-06 03:56:08.680"
+    },
+    {
+      "_id": "5b0059e3388d058e7ed56235",
+      "description": "snowy",
+      "temperature": -10.56,
+      "humidity": 0.82,
+      "time": "2017-03-26 05:27:11.75"
+    },
+    {
+      "_id": "5b0059e31b6f1de985930514",
+      "description": "cloudy",
+      "temperature": 32.67,
+      "humidity": 0.44,
+      "time": "2016-07-08 12:41:06.359"
+    },
+    {
+      "_id": "5b0059e326a621bb17cbc935",
+      "description": "rainy",
+      "temperature": 35.77,
+      "humidity": 0.77,
+      "time": "2014-03-21 01:24:15.25"
+    },
+    {
+      "_id": "5b0059e3ccb9466e624fc21d",
+      "description": "rainy",
+      "temperature": 2.73,
+      "humidity": 0.76,
+      "time": "2015-03-21 10:56:53.514"
+    },
+    {
+      "_id": "5b0059e35253e380db068709",
+      "description": "sunny",
+      "temperature": 29.67,
+      "humidity": 0.7,
+      "time": "2016-11-08 09:51:20.716"
+    },
+    {
+      "_id": "5b0059e33fb40a4b70fdc4ef",
+      "description": "cloudy",
+      "temperature": 24.81,
+      "humidity": 0.26,
+      "time": "2018-03-12 09:44:18.802"
+    },
+    {
+      "_id": "5b0059e3cad0a63f3b242594",
+      "description": "rainy",
+      "temperature": 30.08,
+      "humidity": 0.93,
+      "time": "2016-09-20 04:30:46.39"
+    },
+    {
+      "_id": "5b0059e347ac55b47884e785",
+      "description": "sunny",
+      "temperature": -8.89,
+      "humidity": 0.06,
+      "time": "2018-04-09 11:44:54.964"
+    },
+    {
+      "_id": "5b0059e33c5faace33033742",
+      "description": "rainy",
+      "temperature": 10.01,
+      "humidity": 0.04,
+      "time": "2018-01-14 02:28:20.814"
+    },
+    {
+      "_id": "5b0059e31047fa1a74be6919",
+      "description": "cloudy",
+      "temperature": 3.76,
+      "humidity": 0.63,
+      "time": "2017-11-24 06:01:37.525"
+    },
+    {
+      "_id": "5b0059e35d17beb8f8071009",
+      "description": "snowy",
+      "temperature": -13.86,
+      "humidity": 0.98,
+      "time": "2014-03-28 05:32:04.338"
+    },
+    {
+      "_id": "5b0059e395d2e5717a551266",
+      "description": "rainy",
+      "temperature": 1.36,
+      "humidity": 0.87,
+      "time": "2014-05-30 10:36:43.804"
+    },
+    {
+      "_id": "5b0059e3724138562f135d40",
+      "description": "rainy",
+      "temperature": -17.92,
+      "humidity": 0.59,
+      "time": "2014-07-28 12:53:57.23"
+    },
+    {
+      "_id": "5b0059e3b87c8acda30636dc",
+      "description": "cloudy",
+      "temperature": 30.46,
+      "humidity": 0.75,
+      "time": "2015-11-03 01:46:14.537"
+    },
+    {
+      "_id": "5b0059e349ea28e9b00b96a1",
+      "description": "sunny",
+      "temperature": 26.51,
+      "humidity": 0.85,
+      "time": "2017-03-15 11:14:19.585"
+    },
+    {
+      "_id": "5b0059e3f01bd70f9fa4ef7f",
+      "description": "rainy",
+      "temperature": 13.9,
+      "humidity": 0.94,
+      "time": "2014-12-30 09:47:24.689"
+    },
+    {
+      "_id": "5b0059e31dd5659d1427a282",
+      "description": "snowy",
+      "temperature": -13.57,
+      "humidity": 0.47,
+      "time": "2016-07-05 04:49:25.602"
+    },
+    {
+      "_id": "5b0059e32dccf49fdf358804",
+      "description": "cloudy",
+      "temperature": -15.6,
+      "humidity": 0.7,
+      "time": "2016-05-08 09:35:13.750"
+    },
+    {
+      "_id": "5b0059e3b0a3b2f03449dc0c",
+      "description": "rainy",
+      "temperature": -15.12,
+      "humidity": 0.69,
+      "time": "2014-07-14 03:15:45.671"
+    },
+    {
+      "_id": "5b0059e3e2f97883efb6b822",
+      "description": "rainy",
+      "temperature": 35.81,
+      "humidity": 0.52,
+      "time": "2018-04-22 06:03:49.156"
+    },
+    {
+      "_id": "5b0059e33518147aa06e0384",
+      "description": "rainy",
+      "temperature": 5.5,
+      "humidity": 0.53,
+      "time": "2017-06-12 07:39:00.34"
+    },
+    {
+      "_id": "5b0059e34def0120a1af5117",
+      "description": "sunny",
+      "temperature": 39.81,
+      "humidity": 0.7,
+      "time": "2017-01-07 06:48:37.92"
+    },
+    {
+      "_id": "5b0059e38bc2857fdd582cc5",
+      "description": "snowy",
+      "temperature": 5.66,
+      "humidity": 0.32,
+      "time": "2014-01-07 08:57:10.153"
+    },
+    {
+      "_id": "5b0059e310f8133c16daa225",
+      "description": "cloudy",
+      "temperature": 6.35,
+      "humidity": 0.59,
+      "time": "2016-06-24 08:39:57.442"
+    },
+    {
+      "_id": "5b0059e31652b777131678b1",
+      "description": "sunny",
+      "temperature": 30.73,
+      "humidity": 1,
+      "time": "2017-10-02 04:58:15.950"
+    },
+    {
+      "_id": "5b0059e3e9aca768321ea424",
+      "description": "sunny",
+      "temperature": 29.33,
+      "humidity": 0.11,
+      "time": "2014-01-24 04:34:21.925"
+    },
+    {
+      "_id": "5b0059e349673a3c28adea71",
+      "description": "snowy",
+      "temperature": 0.48,
+      "humidity": 0.85,
+      "time": "2015-04-29 08:30:06.313"
+    },
+    {
+      "_id": "5b0059e3937891a9297e45a4",
+      "description": "snowy",
+      "temperature": 2.01,
+      "humidity": 0.51,
+      "time": "2017-03-08 10:22:27.931"
+    },
+    {
+      "_id": "5b0059e3d27c8610cca93248",
+      "description": "snowy",
+      "temperature": -0.22,
+      "humidity": 0.59,
+      "time": "2016-06-15 05:04:35.979"
+    },
+    {
+      "_id": "5b0059e3a55764dace0d38d1",
+      "description": "snowy",
+      "temperature": 6.45,
+      "humidity": 0.4,
+      "time": "2018-02-14 11:51:33.995"
+    },
+    {
+      "_id": "5b0059e33f7209b7c4927a32",
+      "description": "sunny",
+      "temperature": -16.95,
+      "humidity": 0.23,
+      "time": "2015-03-10 07:14:24.438"
+    },
+    {
+      "_id": "5b0059e35c09172117809f5b",
+      "description": "rainy",
+      "temperature": 8.24,
+      "humidity": 0.87,
+      "time": "2014-08-29 05:45:14.705"
+    },
+    {
+      "_id": "5b0059e313515f4a95c3cf88",
+      "description": "sunny",
+      "temperature": 39.56,
+      "humidity": 0.49,
+      "time": "2014-06-04 03:55:35.947"
+    },
+    {
+      "_id": "5b0059e3831419b25d434c48",
+      "description": "snowy",
+      "temperature": 16.83,
+      "humidity": 0.09,
+      "time": "2018-01-25 03:15:37.352"
+    },
+    {
+      "_id": "5b0059e39340e27155807e86",
+      "description": "snowy",
+      "temperature": 7.72,
+      "humidity": 0.02,
+      "time": "2015-08-02 11:48:21.549"
+    },
+    {
+      "_id": "5b0059e36d3158702a2e3d15",
+      "description": "sunny",
+      "temperature": 12.88,
+      "humidity": 0.05,
+      "time": "2017-02-07 07:41:31.422"
+    },
+    {
+      "_id": "5b0059e315b2f1ab7999de85",
+      "description": "rainy",
+      "temperature": 24.23,
+      "humidity": 0.12,
+      "time": "2015-09-03 01:05:57.599"
+    },
+    {
+      "_id": "5b0059e3f5e08a71ee146a42",
+      "description": "snowy",
+      "temperature": -12.27,
+      "humidity": 0.4,
+      "time": "2018-02-23 11:31:06.382"
+    },
+    {
+      "_id": "5b0059e34d85bf59a46abafc",
+      "description": "cloudy",
+      "temperature": 27.06,
+      "humidity": 0.05,
+      "time": "2016-07-12 10:53:04.349"
+    },
+    {
+      "_id": "5b0059e3cf2985ccad3033be",
+      "description": "sunny",
+      "temperature": 1.94,
+      "humidity": 0.45,
+      "time": "2017-12-15 08:19:15.251"
+    },
+    {
+      "_id": "5b0059e36e25a7b6148ae6c0",
+      "description": "cloudy",
+      "temperature": 17.32,
+      "humidity": 0.58,
+      "time": "2016-03-19 02:17:47.810"
+    },
+    {
+      "_id": "5b0059e3787cdc231a5e2bee",
+      "description": "snowy",
+      "temperature": 6.25,
+      "humidity": 0.16,
+      "time": "2014-12-23 07:26:31.257"
+    },
+    {
+      "_id": "5b0059e36f8e1c22a06fda21",
+      "description": "sunny",
+      "temperature": 18.61,
+      "humidity": 0.58,
+      "time": "2014-08-27 06:07:28.60"
+    },
+    {
+      "_id": "5b0059e3874f5fca6da02337",
+      "description": "rainy",
+      "temperature": -18.88,
+      "humidity": 0.47,
+      "time": "2014-11-09 10:38:07.124"
+    },
+    {
+      "_id": "5b0059e30c6ea79331f21e25",
+      "description": "cloudy",
+      "temperature": 38.79,
+      "humidity": 0.46,
+      "time": "2016-06-10 05:32:38.925"
+    },
+    {
+      "_id": "5b0059e324a43169986476a9",
+      "description": "rainy",
+      "temperature": 44.25,
+      "humidity": 0.34,
+      "time": "2016-11-06 07:59:00.958"
+    },
+    {
+      "_id": "5b0059e3839b51ab41600cd1",
+      "description": "sunny",
+      "temperature": 43.68,
+      "humidity": 0.7,
+      "time": "2018-03-19 06:15:42.214"
+    },
+    {
+      "_id": "5b0059e34dfe131bcdd283b2",
+      "description": "cloudy",
+      "temperature": 37.99,
+      "humidity": 0.18,
+      "time": "2016-11-13 03:47:49.868"
+    },
+    {
+      "_id": "5b0059e37e0aa43a313f83b9",
+      "description": "sunny",
+      "temperature": 32.14,
+      "humidity": 0.21,
+      "time": "2014-01-26 07:38:27.29"
+    },
+    {
+      "_id": "5b0059e31c5f40ba525dc061",
+      "description": "cloudy",
+      "temperature": 38.88,
+      "humidity": 0.95,
+      "time": "2016-02-14 12:17:48.861"
+    },
+    {
+      "_id": "5b0059e382d354a2195a2f95",
+      "description": "sunny",
+      "temperature": 26.98,
+      "humidity": 0.5,
+      "time": "2018-03-12 10:00:42.784"
+    },
+    {
+      "_id": "5b0059e3a127ace2dffbf34d",
+      "description": "sunny",
+      "temperature": 14.04,
+      "humidity": 0.36,
+      "time": "2016-05-23 06:45:24.620"
+    },
+    {
+      "_id": "5b0059e3f73e7d1fabba3c5c",
+      "description": "rainy",
+      "temperature": -5.27,
+      "humidity": 0.53,
+      "time": "2014-12-16 11:20:13.755"
+    },
+    {
+      "_id": "5b0059e30191d6c944f3ccd7",
+      "description": "cloudy",
+      "temperature": 7.96,
+      "humidity": 0.44,
+      "time": "2015-04-20 10:34:01.292"
+    },
+    {
+      "_id": "5b0059e3b6c19ddaa871df8d",
+      "description": "rainy",
+      "temperature": 30.59,
+      "humidity": 0.17,
+      "time": "2015-08-19 09:53:11.13"
+    },
+    {
+      "_id": "5b0059e35c6fee35c5698b5e",
+      "description": "snowy",
+      "temperature": -12.62,
+      "humidity": 0.98,
+      "time": "2017-03-02 09:34:34.677"
+    },
+    {
+      "_id": "5b0059e3a3160b3f5ce4cdcb",
+      "description": "rainy",
+      "temperature": -14.18,
+      "humidity": 0.08,
+      "time": "2015-03-07 04:31:16.975"
+    },
+    {
+      "_id": "5b0059e36cee2c982da56743",
+      "description": "sunny",
+      "temperature": 7.57,
+      "humidity": 0.01,
+      "time": "2017-01-29 03:20:07.228"
+    },
+    {
+      "_id": "5b0059e38858884daf87b4fd",
+      "description": "cloudy",
+      "temperature": 12.23,
+      "humidity": 0.33,
+      "time": "2016-08-08 09:16:49.966"
+    },
+    {
+      "_id": "5b0059e31e8c918e353ed961",
+      "description": "snowy",
+      "temperature": 28.74,
+      "humidity": 0.95,
+      "time": "2015-07-11 06:46:19.109"
+    },
+    {
+      "_id": "5b0059e3c2b6820acf823fd6",
+      "description": "cloudy",
+      "temperature": 38.02,
+      "humidity": 0.33,
+      "time": "2017-05-27 11:06:42.189"
+    },
+    {
+      "_id": "5b0059e3e78c035b754f1377",
+      "description": "sunny",
+      "temperature": 27.22,
+      "humidity": 0.94,
+      "time": "2017-12-08 03:03:32.583"
+    },
+    {
+      "_id": "5b0059e30a00ab5adf73a9df",
+      "description": "sunny",
+      "temperature": -14.56,
+      "humidity": 0.54,
+      "time": "2015-07-13 01:16:24.889"
+    },
+    {
+      "_id": "5b0059e3c7e7172c964dbbf5",
+      "description": "snowy",
+      "temperature": 25.62,
+      "humidity": 0.01,
+      "time": "2018-01-09 11:20:47.903"
+    },
+    {
+      "_id": "5b0059e35a12bc575f2eadf0",
+      "description": "sunny",
+      "temperature": 20.65,
+      "humidity": 0.99,
+      "time": "2016-10-28 03:29:25.825"
+    },
+    {
+      "_id": "5b0059e32d9aad5a440e09a9",
+      "description": "rainy",
+      "temperature": -14.74,
+      "humidity": 0.43,
+      "time": "2018-04-18 08:38:34.446"
+    },
+    {
+      "_id": "5b0059e3dff31f77009e3075",
+      "description": "sunny",
+      "temperature": 40.01,
+      "humidity": 0.27,
+      "time": "2015-03-23 03:39:59.686"
+    },
+    {
+      "_id": "5b0059e308c8d79c2a24dc1a",
+      "description": "cloudy",
+      "temperature": -14.71,
+      "humidity": 0.18,
+      "time": "2014-09-23 03:15:16.155"
+    },
+    {
+      "_id": "5b0059e3c80096cda2db9b4b",
+      "description": "sunny",
+      "temperature": -11.31,
+      "humidity": 0.86,
+      "time": "2015-04-10 12:41:01.736"
+    },
+    {
+      "_id": "5b0059e3d777be9d33b5fc70",
+      "description": "sunny",
+      "temperature": -0.88,
+      "humidity": 1,
+      "time": "2015-10-22 08:35:53.217"
+    },
+    {
+      "_id": "5b0059e34b72cacd472264c4",
+      "description": "rainy",
+      "temperature": 14.22,
+      "humidity": 0.57,
+      "time": "2016-09-05 06:58:54.785"
+    },
+    {
+      "_id": "5b0059e3a7076c57f97fed62",
+      "description": "cloudy",
+      "temperature": 39.04,
+      "humidity": 0.73,
+      "time": "2014-12-12 03:11:01.619"
+    },
+    {
+      "_id": "5b0059e3a37ece298b23d0c6",
+      "description": "rainy",
+      "temperature": -13.73,
+      "humidity": 0.87,
+      "time": "2015-04-16 03:51:59.219"
+    },
+    {
+      "_id": "5b0059e3e3f4f919c5aa0b37",
+      "description": "sunny",
+      "temperature": 22.58,
+      "humidity": 0.62,
+      "time": "2016-10-19 09:50:02.475"
+    },
+    {
+      "_id": "5b0059e3f43ebdc58761dfae",
+      "description": "sunny",
+      "temperature": 1.78,
+      "humidity": 0.46,
+      "time": "2018-02-12 08:07:57.555"
+    },
+    {
+      "_id": "5b0059e3773bd939a9604d78",
+      "description": "sunny",
+      "temperature": 33.31,
+      "humidity": 0.01,
+      "time": "2015-09-15 07:03:15.71"
+    },
+    {
+      "_id": "5b0059e36d52dcfb670f1e31",
+      "description": "rainy",
+      "temperature": 8.5,
+      "humidity": 0.46,
+      "time": "2014-09-18 11:04:53.798"
+    },
+    {
+      "_id": "5b0059e3434d012bd2a72b42",
+      "description": "sunny",
+      "temperature": 4.91,
+      "humidity": 0.78,
+      "time": "2014-07-19 05:06:21.824"
+    },
+    {
+      "_id": "5b0059e3d17353640962eec8",
+      "description": "cloudy",
+      "temperature": 1.68,
+      "humidity": 1,
+      "time": "2014-04-03 03:17:52.961"
+    },
+    {
+      "_id": "5b0059e393013fcf52b6b40d",
+      "description": "snowy",
+      "temperature": 24.42,
+      "humidity": 0.22,
+      "time": "2017-03-10 10:25:36.57"
+    },
+    {
+      "_id": "5b0059e335c14046e330622e",
+      "description": "rainy",
+      "temperature": -11.73,
+      "humidity": 0.03,
+      "time": "2014-11-02 08:35:10.615"
+    },
+    {
+      "_id": "5b0059e3bd9bdf7fde318ef2",
+      "description": "snowy",
+      "temperature": 34.55,
+      "humidity": 0.49,
+      "time": "2017-08-28 03:27:58.655"
+    },
+    {
+      "_id": "5b0059e340c20447ec2c84f8",
+      "description": "sunny",
+      "temperature": -14.85,
+      "humidity": 0.07,
+      "time": "2014-08-22 01:33:38.701"
+    },
+    {
+      "_id": "5b0059e3998b7d346543748c",
+      "description": "snowy",
+      "temperature": 5.24,
+      "humidity": 0.07,
+      "time": "2015-08-14 12:15:25.453"
+    },
+    {
+      "_id": "5b0059e31610ea0b34776b00",
+      "description": "snowy",
+      "temperature": -9.29,
+      "humidity": 0.19,
+      "time": "2015-02-19 08:25:45.785"
+    },
+    {
+      "_id": "5b0059e362ddbf41d00bc1eb",
+      "description": "sunny",
+      "temperature": 15.22,
+      "humidity": 0.41,
+      "time": "2015-06-16 08:59:39.569"
+    },
+    {
+      "_id": "5b0059e3a76b2db1fe2a7067",
+      "description": "cloudy",
+      "temperature": -9.46,
+      "humidity": 0.03,
+      "time": "2017-02-21 03:33:56.104"
+    },
+    {
+      "_id": "5b0059e3a82d74e3888b6416",
+      "description": "rainy",
+      "temperature": 36.73,
+      "humidity": 0.38,
+      "time": "2018-01-12 04:55:49.695"
+    },
+    {
+      "_id": "5b0059e35cd4dc0c3c137ece",
+      "description": "rainy",
+      "temperature": 33.25,
+      "humidity": 0.86,
+      "time": "2016-05-25 08:50:42.170"
+    },
+    {
+      "_id": "5b0059e391a3d72fd8693dd7",
+      "description": "sunny",
+      "temperature": -0.13,
+      "humidity": 0.76,
+      "time": "2017-03-28 05:22:08.871"
+    },
+    {
+      "_id": "5b0059e3dfff878d5a067159",
+      "description": "snowy",
+      "temperature": 24.96,
+      "humidity": 0.78,
+      "time": "2015-07-13 09:47:30.608"
+    },
+    {
+      "_id": "5b0059e331e367501b7bead2",
+      "description": "snowy",
+      "temperature": 32,
+      "humidity": 0.03,
+      "time": "2015-03-17 09:10:41.132"
+    },
+    {
+      "_id": "5b0059e34438982ed1efbb35",
+      "description": "rainy",
+      "temperature": 0.8,
+      "humidity": 0.23,
+      "time": "2017-03-12 10:22:40.46"
+    },
+    {
+      "_id": "5b0059e3906da12a8cb0ca3f",
+      "description": "rainy",
+      "temperature": 38.21,
+      "humidity": 0.83,
+      "time": "2016-05-12 06:08:49.181"
+    },
+    {
+      "_id": "5b0059e3bd7770ed75f6bfd8",
+      "description": "snowy",
+      "temperature": 43.86,
+      "humidity": 0.59,
+      "time": "2016-10-21 03:47:34.844"
+    },
+    {
+      "_id": "5b0059e39773d7d614251aa7",
+      "description": "cloudy",
+      "temperature": 4.74,
+      "humidity": 0.12,
+      "time": "2014-10-17 07:12:51.427"
+    },
+    {
+      "_id": "5b0059e3f5336a1cbda525ea",
+      "description": "sunny",
+      "temperature": 35.85,
+      "humidity": 0.5,
+      "time": "2016-02-08 08:57:55.880"
+    },
+    {
+      "_id": "5b0059e34d7f6ccf98940add",
+      "description": "snowy",
+      "temperature": 6.84,
+      "humidity": 0.03,
+      "time": "2016-03-15 04:56:35.886"
+    },
+    {
+      "_id": "5b0059e34fe889674e40fb59",
+      "description": "sunny",
+      "temperature": 35.63,
+      "humidity": 0.33,
+      "time": "2017-08-26 11:05:51.610"
+    },
+    {
+      "_id": "5b0059e364564e6c72f0d64e",
+      "description": "sunny",
+      "temperature": -14.97,
+      "humidity": 0.41,
+      "time": "2016-06-07 05:41:19.754"
+    },
+    {
+      "_id": "5b0059e3e76362b0b61229b9",
+      "description": "rainy",
+      "temperature": 14.85,
+      "humidity": 0.32,
+      "time": "2017-01-08 02:18:41.984"
+    },
+    {
+      "_id": "5b0059e33cee1e9625520d99",
+      "description": "cloudy",
+      "temperature": 11.98,
+      "humidity": 0.5,
+      "time": "2016-11-03 03:59:03.757"
+    },
+    {
+      "_id": "5b0059e34c2515f19a383ce1",
+      "description": "rainy",
+      "temperature": -12.5,
+      "humidity": 0.17,
+      "time": "2015-06-02 11:01:41.154"
+    },
+    {
+      "_id": "5b0059e327c918ab7e3855fc",
+      "description": "snowy",
+      "temperature": 5.21,
+      "humidity": 0.43,
+      "time": "2016-12-20 12:25:10.334"
+    },
+    {
+      "_id": "5b0059e331fbf90c1c4e9e71",
+      "description": "snowy",
+      "temperature": -17.93,
+      "humidity": 0.95,
+      "time": "2014-06-18 08:48:02.651"
+    },
+    {
+      "_id": "5b0059e3a29b4f69a22d9ebb",
+      "description": "snowy",
+      "temperature": -12.24,
+      "humidity": 0.27,
+      "time": "2014-05-22 03:21:09.455"
+    },
+    {
+      "_id": "5b0059e34f6a9e3247a768d2",
+      "description": "rainy",
+      "temperature": -12.38,
+      "humidity": 0.22,
+      "time": "2014-09-25 11:07:47.242"
+    },
+    {
+      "_id": "5b0059e31df252a2b48f6fd2",
+      "description": "rainy",
+      "temperature": 25.95,
+      "humidity": 0.69,
+      "time": "2016-09-30 02:23:19.86"
+    },
+    {
+      "_id": "5b0059e314e96c956ca6210a",
+      "description": "snowy",
+      "temperature": -9.61,
+      "humidity": 0.65,
+      "time": "2016-02-22 05:21:01.108"
+    },
+    {
+      "_id": "5b0059e3b50e3af56546dd12",
+      "description": "snowy",
+      "temperature": -7.85,
+      "humidity": 0.88,
+      "time": "2014-01-07 07:40:54.31"
+    },
+    {
+      "_id": "5b0059e3a15a9027b130a6dd",
+      "description": "rainy",
+      "temperature": -16.47,
+      "humidity": 0.79,
+      "time": "2015-02-25 12:08:37.599"
+    },
+    {
+      "_id": "5b0059e30d7cc57e7fe32b9c",
+      "description": "sunny",
+      "temperature": 0.83,
+      "humidity": 0.53,
+      "time": "2015-06-16 04:28:14.483"
+    },
+    {
+      "_id": "5b0059e3eb319fe3ebe19bce",
+      "description": "sunny",
+      "temperature": 2.22,
+      "humidity": 0.6,
+      "time": "2014-08-17 05:50:59.430"
+    },
+    {
+      "_id": "5b0059e30976dd04826bfc25",
+      "description": "snowy",
+      "temperature": 0.28,
+      "humidity": 0.42,
+      "time": "2017-07-16 08:57:54.283"
+    },
+    {
+      "_id": "5b0059e3484d2b3c8f187aa4",
+      "description": "snowy",
+      "temperature": 39.51,
+      "humidity": 0.28,
+      "time": "2015-12-17 06:29:54.150"
+    },
+    {
+      "_id": "5b0059e38cc230e583516cd3",
+      "description": "sunny",
+      "temperature": 11.88,
+      "humidity": 0.1,
+      "time": "2017-12-29 04:26:25.569"
+    },
+    {
+      "_id": "5b0059e381857a049af0420e",
+      "description": "rainy",
+      "temperature": -13.5,
+      "humidity": 0.53,
+      "time": "2017-03-10 06:41:11.421"
+    },
+    {
+      "_id": "5b0059e3499f27fca974c7f8",
+      "description": "snowy",
+      "temperature": 9.75,
+      "humidity": 0.02,
+      "time": "2014-05-04 04:38:49.512"
+    },
+    {
+      "_id": "5b0059e38e8c9cea1b012f88",
+      "description": "sunny",
+      "temperature": 14.73,
+      "humidity": 0.87,
+      "time": "2016-05-17 03:38:43.79"
+    },
+    {
+      "_id": "5b0059e359dce91cca7b2105",
+      "description": "rainy",
+      "temperature": 38.31,
+      "humidity": 0.97,
+      "time": "2016-08-02 11:46:11.463"
+    },
+    {
+      "_id": "5b0059e3cfb01252ae85d8cc",
+      "description": "snowy",
+      "temperature": 36.46,
+      "humidity": 0.05,
+      "time": "2017-10-12 05:47:49.716"
+    },
+    {
+      "_id": "5b0059e306b3dbb43d5b989b",
+      "description": "cloudy",
+      "temperature": 41.74,
+      "humidity": 0.67,
+      "time": "2017-09-01 09:36:10.224"
+    },
+    {
+      "_id": "5b0059e31f88176a1586bac6",
+      "description": "snowy",
+      "temperature": 22.17,
+      "humidity": 0.45,
+      "time": "2015-06-29 09:36:44.759"
+    },
+    {
+      "_id": "5b0059e304a8ae589944a148",
+      "description": "rainy",
+      "temperature": 36,
+      "humidity": 0.31,
+      "time": "2017-12-31 01:25:30.589"
+    },
+    {
+      "_id": "5b0059e3e74cb22a17321c9d",
+      "description": "sunny",
+      "temperature": -6.95,
+      "humidity": 0.78,
+      "time": "2014-02-03 09:02:07.89"
+    },
+    {
+      "_id": "5b0059e362f7f6a508b81a00",
+      "description": "snowy",
+      "temperature": 32.63,
+      "humidity": 0,
+      "time": "2014-02-15 06:32:17.227"
+    },
+    {
+      "_id": "5b0059e3755c1d8bbed3ec24",
+      "description": "rainy",
+      "temperature": -14.12,
+      "humidity": 0.23,
+      "time": "2014-09-28 09:53:03.684"
+    },
+    {
+      "_id": "5b0059e3056a33dd0b170652",
+      "description": "rainy",
+      "temperature": 18.81,
+      "humidity": 0.87,
+      "time": "2017-10-05 07:08:08.369"
+    },
+    {
+      "_id": "5b0059e3006460ca4640e154",
+      "description": "snowy",
+      "temperature": 9.86,
+      "humidity": 0.93,
+      "time": "2016-04-06 07:32:29.317"
+    },
+    {
+      "_id": "5b0059e34d24fc4a5b829cd1",
+      "description": "sunny",
+      "temperature": -13.1,
+      "humidity": 0.79,
+      "time": "2015-10-13 08:30:18.742"
+    },
+    {
+      "_id": "5b0059e32be489cae2d92b5d",
+      "description": "cloudy",
+      "temperature": -12.44,
+      "humidity": 0.55,
+      "time": "2016-05-26 08:10:52.931"
+    },
+    {
+      "_id": "5b0059e33387f41aed461f42",
+      "description": "snowy",
+      "temperature": 31.28,
+      "humidity": 0.16,
+      "time": "2015-07-13 09:52:39.739"
+    },
+    {
+      "_id": "5b0059e3a3ad61de82fe8139",
+      "description": "snowy",
+      "temperature": -4.44,
+      "humidity": 0.12,
+      "time": "2014-10-05 12:43:31.890"
+    },
+    {
+      "_id": "5b0059e3bf87ade773e59228",
+      "description": "cloudy",
+      "temperature": 15.47,
+      "humidity": 0.52,
+      "time": "2014-03-25 04:39:39.335"
+    },
+    {
+      "_id": "5b0059e3a91f860e3819f69f",
+      "description": "cloudy",
+      "temperature": 34.69,
+      "humidity": 0.4,
+      "time": "2016-10-22 11:19:41.612"
+    },
+    {
+      "_id": "5b0059e37ee53c33941537ac",
+      "description": "sunny",
+      "temperature": 9.26,
+      "humidity": 0.09,
+      "time": "2017-07-27 04:44:30.229"
+    },
+    {
+      "_id": "5b0059e36d948c836b9bae68",
+      "description": "snowy",
+      "temperature": 41.98,
+      "humidity": 0.06,
+      "time": "2016-10-15 02:38:13.954"
+    },
+    {
+      "_id": "5b0059e3cb780d71be8443ca",
+      "description": "sunny",
+      "temperature": 24.9,
+      "humidity": 0.4,
+      "time": "2017-05-12 07:55:25.568"
+    },
+    {
+      "_id": "5b0059e317ec67db95e875b6",
+      "description": "rainy",
+      "temperature": -18.1,
+      "humidity": 0.04,
+      "time": "2014-08-30 02:35:10.412"
+    },
+    {
+      "_id": "5b0059e3000d7f4a7e8ce30a",
+      "description": "cloudy",
+      "temperature": 40.46,
+      "humidity": 0.19,
+      "time": "2018-01-31 01:22:32.772"
+    },
+    {
+      "_id": "5b0059e31bb17ed49ff67501",
+      "description": "cloudy",
+      "temperature": -18.62,
+      "humidity": 0.78,
+      "time": "2016-10-23 04:56:26.25"
+    },
+    {
+      "_id": "5b0059e385d0f37061403cdd",
+      "description": "cloudy",
+      "temperature": -5.34,
+      "humidity": 0.35,
+      "time": "2015-04-22 11:45:16.234"
+    },
+    {
+      "_id": "5b0059e3c94d87e3bc299716",
+      "description": "cloudy",
+      "temperature": 18.32,
+      "humidity": 0.27,
+      "time": "2017-03-03 07:44:52.192"
+    },
+    {
+      "_id": "5b0059e344879230bf294458",
+      "description": "sunny",
+      "temperature": 34.84,
+      "humidity": 0.81,
+      "time": "2015-10-09 03:11:36.984"
+    },
+    {
+      "_id": "5b0059e3c9db7b97f3d539f2",
+      "description": "rainy",
+      "temperature": 13.95,
+      "humidity": 0.78,
+      "time": "2016-04-04 02:43:28.266"
+    },
+    {
+      "_id": "5b0059e39fee010236dc92dc",
+      "description": "snowy",
+      "temperature": 10.89,
+      "humidity": 0.17,
+      "time": "2018-05-04 01:31:22.242"
+    },
+    {
+      "_id": "5b0059e358f4e0a69bf039ea",
+      "description": "rainy",
+      "temperature": 15.94,
+      "humidity": 0.4,
+      "time": "2016-12-09 05:59:56.808"
+    },
+    {
+      "_id": "5b0059e3994b9a5d76b1a45a",
+      "description": "rainy",
+      "temperature": 12.27,
+      "humidity": 0.45,
+      "time": "2014-08-05 04:14:41.588"
+    },
+    {
+      "_id": "5b0059e38aabc1b77cb157e5",
+      "description": "snowy",
+      "temperature": 5.52,
+      "humidity": 0.44,
+      "time": "2014-01-14 06:17:23.802"
+    },
+    {
+      "_id": "5b0059e3dedeeaf2cc1d09d9",
+      "description": "rainy",
+      "temperature": 22.6,
+      "humidity": 0.42,
+      "time": "2017-08-20 03:07:01.596"
+    },
+    {
+      "_id": "5b0059e36607f6b1c018e3c4",
+      "description": "cloudy",
+      "temperature": 27.73,
+      "humidity": 0.75,
+      "time": "2017-04-19 10:44:41.762"
+    },
+    {
+      "_id": "5b0059e30e17b693333dcf63",
+      "description": "sunny",
+      "temperature": 17.37,
+      "humidity": 0.15,
+      "time": "2015-06-02 06:28:59.312"
+    },
+    {
+      "_id": "5b0059e3cae416bbcdc81b9a",
+      "description": "sunny",
+      "temperature": 23.19,
+      "humidity": 0.66,
+      "time": "2018-04-12 07:32:13.918"
+    },
+    {
+      "_id": "5b0059e3f604bd080e1d8ee6",
+      "description": "cloudy",
+      "temperature": 16.68,
+      "humidity": 0.92,
+      "time": "2014-08-07 10:03:48.97"
+    },
+    {
+      "_id": "5b0059e385bbafcaaf15ceb6",
+      "description": "sunny",
+      "temperature": -2.28,
+      "humidity": 0.74,
+      "time": "2017-07-11 06:54:00.482"
+    },
+    {
+      "_id": "5b0059e3bd192e7f320db248",
+      "description": "rainy",
+      "temperature": 40.12,
+      "humidity": 0.52,
+      "time": "2015-02-26 08:25:57.899"
+    },
+    {
+      "_id": "5b0059e3ce15d267e92bdaf8",
+      "description": "rainy",
+      "temperature": 8.65,
+      "humidity": 0.28,
+      "time": "2016-07-14 05:51:44.825"
+    },
+    {
+      "_id": "5b0059e38b4af4dac0b3d47c",
+      "description": "cloudy",
+      "temperature": -18.85,
+      "humidity": 0.9,
+      "time": "2015-06-19 08:13:47.757"
+    },
+    {
+      "_id": "5b0059e3ee03a4f41dbba8f1",
+      "description": "cloudy",
+      "temperature": -7.48,
+      "humidity": 0.83,
+      "time": "2018-01-26 01:37:19.723"
+    },
+    {
+      "_id": "5b0059e36f038bb4ae91ae78",
+      "description": "snowy",
+      "temperature": 35.77,
+      "humidity": 0.31,
+      "time": "2014-10-27 08:11:46.429"
+    },
+    {
+      "_id": "5b0059e3de9a0c63fa3e9ee3",
+      "description": "sunny",
+      "temperature": 5.84,
+      "humidity": 0.21,
+      "time": "2014-01-24 01:49:05.479"
+    },
+    {
+      "_id": "5b0059e38553e4ab37cb63d6",
+      "description": "sunny",
+      "temperature": -6.07,
+      "humidity": 0.48,
+      "time": "2017-12-04 10:16:10.770"
+    },
+    {
+      "_id": "5b0059e39cc60b0a07e15643",
+      "description": "snowy",
+      "temperature": 14.45,
+      "humidity": 0.51,
+      "time": "2015-10-07 05:12:51.480"
+    },
+    {
+      "_id": "5b0059e3a9662c52dc94f24c",
+      "description": "sunny",
+      "temperature": 42.57,
+      "humidity": 0.85,
+      "time": "2016-07-04 12:06:39.714"
+    },
+    {
+      "_id": "5b0059e372c5ca708b51e03f",
+      "description": "cloudy",
+      "temperature": 41.87,
+      "humidity": 0.94,
+      "time": "2015-10-10 01:34:43.298"
+    },
+    {
+      "_id": "5b0059e380540b2a93942eed",
+      "description": "sunny",
+      "temperature": 31.55,
+      "humidity": 0.96,
+      "time": "2015-08-14 09:09:35.324"
+    },
+    {
+      "_id": "5b0059e3abcbc809d7402bda",
+      "description": "rainy",
+      "temperature": 9.68,
+      "humidity": 0.26,
+      "time": "2016-08-18 10:40:57.490"
+    },
+    {
+      "_id": "5b0059e3bae5ea4533ad9358",
+      "description": "sunny",
+      "temperature": 36.04,
+      "humidity": 0.01,
+      "time": "2017-12-19 05:09:17.649"
+    },
+    {
+      "_id": "5b0059e3729211f98862fdff",
+      "description": "snowy",
+      "temperature": 4.88,
+      "humidity": 0.19,
+      "time": "2014-08-08 03:25:00.385"
+    },
+    {
+      "_id": "5b0059e376108a91cc178319",
+      "description": "sunny",
+      "temperature": 25.55,
+      "humidity": 0.12,
+      "time": "2014-02-23 09:32:28.591"
+    },
+    {
+      "_id": "5b0059e3d17f6264d7122e82",
+      "description": "rainy",
+      "temperature": -16.34,
+      "humidity": 0.6,
+      "time": "2015-01-14 04:59:32.699"
+    },
+    {
+      "_id": "5b0059e34592c70e0a08e1c3",
+      "description": "cloudy",
+      "temperature": 17.03,
+      "humidity": 0.12,
+      "time": "2017-02-01 07:55:03.784"
+    },
+    {
+      "_id": "5b0059e34c55b8938cc925e6",
+      "description": "cloudy",
+      "temperature": 2.04,
+      "humidity": 0.88,
+      "time": "2015-05-23 08:39:18.981"
+    },
+    {
+      "_id": "5b0059e34d8769d97eed41c2",
+      "description": "rainy",
+      "temperature": 34.42,
+      "humidity": 1,
+      "time": "2016-10-15 02:07:14.85"
+    },
+    {
+      "_id": "5b0059e3c2809cc12530ff7b",
+      "description": "snowy",
+      "temperature": 30.23,
+      "humidity": 0.73,
+      "time": "2017-02-05 01:58:35.486"
+    },
+    {
+      "_id": "5b0059e385e7331ff64e0a1d",
+      "description": "rainy",
+      "temperature": 20,
+      "humidity": 0.27,
+      "time": "2016-09-15 12:14:51.587"
+    },
+    {
+      "_id": "5b0059e3bb7375d2c0e66159",
+      "description": "snowy",
+      "temperature": -0.66,
+      "humidity": 0.71,
+      "time": "2018-03-04 07:56:07.841"
+    },
+    {
+      "_id": "5b0059e3995e7a4ddcc0d838",
+      "description": "cloudy",
+      "temperature": 24.76,
+      "humidity": 0.72,
+      "time": "2016-11-17 08:04:11.375"
+    },
+    {
+      "_id": "5b0059e340d70405e888dd3f",
+      "description": "cloudy",
+      "temperature": 4.69,
+      "humidity": 0.68,
+      "time": "2014-05-01 01:56:37.708"
+    },
+    {
+      "_id": "5b0059e3652ee5622e2368d2",
+      "description": "sunny",
+      "temperature": 43.26,
+      "humidity": 0.2,
+      "time": "2017-09-25 12:55:25.306"
+    },
+    {
+      "_id": "5b0059e3d51b51da261b6a33",
+      "description": "cloudy",
+      "temperature": 33.15,
+      "humidity": 0.23,
+      "time": "2014-03-05 08:22:31.559"
+    },
+    {
+      "_id": "5b0059e30724b055e20ec198",
+      "description": "cloudy",
+      "temperature": 14.61,
+      "humidity": 0.71,
+      "time": "2014-05-14 08:55:43.420"
+    },
+    {
+      "_id": "5b0059e351656c7996a5e05e",
+      "description": "snowy",
+      "temperature": 22.18,
+      "humidity": 0.02,
+      "time": "2016-01-01 09:37:06.928"
+    },
+    {
+      "_id": "5b0059e33da74e5c2fe577f5",
+      "description": "cloudy",
+      "temperature": -13,
+      "humidity": 0.62,
+      "time": "2017-06-23 06:48:27.640"
+    },
+    {
+      "_id": "5b0059e37272c2f2d4664ebe",
+      "description": "cloudy",
+      "temperature": 10.91,
+      "humidity": 0.69,
+      "time": "2014-06-16 09:02:10.430"
+    },
+    {
+      "_id": "5b0059e3b00556331060ff04",
+      "description": "sunny",
+      "temperature": 40.66,
+      "humidity": 0.45,
+      "time": "2016-11-05 06:36:11.332"
+    },
+    {
+      "_id": "5b0059e38855ea852c2b9cf6",
+      "description": "snowy",
+      "temperature": -7.13,
+      "humidity": 0.98,
+      "time": "2015-09-21 08:22:15.618"
+    },
+    {
+      "_id": "5b0059e31aaed330ec1223a1",
+      "description": "sunny",
+      "temperature": 39.94,
+      "humidity": 0.55,
+      "time": "2014-06-12 11:03:54.17"
+    },
+    {
+      "_id": "5b0059e343fa6dbad2c5dba6",
+      "description": "cloudy",
+      "temperature": -10.31,
+      "humidity": 0.54,
+      "time": "2016-07-07 06:58:23.723"
+    },
+    {
+      "_id": "5b0059e39830f770bf477520",
+      "description": "sunny",
+      "temperature": 20.87,
+      "humidity": 0.67,
+      "time": "2016-05-02 09:24:24.806"
+    },
+    {
+      "_id": "5b0059e349867855208caace",
+      "description": "snowy",
+      "temperature": 1.38,
+      "humidity": 0.6,
+      "time": "2016-01-25 01:30:49.608"
+    },
+    {
+      "_id": "5b0059e3a638aa2627e46c09",
+      "description": "snowy",
+      "temperature": 10.41,
+      "humidity": 0.42,
+      "time": "2014-08-31 07:00:32.985"
+    },
+    {
+      "_id": "5b0059e303f5ee89b22d3c58",
+      "description": "rainy",
+      "temperature": 39.86,
+      "humidity": 0.73,
+      "time": "2016-06-09 10:36:46.185"
+    },
+    {
+      "_id": "5b0059e3604b4714b4db88b8",
+      "description": "snowy",
+      "temperature": 1.07,
+      "humidity": 0.16,
+      "time": "2017-09-29 01:44:52.200"
+    },
+    {
+      "_id": "5b0059e375507d0d415f569a",
+      "description": "snowy",
+      "temperature": -16.21,
+      "humidity": 0.53,
+      "time": "2015-09-07 01:29:51.258"
+    },
+    {
+      "_id": "5b0059e3f0cb5afd21073ddd",
+      "description": "snowy",
+      "temperature": 36.01,
+      "humidity": 0.4,
+      "time": "2015-05-23 01:37:34.932"
+    },
+    {
+      "_id": "5b0059e3d685e75362560fe8",
+      "description": "rainy",
+      "temperature": -1.68,
+      "humidity": 0.37,
+      "time": "2017-11-19 10:35:05.470"
+    },
+    {
+      "_id": "5b0059e33eef1adb3e0ee12b",
+      "description": "sunny",
+      "temperature": 26.24,
+      "humidity": 0.67,
+      "time": "2016-10-19 05:21:46.795"
+    },
+    {
+      "_id": "5b0059e339cdb9c44f9c9484",
+      "description": "rainy",
+      "temperature": -1.16,
+      "humidity": 0.57,
+      "time": "2015-11-07 03:28:20.178"
+    },
+    {
+      "_id": "5b0059e3dbb9bbbcc989a449",
+      "description": "rainy",
+      "temperature": 31.66,
+      "humidity": 0.19,
+      "time": "2018-03-02 03:32:59.477"
+    },
+    {
+      "_id": "5b0059e35e8b72c7c18d43e7",
+      "description": "snowy",
+      "temperature": -9.73,
+      "humidity": 0.65,
+      "time": "2016-06-09 06:30:58.852"
+    },
+    {
+      "_id": "5b0059e3fbfb227602c32842",
+      "description": "snowy",
+      "temperature": -17.91,
+      "humidity": 0.3,
+      "time": "2014-03-11 08:25:48.954"
+    },
+    {
+      "_id": "5b0059e3d70cfb381f865048",
+      "description": "cloudy",
+      "temperature": 42.48,
+      "humidity": 0.62,
+      "time": "2014-05-10 08:36:16.919"
+    },
+    {
+      "_id": "5b0059e3eb46457d40b98d89",
+      "description": "rainy",
+      "temperature": 38.59,
+      "humidity": 0.07,
+      "time": "2017-09-16 07:17:32.514"
+    },
+    {
+      "_id": "5b0059e37aebd4ef271ca5e3",
+      "description": "rainy",
+      "temperature": -8.99,
+      "humidity": 0.3,
+      "time": "2017-05-23 02:17:09.335"
+    },
+    {
+      "_id": "5b0059e3fa8fa8206d2d5974",
+      "description": "snowy",
+      "temperature": 29.63,
+      "humidity": 0.97,
+      "time": "2017-09-27 03:46:15.304"
+    },
+    {
+      "_id": "5b0059e373627115c1a2302d",
+      "description": "snowy",
+      "temperature": 36.5,
+      "humidity": 0.47,
+      "time": "2014-01-23 10:45:31.820"
+    },
+    {
+      "_id": "5b0059e3717ffa53a8fe690c",
+      "description": "sunny",
+      "temperature": 14.1,
+      "humidity": 0.44,
+      "time": "2018-04-02 04:46:35.601"
+    },
+    {
+      "_id": "5b0059e3e1a5e28f2c8c4fa4",
+      "description": "snowy",
+      "temperature": -10.39,
+      "humidity": 0.8,
+      "time": "2016-02-09 07:30:48.219"
+    },
+    {
+      "_id": "5b0059e39b1d0c404c951b80",
+      "description": "sunny",
+      "temperature": -10.51,
+      "humidity": 0.29,
+      "time": "2016-05-12 09:06:31.653"
+    },
+    {
+      "_id": "5b0059e37b1c6327f060db8a",
+      "description": "rainy",
+      "temperature": 18.76,
+      "humidity": 0.45,
+      "time": "2017-09-05 08:58:10.131"
+    },
+    {
+      "_id": "5b0059e3360e077ce1e0d078",
+      "description": "sunny",
+      "temperature": 15.44,
+      "humidity": 0.39,
+      "time": "2016-11-06 03:23:30.545"
+    },
+    {
+      "_id": "5b0059e34f6bb2a1517b94c5",
+      "description": "rainy",
+      "temperature": -17.1,
+      "humidity": 0.36,
+      "time": "2016-03-01 12:44:08.202"
+    },
+    {
+      "_id": "5b0059e35715bb780e58c2ef",
+      "description": "cloudy",
+      "temperature": 16.65,
+      "humidity": 0,
+      "time": "2017-02-28 10:10:47.204"
+    },
+    {
+      "_id": "5b0059e3b8d32d2695c87e41",
+      "description": "sunny",
+      "temperature": 17.17,
+      "humidity": 0.23,
+      "time": "2016-02-15 10:04:39.171"
+    },
+    {
+      "_id": "5b0059e3e7d85a29c37139fe",
+      "description": "cloudy",
+      "temperature": 18.97,
+      "humidity": 0.26,
+      "time": "2015-01-17 04:18:26.763"
+    },
+    {
+      "_id": "5b0059e3421caf4151230a37",
+      "description": "cloudy",
+      "temperature": 28.64,
+      "humidity": 0.85,
+      "time": "2017-06-10 04:33:35.30"
+    },
+    {
+      "_id": "5b0059e388877171da96a474",
+      "description": "cloudy",
+      "temperature": 16.07,
+      "humidity": 0.77,
+      "time": "2017-03-29 11:38:07.785"
+    },
+    {
+      "_id": "5b0059e3be01ea2a15b2f9d6",
+      "description": "cloudy",
+      "temperature": 27.88,
+      "humidity": 0.87,
+      "time": "2017-05-03 01:08:04.885"
+    },
+    {
+      "_id": "5b0059e30bf9c0c459df6018",
+      "description": "snowy",
+      "temperature": -13.85,
+      "humidity": 0.47,
+      "time": "2016-02-10 03:22:45.17"
+    },
+    {
+      "_id": "5b0059e3b9f3cf74d9306667",
+      "description": "rainy",
+      "temperature": 10.79,
+      "humidity": 0.95,
+      "time": "2014-04-08 10:39:45.252"
+    },
+    {
+      "_id": "5b0059e31b1a7ca6c3f16820",
+      "description": "rainy",
+      "temperature": 38.25,
+      "humidity": 0.6,
+      "time": "2016-08-19 03:42:26.723"
+    },
+    {
+      "_id": "5b0059e37e1e69006989b949",
+      "description": "cloudy",
+      "temperature": 27.61,
+      "humidity": 0.64,
+      "time": "2014-03-14 04:57:58.545"
+    },
+    {
+      "_id": "5b0059e37fdfba31a42f8a53",
+      "description": "cloudy",
+      "temperature": 37.52,
+      "humidity": 0.57,
+      "time": "2016-04-21 03:38:19.521"
+    },
+    {
+      "_id": "5b0059e316842282b77edf4e",
+      "description": "snowy",
+      "temperature": -15.19,
+      "humidity": 0.24,
+      "time": "2015-08-16 11:43:24.534"
+    },
+    {
+      "_id": "5b0059e36831a51df0919922",
+      "description": "snowy",
+      "temperature": -3.88,
+      "humidity": 0.23,
+      "time": "2018-01-16 06:26:40.340"
+    },
+    {
+      "_id": "5b0059e34a157fd6c28852a7",
+      "description": "snowy",
+      "temperature": 19.57,
+      "humidity": 0.07,
+      "time": "2015-09-16 03:46:05.237"
+    },
+    {
+      "_id": "5b0059e3319ecfcdad8f9ebd",
+      "description": "rainy",
+      "temperature": 38.57,
+      "humidity": 0.47,
+      "time": "2016-09-22 01:12:21.260"
+    },
+    {
+      "_id": "5b0059e3050f6962a7ea0c20",
+      "description": "sunny",
+      "temperature": 27.49,
+      "humidity": 0.33,
+      "time": "2014-03-06 05:51:19.276"
+    },
+    {
+      "_id": "5b0059e34631b67214d118c1",
+      "description": "rainy",
+      "temperature": 38.64,
+      "humidity": 0.76,
+      "time": "2018-03-29 02:31:17.171"
+    },
+    {
+      "_id": "5b0059e31d608420807cacf7",
+      "description": "snowy",
+      "temperature": -15.29,
+      "humidity": 0.24,
+      "time": "2017-03-24 05:53:36.56"
+    },
+    {
+      "_id": "5b0059e3ce07ad6fbc8d3281",
+      "description": "cloudy",
+      "temperature": -7.45,
+      "humidity": 0.38,
+      "time": "2015-05-28 05:50:36.761"
+    },
+    {
+      "_id": "5b0059e3adbb79ecd023946f",
+      "description": "rainy",
+      "temperature": 1.5,
+      "humidity": 0.53,
+      "time": "2014-05-30 07:30:59.441"
+    },
+    {
+      "_id": "5b0059e3d29b9e14f368a59c",
+      "description": "rainy",
+      "temperature": 4.52,
+      "humidity": 0.29,
+      "time": "2016-12-23 05:59:25.812"
+    },
+    {
+      "_id": "5b0059e32578cf2dd6aaf3ed",
+      "description": "sunny",
+      "temperature": 23.22,
+      "humidity": 0.17,
+      "time": "2017-09-13 01:55:34.130"
+    },
+    {
+      "_id": "5b0059e36a21831b6546da06",
+      "description": "snowy",
+      "temperature": 3.58,
+      "humidity": 0.23,
+      "time": "2017-11-09 10:23:46.364"
+    },
+    {
+      "_id": "5b0059e3d5d5086c37da2f92",
+      "description": "rainy",
+      "temperature": 14.09,
+      "humidity": 0.32,
+      "time": "2014-05-25 12:14:11.269"
+    },
+    {
+      "_id": "5b0059e37e848c53fbe885ee",
+      "description": "snowy",
+      "temperature": 27.23,
+      "humidity": 0.8,
+      "time": "2017-02-26 07:15:59.95"
+    },
+    {
+      "_id": "5b0059e3e6a2ec8de44a472f",
+      "description": "cloudy",
+      "temperature": 25.67,
+      "humidity": 0.6,
+      "time": "2017-11-08 02:29:58.458"
+    },
+    {
+      "_id": "5b0059e3cd9d616622e73cd1",
+      "description": "cloudy",
+      "temperature": 19.16,
+      "humidity": 0.07,
+      "time": "2015-02-09 05:05:36.498"
+    },
+    {
+      "_id": "5b0059e3cf854ecbd6048fdf",
+      "description": "cloudy",
+      "temperature": -16.32,
+      "humidity": 1,
+      "time": "2018-05-07 10:41:25.676"
+    },
+    {
+      "_id": "5b0059e3ceaaf55e93d86a87",
+      "description": "sunny",
+      "temperature": 17.66,
+      "humidity": 0.01,
+      "time": "2017-09-26 06:18:06.313"
+    },
+    {
+      "_id": "5b0059e3b3d0a4ff549a418a",
+      "description": "rainy",
+      "temperature": -7.45,
+      "humidity": 0.3,
+      "time": "2014-05-28 12:10:30.747"
+    },
+    {
+      "_id": "5b0059e3ca418a0b90e40023",
+      "description": "rainy",
+      "temperature": 42.26,
+      "humidity": 0.55,
+      "time": "2017-12-10 03:26:38.710"
+    },
+    {
+      "_id": "5b0059e3276959381303b77f",
+      "description": "sunny",
+      "temperature": 30.92,
+      "humidity": 0.35,
+      "time": "2017-12-25 10:41:12.906"
+    },
+    {
+      "_id": "5b0059e353d2b2704f9ca0df",
+      "description": "rainy",
+      "temperature": -9.21,
+      "humidity": 0.85,
+      "time": "2015-08-30 10:22:51.756"
+    },
+    {
+      "_id": "5b0059e3936c4c79efa58bf7",
+      "description": "snowy",
+      "temperature": 26.93,
+      "humidity": 0.54,
+      "time": "2016-05-15 10:32:52.564"
+    },
+    {
+      "_id": "5b0059e346b0e98b4ad69ee4",
+      "description": "sunny",
+      "temperature": 20.17,
+      "humidity": 0.45,
+      "time": "2015-12-07 12:43:26.925"
+    },
+    {
+      "_id": "5b0059e3e2929f6c03b2f038",
+      "description": "cloudy",
+      "temperature": 12.5,
+      "humidity": 0.27,
+      "time": "2017-10-30 05:54:47.864"
+    },
+    {
+      "_id": "5b0059e337fd72228fcb3756",
+      "description": "rainy",
+      "temperature": -14.18,
+      "humidity": 0.81,
+      "time": "2016-11-13 01:01:59.6"
+    },
+    {
+      "_id": "5b0059e3ddd9fea7ae76638b",
+      "description": "cloudy",
+      "temperature": 18.56,
+      "humidity": 0.09,
+      "time": "2014-10-02 03:35:10.320"
+    },
+    {
+      "_id": "5b0059e3da97374b6b128341",
+      "description": "cloudy",
+      "temperature": -12.13,
+      "humidity": 0.59,
+      "time": "2014-01-26 09:58:46.671"
+    },
+    {
+      "_id": "5b0059e3c5600a58e4838210",
+      "description": "sunny",
+      "temperature": -16.63,
+      "humidity": 0.47,
+      "time": "2015-11-15 04:23:12.506"
+    },
+    {
+      "_id": "5b0059e3670c19cb65baa8e0",
+      "description": "cloudy",
+      "temperature": -1.45,
+      "humidity": 0.47,
+      "time": "2016-09-20 01:47:11.836"
+    },
+    {
+      "_id": "5b0059e3a6fc8fd3b384b263",
+      "description": "snowy",
+      "temperature": -5.73,
+      "humidity": 0.88,
+      "time": "2017-12-20 05:21:03.217"
+    },
+    {
+      "_id": "5b0059e3d9805501f6eeb5db",
+      "description": "rainy",
+      "temperature": 22.96,
+      "humidity": 0.22,
+      "time": "2015-03-23 05:06:24.475"
+    },
+    {
+      "_id": "5b0059e36f1ce52f30fc2ebb",
+      "description": "cloudy",
+      "temperature": 10.14,
+      "humidity": 0.66,
+      "time": "2016-07-23 03:01:51.413"
+    },
+    {
+      "_id": "5b0059e3fc29810c13864469",
+      "description": "rainy",
+      "temperature": 32.49,
+      "humidity": 0.28,
+      "time": "2016-04-29 06:52:10.908"
+    },
+    {
+      "_id": "5b0059e3038f35042eb7b9ba",
+      "description": "cloudy",
+      "temperature": 1.7,
+      "humidity": 0.44,
+      "time": "2014-07-08 10:11:00.61"
+    },
+    {
+      "_id": "5b0059e3e27458b579d452c5",
+      "description": "sunny",
+      "temperature": 14.43,
+      "humidity": 0.44,
+      "time": "2018-03-31 03:39:09.519"
+    },
+    {
+      "_id": "5b0059e391006c64e41b2b66",
+      "description": "rainy",
+      "temperature": 44.79,
+      "humidity": 0.88,
+      "time": "2018-03-01 07:19:21.454"
+    },
+    {
+      "_id": "5b0059e333dbd4ce1fd88287",
+      "description": "rainy",
+      "temperature": 29.54,
+      "humidity": 0.38,
+      "time": "2017-11-12 12:39:35.544"
+    },
+    {
+      "_id": "5b0059e3f9a306ad296a656c",
+      "description": "rainy",
+      "temperature": 24.75,
+      "humidity": 0.59,
+      "time": "2014-11-12 05:40:31.106"
+    },
+    {
+      "_id": "5b0059e30e9a729f1449fea8",
+      "description": "cloudy",
+      "temperature": 35.71,
+      "humidity": 0.06,
+      "time": "2014-12-19 09:59:32.824"
+    },
+    {
+      "_id": "5b0059e3264e431a297dc735",
+      "description": "sunny",
+      "temperature": 7.84,
+      "humidity": 0.01,
+      "time": "2017-10-29 01:06:21.449"
+    },
+    {
+      "_id": "5b0059e32445a8fbbee5ed06",
+      "description": "rainy",
+      "temperature": -17.94,
+      "humidity": 0.5,
+      "time": "2016-09-12 12:51:20.614"
+    },
+    {
+      "_id": "5b0059e3dc51258e08e5ac08",
+      "description": "cloudy",
+      "temperature": -1.18,
+      "humidity": 0.26,
+      "time": "2017-12-17 07:58:38.528"
+    },
+    {
+      "_id": "5b0059e3152a757b23a80dc1",
+      "description": "sunny",
+      "temperature": -2.58,
+      "humidity": 0.29,
+      "time": "2014-02-05 06:22:34.837"
+    },
+    {
+      "_id": "5b0059e3b881e0394fb6f831",
+      "description": "rainy",
+      "temperature": 16.2,
+      "humidity": 0.36,
+      "time": "2014-10-24 11:30:27.549"
+    },
+    {
+      "_id": "5b0059e31a8df778ad1a893b",
+      "description": "rainy",
+      "temperature": 22.7,
+      "humidity": 0.71,
+      "time": "2014-01-26 01:45:09.326"
+    },
+    {
+      "_id": "5b0059e3f379d17849b27618",
+      "description": "cloudy",
+      "temperature": 7.44,
+      "humidity": 0.15,
+      "time": "2015-07-14 12:06:27.404"
+    },
+    {
+      "_id": "5b0059e30dd906c02283d925",
+      "description": "snowy",
+      "temperature": 37.23,
+      "humidity": 0.41,
+      "time": "2017-01-01 12:49:43.384"
+    },
+    {
+      "_id": "5b0059e36f52e243cedfdf0e",
+      "description": "cloudy",
+      "temperature": -0.9,
+      "humidity": 0.68,
+      "time": "2014-07-13 02:07:39.850"
+    },
+    {
+      "_id": "5b0059e3577f5a560c0c23b1",
+      "description": "rainy",
+      "temperature": 6.47,
+      "humidity": 0.93,
+      "time": "2014-07-17 04:44:59.525"
+    },
+    {
+      "_id": "5b0059e3d53d07a64e09a7fd",
+      "description": "snowy",
+      "temperature": 39.35,
+      "humidity": 0.05,
+      "time": "2015-02-11 05:41:09.137"
+    },
+    {
+      "_id": "5b0059e37d6f3b61b9ebfef0",
+      "description": "cloudy",
+      "temperature": -15.62,
+      "humidity": 0.76,
+      "time": "2015-12-26 09:51:21.834"
+    },
+    {
+      "_id": "5b0059e36e42af16bb15cbf9",
+      "description": "cloudy",
+      "temperature": 14.3,
+      "humidity": 0.98,
+      "time": "2014-11-29 03:16:20.512"
+    },
+    {
+      "_id": "5b0059e3e43e1fef22406518",
+      "description": "sunny",
+      "temperature": 10.38,
+      "humidity": 0.09,
+      "time": "2015-02-16 06:44:24.542"
+    },
+    {
+      "_id": "5b0059e36dbad247af06c031",
+      "description": "snowy",
+      "temperature": 1.05,
+      "humidity": 0.51,
+      "time": "2017-04-30 03:52:49.3"
+    },
+    {
+      "_id": "5b0059e312a24afe8390521d",
+      "description": "cloudy",
+      "temperature": 33.05,
+      "humidity": 0.36,
+      "time": "2016-09-03 09:07:53.367"
+    },
+    {
+      "_id": "5b0059e3f5a4a122cce5a11f",
+      "description": "cloudy",
+      "temperature": 24,
+      "humidity": 0.06,
+      "time": "2016-05-01 11:35:08.204"
+    },
+    {
+      "_id": "5b0059e3b0c079c4488a4b27",
+      "description": "cloudy",
+      "temperature": 27.93,
+      "humidity": 0.44,
+      "time": "2016-09-02 06:23:03.614"
+    },
+    {
+      "_id": "5b0059e3643d9b0fc4b4f195",
+      "description": "rainy",
+      "temperature": 42.83,
+      "humidity": 0.42,
+      "time": "2015-07-15 12:56:44.305"
+    },
+    {
+      "_id": "5b0059e386f2e47c2aa720dd",
+      "description": "rainy",
+      "temperature": 26.26,
+      "humidity": 0.4,
+      "time": "2015-09-18 09:48:19.14"
+    },
+    {
+      "_id": "5b0059e39c5e3825bc56b081",
+      "description": "sunny",
+      "temperature": -15.38,
+      "humidity": 0.48,
+      "time": "2015-07-05 02:46:17.532"
+    },
+    {
+      "_id": "5b0059e3d0b4e088c6e22a9e",
+      "description": "rainy",
+      "temperature": 8.77,
+      "humidity": 0.56,
+      "time": "2014-06-30 02:06:18.355"
+    },
+    {
+      "_id": "5b0059e380a6a36559d18b18",
+      "description": "cloudy",
+      "temperature": 15.71,
+      "humidity": 0.12,
+      "time": "2015-10-31 01:29:49.636"
+    },
+    {
+      "_id": "5b0059e33bca8792bc566530",
+      "description": "rainy",
+      "temperature": -17.2,
+      "humidity": 0.99,
+      "time": "2017-01-27 04:32:33.295"
+    },
+    {
+      "_id": "5b0059e35ad75626f784a9db",
+      "description": "snowy",
+      "temperature": 3.6,
+      "humidity": 0.53,
+      "time": "2017-07-25 09:26:40.322"
+    },
+    {
+      "_id": "5b0059e3a488f964d7076080",
+      "description": "cloudy",
+      "temperature": 19.65,
+      "humidity": 0.08,
+      "time": "2015-10-20 03:10:39.202"
+    },
+    {
+      "_id": "5b0059e3cd2e9562d62bf8b4",
+      "description": "sunny",
+      "temperature": 17.86,
+      "humidity": 0.45,
+      "time": "2018-03-18 02:26:44.508"
+    },
+    {
+      "_id": "5b0059e35fbdaaab425ec7ea",
+      "description": "rainy",
+      "temperature": 19.64,
+      "humidity": 0.88,
+      "time": "2017-05-04 11:06:50.541"
+    },
+    {
+      "_id": "5b0059e396b41fcd91e1f562",
+      "description": "sunny",
+      "temperature": -19.48,
+      "humidity": 0.72,
+      "time": "2015-04-15 10:48:11.923"
+    },
+    {
+      "_id": "5b0059e33102ab345d1ccd8a",
+      "description": "sunny",
+      "temperature": 1.25,
+      "humidity": 0,
+      "time": "2017-09-13 09:29:29.515"
+    },
+    {
+      "_id": "5b0059e3d6996e30f61e10e9",
+      "description": "rainy",
+      "temperature": 30.59,
+      "humidity": 0.59,
+      "time": "2016-09-02 03:10:02.620"
+    },
+    {
+      "_id": "5b0059e315bb8032d6a35abf",
+      "description": "cloudy",
+      "temperature": 10.64,
+      "humidity": 0.12,
+      "time": "2018-04-13 06:08:27.5"
+    },
+    {
+      "_id": "5b0059e3975e1e348bb76a20",
+      "description": "sunny",
+      "temperature": 20.35,
+      "humidity": 0.41,
+      "time": "2014-06-30 03:40:21.111"
+    },
+    {
+      "_id": "5b0059e3f13734c9c8d6e345",
+      "description": "sunny",
+      "temperature": 19.45,
+      "humidity": 0.6,
+      "time": "2017-02-07 05:22:26.932"
+    },
+    {
+      "_id": "5b0059e316e1cbcd7ed2602d",
+      "description": "rainy",
+      "temperature": 0.18,
+      "humidity": 0.18,
+      "time": "2014-02-24 12:51:50.910"
+    },
+    {
+      "_id": "5b0059e3958bd325f57c5380",
+      "description": "cloudy",
+      "temperature": -14,
+      "humidity": 0.18,
+      "time": "2018-05-03 09:44:04.919"
+    },
+    {
+      "_id": "5b0059e3c2159834258e99a6",
+      "description": "sunny",
+      "temperature": 35.94,
+      "humidity": 0.97,
+      "time": "2016-06-08 06:39:20.174"
+    },
+    {
+      "_id": "5b0059e3a30c5c027d5f7abd",
+      "description": "snowy",
+      "temperature": 32.55,
+      "humidity": 0.37,
+      "time": "2017-08-07 07:24:37.21"
+    },
+    {
+      "_id": "5b0059e31e2b661fb96a3b45",
+      "description": "sunny",
+      "temperature": 41.63,
+      "humidity": 0.07,
+      "time": "2014-11-18 05:10:48.436"
+    },
+    {
+      "_id": "5b0059e3d93c6dc5301e2e6b",
+      "description": "cloudy",
+      "temperature": 11.03,
+      "humidity": 0.11,
+      "time": "2014-04-03 12:16:01.318"
+    },
+    {
+      "_id": "5b0059e35386a46a912134e2",
+      "description": "rainy",
+      "temperature": -17.62,
+      "humidity": 0.02,
+      "time": "2018-04-15 09:29:12.655"
+    },
+    {
+      "_id": "5b0059e3b6addf0fb1f4b1c0",
+      "description": "cloudy",
+      "temperature": 28.8,
+      "humidity": 0.05,
+      "time": "2014-01-20 05:07:37.365"
+    },
+    {
+      "_id": "5b0059e3e3270ddf3532c1fd",
+      "description": "cloudy",
+      "temperature": -8.87,
+      "humidity": 0.95,
+      "time": "2014-11-27 11:20:05.501"
+    },
+    {
+      "_id": "5b0059e335cf499440f77aa1",
+      "description": "cloudy",
+      "temperature": 6.18,
+      "humidity": 0.89,
+      "time": "2017-11-04 06:49:18.584"
+    },
+    {
+      "_id": "5b0059e33f0a0e8a5c4596fa",
+      "description": "sunny",
+      "temperature": 32.13,
+      "humidity": 0.41,
+      "time": "2014-07-03 09:21:56.88"
+    },
+    {
+      "_id": "5b0059e3026e475136928fac",
+      "description": "sunny",
+      "temperature": 20.21,
+      "humidity": 0.12,
+      "time": "2016-10-17 07:00:15.898"
+    },
+    {
+      "_id": "5b0059e3d2d4a3baea12a9b4",
+      "description": "sunny",
+      "temperature": 24.88,
+      "humidity": 0.04,
+      "time": "2017-09-18 03:59:58.642"
+    },
+    {
+      "_id": "5b0059e390b183e9c542e3f8",
+      "description": "snowy",
+      "temperature": 1.01,
+      "humidity": 0.53,
+      "time": "2017-03-08 12:33:21.418"
+    },
+    {
+      "_id": "5b0059e32d1ca1457820c03e",
+      "description": "snowy",
+      "temperature": 39.81,
+      "humidity": 0.53,
+      "time": "2017-06-29 01:06:50.452"
+    },
+    {
+      "_id": "5b0059e334c70ca44f19f4a0",
+      "description": "cloudy",
+      "temperature": 12.99,
+      "humidity": 0.57,
+      "time": "2017-03-18 02:01:20.102"
+    },
+    {
+      "_id": "5b0059e35269269bb2a55687",
+      "description": "sunny",
+      "temperature": -2.15,
+      "humidity": 0.6,
+      "time": "2017-02-25 10:36:02.991"
+    },
+    {
+      "_id": "5b0059e37ce46687168eadf7",
+      "description": "cloudy",
+      "temperature": 2.83,
+      "humidity": 0.67,
+      "time": "2014-09-20 12:20:19.826"
+    },
+    {
+      "_id": "5b0059e308afaafb56f85e6e",
+      "description": "snowy",
+      "temperature": 1.99,
+      "humidity": 0.86,
+      "time": "2015-03-22 05:03:51.973"
+    },
+    {
+      "_id": "5b0059e37ebc7ca977f5ea04",
+      "description": "rainy",
+      "temperature": 39.87,
+      "humidity": 0.88,
+      "time": "2015-07-02 09:58:23.308"
+    },
+    {
+      "_id": "5b0059e36e6c8b8caf9e5a2f",
+      "description": "snowy",
+      "temperature": 7.18,
+      "humidity": 0.56,
+      "time": "2015-04-01 10:09:08.826"
+    },
+    {
+      "_id": "5b0059e31318f20c10f684d2",
+      "description": "rainy",
+      "temperature": -3.23,
+      "humidity": 0.84,
+      "time": "2018-03-26 03:49:22.540"
+    },
+    {
+      "_id": "5b0059e3e621e5ef6d3dee99",
+      "description": "cloudy",
+      "temperature": 5.06,
+      "humidity": 0.03,
+      "time": "2015-12-01 07:50:57.864"
+    },
+    {
+      "_id": "5b0059e3f7170e2eaf3dc701",
+      "description": "snowy",
+      "temperature": 40.32,
+      "humidity": 0.82,
+      "time": "2015-02-05 11:19:41.375"
+    },
+    {
+      "_id": "5b0059e30457f19cb4220cc3",
+      "description": "cloudy",
+      "temperature": 14.5,
+      "humidity": 0.5,
+      "time": "2016-12-05 08:13:26.700"
+    },
+    {
+      "_id": "5b0059e3520caa589d85dddd",
+      "description": "sunny",
+      "temperature": 1.68,
+      "humidity": 0.44,
+      "time": "2015-07-05 12:19:35.711"
+    },
+    {
+      "_id": "5b0059e31d25eace8a1dcca4",
+      "description": "snowy",
+      "temperature": -8.02,
+      "humidity": 0.43,
+      "time": "2015-07-05 11:35:38.898"
+    },
+    {
+      "_id": "5b0059e31ef9dd65e4eeab30",
+      "description": "snowy",
+      "temperature": -6.37,
+      "humidity": 0.49,
+      "time": "2017-02-07 11:11:31.409"
+    },
+    {
+      "_id": "5b0059e322ff717ac15e86b9",
+      "description": "rainy",
+      "temperature": 17.12,
+      "humidity": 0.61,
+      "time": "2017-09-01 11:23:10.421"
+    },
+    {
+      "_id": "5b0059e31bbc7702351292f4",
+      "description": "sunny",
+      "temperature": -16,
+      "humidity": 0.41,
+      "time": "2015-03-29 10:27:46.188"
+    },
+    {
+      "_id": "5b0059e3032a78ab058aaf43",
+      "description": "cloudy",
+      "temperature": 18.29,
+      "humidity": 0.57,
+      "time": "2015-03-05 04:12:07.676"
+    },
+    {
+      "_id": "5b0059e30501f9f7d5f46ef2",
+      "description": "sunny",
+      "temperature": 44.72,
+      "humidity": 0.73,
+      "time": "2016-01-19 02:52:12.138"
+    },
+    {
+      "_id": "5b0059e32d33d5437d35782a",
+      "description": "snowy",
+      "temperature": 17.92,
+      "humidity": 0.32,
+      "time": "2018-01-19 03:18:28.486"
+    },
+    {
+      "_id": "5b0059e35c7a048618bcfd2f",
+      "description": "sunny",
+      "temperature": 2.76,
+      "humidity": 0.77,
+      "time": "2015-10-29 09:22:28.572"
+    },
+    {
+      "_id": "5b0059e3d2bf0be9f5e98946",
+      "description": "snowy",
+      "temperature": -1.15,
+      "humidity": 0.12,
+      "time": "2016-12-10 01:40:19.703"
+    },
+    {
+      "_id": "5b0059e3f0809cb4fa3627e3",
+      "description": "rainy",
+      "temperature": 32.89,
+      "humidity": 0.58,
+      "time": "2015-12-21 06:01:15.772"
+    },
+    {
+      "_id": "5b0059e3a3bfd134f57b2912",
+      "description": "rainy",
+      "temperature": -10.53,
+      "humidity": 0.59,
+      "time": "2016-08-10 09:47:53.770"
+    },
+    {
+      "_id": "5b0059e3358c73cbc35da256",
+      "description": "cloudy",
+      "temperature": 38.66,
+      "humidity": 0.82,
+      "time": "2017-09-28 10:15:47.326"
+    },
+    {
+      "_id": "5b0059e303526ab26e44da79",
+      "description": "rainy",
+      "temperature": 37.9,
+      "humidity": 0.94,
+      "time": "2016-12-08 02:00:14.252"
+    },
+    {
+      "_id": "5b0059e37cb62a27404d76d4",
+      "description": "sunny",
+      "temperature": 19.59,
+      "humidity": 0.09,
+      "time": "2015-05-30 11:08:15.831"
+    },
+    {
+      "_id": "5b0059e3872354574daa6fdc",
+      "description": "rainy",
+      "temperature": 13.44,
+      "humidity": 0.65,
+      "time": "2015-09-25 04:31:10.795"
+    },
+    {
+      "_id": "5b0059e3070d74c3dba12567",
+      "description": "snowy",
+      "temperature": -15.67,
+      "humidity": 0.78,
+      "time": "2015-06-25 11:01:01.453"
+    },
+    {
+      "_id": "5b0059e3690bd35bd0304220",
+      "description": "snowy",
+      "temperature": 36.06,
+      "humidity": 0.82,
+      "time": "2017-06-17 02:23:32.104"
+    },
+    {
+      "_id": "5b0059e346b60b9a7b6b9b42",
+      "description": "snowy",
+      "temperature": 30.13,
+      "humidity": 0.3,
+      "time": "2016-04-26 06:28:32.284"
+    },
+    {
+      "_id": "5b0059e386028898fa1f9b61",
+      "description": "snowy",
+      "temperature": 3.03,
+      "humidity": 0.97,
+      "time": "2017-11-26 06:23:21.321"
+    },
+    {
+      "_id": "5b0059e3d3b6047466356feb",
+      "description": "sunny",
+      "temperature": 1.22,
+      "humidity": 0.43,
+      "time": "2015-01-23 08:15:13.579"
+    },
+    {
+      "_id": "5b0059e3feaf36bba41ab9ce",
+      "description": "sunny",
+      "temperature": -6.07,
+      "humidity": 0.08,
+      "time": "2016-01-22 04:57:20.392"
+    },
+    {
+      "_id": "5b0059e3ce9868157bbf0f68",
+      "description": "cloudy",
+      "temperature": 15.06,
+      "humidity": 0.85,
+      "time": "2016-04-12 08:07:20.256"
+    },
+    {
+      "_id": "5b0059e38e1341ddc634f2ef",
+      "description": "rainy",
+      "temperature": 34.81,
+      "humidity": 0.85,
+      "time": "2016-10-13 04:21:13.845"
+    },
+    {
+      "_id": "5b0059e3794834ad4ed911f6",
+      "description": "cloudy",
+      "temperature": 36.89,
+      "humidity": 0.09,
+      "time": "2016-02-29 09:06:57.409"
+    },
+    {
+      "_id": "5b0059e3783c0c58037e3536",
+      "description": "sunny",
+      "temperature": 4.87,
+      "humidity": 0.04,
+      "time": "2014-01-17 08:53:32.110"
+    },
+    {
+      "_id": "5b0059e380c152d130e1e119",
+      "description": "sunny",
+      "temperature": 34.3,
+      "humidity": 0.37,
+      "time": "2016-10-22 03:17:51.441"
+    },
+    {
+      "_id": "5b0059e3cd01398cfe6479d6",
+      "description": "rainy",
+      "temperature": 8.82,
+      "humidity": 0.89,
+      "time": "2016-10-03 10:37:50.142"
+    },
+    {
+      "_id": "5b0059e391c9117a067bc608",
+      "description": "snowy",
+      "temperature": -14.01,
+      "humidity": 0.43,
+      "time": "2015-02-07 11:24:00.338"
+    },
+    {
+      "_id": "5b0059e3a089cf4c322bfd0d",
+      "description": "sunny",
+      "temperature": -16.09,
+      "humidity": 0.78,
+      "time": "2014-06-30 01:52:45.555"
+    },
+    {
+      "_id": "5b0059e3960a0dedee8d125b",
+      "description": "cloudy",
+      "temperature": 18.41,
+      "humidity": 0.55,
+      "time": "2014-12-04 04:37:25.536"
+    },
+    {
+      "_id": "5b0059e3219ce61e649b3dc5",
+      "description": "sunny",
+      "temperature": 13.14,
+      "humidity": 0.55,
+      "time": "2015-12-25 01:40:10.655"
+    },
+    {
+      "_id": "5b0059e3e9879a47c757c9b3",
+      "description": "snowy",
+      "temperature": -11.78,
+      "humidity": 0.43,
+      "time": "2015-06-27 11:33:45.678"
+    },
+    {
+      "_id": "5b0059e396890a7700f7d511",
+      "description": "snowy",
+      "temperature": 14.97,
+      "humidity": 0.42,
+      "time": "2014-05-11 06:19:25.482"
+    },
+    {
+      "_id": "5b0059e316b0e04106da27ad",
+      "description": "cloudy",
+      "temperature": 10.6,
+      "humidity": 0.84,
+      "time": "2017-11-04 11:15:22.273"
+    },
+    {
+      "_id": "5b0059e384a139809e7c82dc",
+      "description": "rainy",
+      "temperature": 44.45,
+      "humidity": 0.38,
+      "time": "2015-01-28 08:59:48.639"
+    },
+    {
+      "_id": "5b0059e3d3e0b959d209f169",
+      "description": "cloudy",
+      "temperature": 20.95,
+      "humidity": 0.51,
+      "time": "2018-05-06 05:00:31.270"
+    },
+    {
+      "_id": "5b0059e3ae507e8e0fa12262",
+      "description": "snowy",
+      "temperature": 42.73,
+      "humidity": 0.57,
+      "time": "2016-07-18 05:17:38.125"
+    },
+    {
+      "_id": "5b0059e309d41f1d0ba9f21f",
+      "description": "sunny",
+      "temperature": 42.61,
+      "humidity": 0.15,
+      "time": "2015-12-17 05:32:15.738"
+    },
+    {
+      "_id": "5b0059e38c4a77e3d2819f99",
+      "description": "sunny",
+      "temperature": 1.73,
+      "humidity": 0.18,
+      "time": "2015-11-07 01:08:16.796"
+    },
+    {
+      "_id": "5b0059e304be5feeb19ddad3",
+      "description": "sunny",
+      "temperature": 4.38,
+      "humidity": 0.43,
+      "time": "2015-11-22 06:07:44.334"
+    },
+    {
+      "_id": "5b0059e3ac8b6076d8a8823e",
+      "description": "sunny",
+      "temperature": 31.59,
+      "humidity": 0.93,
+      "time": "2016-03-21 03:47:31.362"
+    },
+    {
+      "_id": "5b0059e3ca80e4dcafd6a428",
+      "description": "snowy",
+      "temperature": -9.79,
+      "humidity": 0.75,
+      "time": "2015-10-31 02:52:33.307"
+    },
+    {
+      "_id": "5b0059e3771832d105ee302d",
+      "description": "sunny",
+      "temperature": -12.15,
+      "humidity": 0.36,
+      "time": "2015-07-22 11:48:20.705"
+    },
+    {
+      "_id": "5b0059e3a79cdfd774837601",
+      "description": "cloudy",
+      "temperature": -12.79,
+      "humidity": 0.53,
+      "time": "2015-01-21 02:40:17.196"
+    },
+    {
+      "_id": "5b0059e38eeeb90c64901d8d",
+      "description": "cloudy",
+      "temperature": -0.84,
+      "humidity": 0.33,
+      "time": "2015-06-26 06:29:10.564"
+    },
+    {
+      "_id": "5b0059e3cfd506f90e334c6d",
+      "description": "sunny",
+      "temperature": 21.26,
+      "humidity": 0.93,
+      "time": "2014-04-14 03:57:44.425"
+    },
+    {
+      "_id": "5b0059e36b64747139d1a32f",
+      "description": "cloudy",
+      "temperature": 31.67,
+      "humidity": 0.36,
+      "time": "2017-09-29 08:03:08.729"
+    },
+    {
+      "_id": "5b0059e3ad3bb8afe9e60bb4",
+      "description": "rainy",
+      "temperature": 29.7,
+      "humidity": 0.64,
+      "time": "2018-01-09 08:32:35.187"
+    },
+    {
+      "_id": "5b0059e30021002730eebec7",
+      "description": "snowy",
+      "temperature": -4.26,
+      "humidity": 0.77,
+      "time": "2015-12-19 12:32:21.758"
+    },
+    {
+      "_id": "5b0059e3f2bd3a7dc9317d85",
+      "description": "snowy",
+      "temperature": 44.81,
+      "humidity": 0.44,
+      "time": "2017-10-17 01:35:52.850"
+    },
+    {
+      "_id": "5b0059e36746467602e2d1b2",
+      "description": "rainy",
+      "temperature": 5.23,
+      "humidity": 0.78,
+      "time": "2016-12-15 01:04:31.966"
+    },
+    {
+      "_id": "5b0059e3f4e3f0a07af2ed9d",
+      "description": "sunny",
+      "temperature": 22.36,
+      "humidity": 0.29,
+      "time": "2015-01-11 03:15:20.608"
+    },
+    {
+      "_id": "5b0059e32a756029c8888e53",
+      "description": "snowy",
+      "temperature": 18.89,
+      "humidity": 0.66,
+      "time": "2015-01-06 06:48:29.171"
+    },
+    {
+      "_id": "5b0059e3b095d50bdd1bb49e",
+      "description": "snowy",
+      "temperature": 8.74,
+      "humidity": 0.17,
+      "time": "2016-07-18 11:50:37.211"
+    },
+    {
+      "_id": "5b0059e38bdb718191967bd0",
+      "description": "sunny",
+      "temperature": 31.75,
+      "humidity": 0.08,
+      "time": "2015-02-19 02:59:33.540"
+    },
+    {
+      "_id": "5b0059e34bd809bad5893bf7",
+      "description": "snowy",
+      "temperature": 1.82,
+      "humidity": 0.7,
+      "time": "2016-05-15 12:15:26.870"
+    },
+    {
+      "_id": "5b0059e342e08544bf8799f9",
+      "description": "rainy",
+      "temperature": -16.15,
+      "humidity": 0.58,
+      "time": "2017-08-31 05:14:29.246"
+    },
+    {
+      "_id": "5b0059e3c195bd3b5993a4e4",
+      "description": "snowy",
+      "temperature": -9.54,
+      "humidity": 0.11,
+      "time": "2016-02-03 06:14:23.285"
+    },
+    {
+      "_id": "5b0059e38adac66628e7dcae",
+      "description": "rainy",
+      "temperature": 42.06,
+      "humidity": 0.76,
+      "time": "2014-09-16 06:42:34.23"
+    },
+    {
+      "_id": "5b0059e373fb8a859e44ad0f",
+      "description": "rainy",
+      "temperature": 6.35,
+      "humidity": 0.86,
+      "time": "2016-10-31 09:53:37.811"
+    },
+    {
+      "_id": "5b0059e3e282c79b0cc478d9",
+      "description": "sunny",
+      "temperature": -16.45,
+      "humidity": 0.81,
+      "time": "2017-06-16 04:43:28.446"
+    },
+    {
+      "_id": "5b0059e3459810d0ffa1d71e",
+      "description": "rainy",
+      "temperature": -15.86,
+      "humidity": 0.38,
+      "time": "2018-02-02 06:50:16.567"
+    },
+    {
+      "_id": "5b0059e3bda24bf6dc3a8279",
+      "description": "snowy",
+      "temperature": 4.29,
+      "humidity": 0.01,
+      "time": "2017-01-11 11:03:12.340"
+    },
+    {
+      "_id": "5b0059e3cf49365f300380e4",
+      "description": "rainy",
+      "temperature": 36.26,
+      "humidity": 0.41,
+      "time": "2014-04-06 02:45:40.553"
+    },
+    {
+      "_id": "5b0059e39ddd88bf84d2ac42",
+      "description": "cloudy",
+      "temperature": 3.64,
+      "humidity": 0,
+      "time": "2017-11-15 03:42:28.648"
+    },
+    {
+      "_id": "5b0059e35dbeb1467721de37",
+      "description": "rainy",
+      "temperature": -4.79,
+      "humidity": 0.06,
+      "time": "2014-07-22 05:33:17.851"
+    },
+    {
+      "_id": "5b0059e3be1bcda42ba87570",
+      "description": "snowy",
+      "temperature": 31.08,
+      "humidity": 0.36,
+      "time": "2017-06-19 02:33:25.599"
+    },
+    {
+      "_id": "5b0059e3b09aeee7a83f3977",
+      "description": "snowy",
+      "temperature": 20.52,
+      "humidity": 0.2,
+      "time": "2015-07-12 11:20:41.564"
+    },
+    {
+      "_id": "5b0059e3103b997563611a7e",
+      "description": "cloudy",
+      "temperature": 14.28,
+      "humidity": 0.2,
+      "time": "2018-02-02 02:18:34.639"
+    },
+    {
+      "_id": "5b0059e35eb4440ba48d0187",
+      "description": "sunny",
+      "temperature": 5.24,
+      "humidity": 0.27,
+      "time": "2018-03-22 12:02:11.179"
+    },
+    {
+      "_id": "5b0059e313f65579399ffa04",
+      "description": "rainy",
+      "temperature": 32.19,
+      "humidity": 0.46,
+      "time": "2016-06-21 07:00:02.865"
+    },
+    {
+      "_id": "5b0059e36cc3237cb11d398d",
+      "description": "snowy",
+      "temperature": -19.47,
+      "humidity": 0.54,
+      "time": "2017-12-20 05:22:55.28"
+    },
+    {
+      "_id": "5b0059e31cf4ee3591bd05eb",
+      "description": "rainy",
+      "temperature": -9.96,
+      "humidity": 0.58,
+      "time": "2017-06-10 02:20:24.207"
+    },
+    {
+      "_id": "5b0059e33260704357d5516c",
+      "description": "cloudy",
+      "temperature": 27.69,
+      "humidity": 0.55,
+      "time": "2014-06-12 08:32:26.218"
+    },
+    {
+      "_id": "5b0059e31bd71097f65c446d",
+      "description": "rainy",
+      "temperature": -5.95,
+      "humidity": 0.57,
+      "time": "2017-08-31 12:25:48.748"
+    },
+    {
+      "_id": "5b0059e366d8481fc0b6bfc3",
+      "description": "snowy",
+      "temperature": 5.87,
+      "humidity": 0.61,
+      "time": "2014-12-13 12:43:42.576"
+    },
+    {
+      "_id": "5b0059e36d10ed2ad04a1591",
+      "description": "rainy",
+      "temperature": 5.53,
+      "humidity": 0.82,
+      "time": "2016-03-07 10:52:42.936"
+    },
+    {
+      "_id": "5b0059e3889211087901b15e",
+      "description": "sunny",
+      "temperature": -17.25,
+      "humidity": 0.19,
+      "time": "2017-12-14 04:33:01.109"
+    },
+    {
+      "_id": "5b0059e3aef8c95532130f03",
+      "description": "rainy",
+      "temperature": 26.4,
+      "humidity": 0.33,
+      "time": "2017-02-22 04:21:37.919"
+    },
+    {
+      "_id": "5b0059e3ef0282b491e6c9c1",
+      "description": "snowy",
+      "temperature": 12.62,
+      "humidity": 0.46,
+      "time": "2014-01-27 04:52:00.784"
+    },
+    {
+      "_id": "5b0059e35015e9de7e88bf2b",
+      "description": "snowy",
+      "temperature": 1.58,
+      "humidity": 0.94,
+      "time": "2016-05-21 07:01:13.839"
+    },
+    {
+      "_id": "5b0059e346f139822435a1c3",
+      "description": "sunny",
+      "temperature": 9.09,
+      "humidity": 0.42,
+      "time": "2014-11-13 02:26:35.0"
+    },
+    {
+      "_id": "5b0059e3db50cf10f1f3d385",
+      "description": "sunny",
+      "temperature": 1.36,
+      "humidity": 0.21,
+      "time": "2018-05-15 03:05:02.123"
+    },
+    {
+      "_id": "5b0059e35c7a6528c7ef3e3c",
+      "description": "sunny",
+      "temperature": -1.79,
+      "humidity": 0.25,
+      "time": "2015-11-14 08:17:14.754"
+    },
+    {
+      "_id": "5b0059e341ae51ca3ee99a78",
+      "description": "rainy",
+      "temperature": 31.31,
+      "humidity": 0.43,
+      "time": "2014-01-14 12:54:33.425"
+    },
+    {
+      "_id": "5b0059e36c6e51ab33754654",
+      "description": "snowy",
+      "temperature": -16.83,
+      "humidity": 0.18,
+      "time": "2014-03-22 07:08:17.140"
+    },
+    {
+      "_id": "5b0059e3737f250e32043344",
+      "description": "snowy",
+      "temperature": 41.43,
+      "humidity": 0.14,
+      "time": "2017-05-23 06:26:12.208"
+    },
+    {
+      "_id": "5b0059e376add8466dd60d3c",
+      "description": "snowy",
+      "temperature": 34.74,
+      "humidity": 0.36,
+      "time": "2016-07-28 06:48:44.159"
+    },
+    {
+      "_id": "5b0059e335a6c3213b6d654b",
+      "description": "sunny",
+      "temperature": 9.28,
+      "humidity": 0.53,
+      "time": "2016-02-11 07:33:38.106"
+    },
+    {
+      "_id": "5b0059e355fcedeca281a5a1",
+      "description": "cloudy",
+      "temperature": -6.78,
+      "humidity": 0.93,
+      "time": "2015-08-11 06:27:28.945"
+    },
+    {
+      "_id": "5b0059e355a063e915755570",
+      "description": "sunny",
+      "temperature": -6.11,
+      "humidity": 0.76,
+      "time": "2017-01-26 08:11:41.672"
+    },
+    {
+      "_id": "5b0059e3cd2aa9d2ea0e4c1c",
+      "description": "rainy",
+      "temperature": 2.81,
+      "humidity": 0.24,
+      "time": "2017-12-06 04:06:34.204"
+    },
+    {
+      "_id": "5b0059e377649abe406bf9d1",
+      "description": "snowy",
+      "temperature": 15.36,
+      "humidity": 0.82,
+      "time": "2016-11-26 06:29:30.248"
+    },
+    {
+      "_id": "5b0059e384706b60a1275c57",
+      "description": "snowy",
+      "temperature": 39.34,
+      "humidity": 0.74,
+      "time": "2015-01-10 04:32:00.624"
+    },
+    {
+      "_id": "5b0059e345d557d1ff2c18c1",
+      "description": "rainy",
+      "temperature": 8.38,
+      "humidity": 0.46,
+      "time": "2015-07-24 03:48:01.396"
+    },
+    {
+      "_id": "5b0059e3ca7d65a0a63320ef",
+      "description": "rainy",
+      "temperature": -8.25,
+      "humidity": 0.19,
+      "time": "2015-02-11 02:25:57.865"
+    },
+    {
+      "_id": "5b0059e356b5fc16544e58da",
+      "description": "snowy",
+      "temperature": 23.01,
+      "humidity": 0.6,
+      "time": "2014-10-24 04:38:11.120"
+    },
+    {
+      "_id": "5b0059e333f62aa709ea7589",
+      "description": "snowy",
+      "temperature": 18.06,
+      "humidity": 0.13,
+      "time": "2015-07-11 10:47:08.137"
+    },
+    {
+      "_id": "5b0059e37fd6776b0c72df0a",
+      "description": "sunny",
+      "temperature": 16.37,
+      "humidity": 0.78,
+      "time": "2015-06-30 05:13:58.34"
+    },
+    {
+      "_id": "5b0059e38a2fe61ef6491609",
+      "description": "sunny",
+      "temperature": 6.46,
+      "humidity": 0.39,
+      "time": "2016-09-06 09:37:22.48"
+    },
+    {
+      "_id": "5b0059e32f779dbecd6d9a79",
+      "description": "snowy",
+      "temperature": -10.43,
+      "humidity": 0.69,
+      "time": "2018-02-25 01:50:18.960"
+    },
+    {
+      "_id": "5b0059e31f205502309ce22a",
+      "description": "rainy",
+      "temperature": -17.57,
+      "humidity": 0.49,
+      "time": "2015-04-25 06:46:13.398"
+    },
+    {
+      "_id": "5b0059e3c529e7b798d34de1",
+      "description": "cloudy",
+      "temperature": 33.28,
+      "humidity": 0.01,
+      "time": "2015-05-11 03:42:42.666"
+    },
+    {
+      "_id": "5b0059e3a0dceb95d4380437",
+      "description": "snowy",
+      "temperature": 5.01,
+      "humidity": 0.15,
+      "time": "2017-12-20 01:37:53.931"
+    },
+    {
+      "_id": "5b0059e39e9030772b53cd96",
+      "description": "rainy",
+      "temperature": 2.71,
+      "humidity": 0.33,
+      "time": "2016-04-12 12:35:54.21"
+    },
+    {
+      "_id": "5b0059e34d671af931521fcc",
+      "description": "snowy",
+      "temperature": 33.94,
+      "humidity": 0.75,
+      "time": "2017-11-27 10:53:55.74"
+    },
+    {
+      "_id": "5b0059e3310c56a062f23c28",
+      "description": "cloudy",
+      "temperature": 21.93,
+      "humidity": 0.59,
+      "time": "2017-01-04 03:29:53.231"
+    },
+    {
+      "_id": "5b0059e3f370ae8c082b7621",
+      "description": "snowy",
+      "temperature": 33.41,
+      "humidity": 0.75,
+      "time": "2016-11-26 05:24:56.438"
+    },
+    {
+      "_id": "5b0059e3b8f82993f8301234",
+      "description": "cloudy",
+      "temperature": 14.88,
+      "humidity": 0.05,
+      "time": "2014-10-06 03:29:37.822"
+    },
+    {
+      "_id": "5b0059e3ebec76756f65b42a",
+      "description": "snowy",
+      "temperature": 27.88,
+      "humidity": 0.48,
+      "time": "2017-03-13 11:37:40.944"
+    },
+    {
+      "_id": "5b0059e3a8402fc688118808",
+      "description": "sunny",
+      "temperature": 29.97,
+      "humidity": 0.85,
+      "time": "2014-09-06 08:04:34.437"
+    },
+    {
+      "_id": "5b0059e3cd177d9591bf6d46",
+      "description": "snowy",
+      "temperature": 33.09,
+      "humidity": 0.96,
+      "time": "2017-11-02 02:37:12.241"
+    },
+    {
+      "_id": "5b0059e32f1f14a973737425",
+      "description": "snowy",
+      "temperature": 31.69,
+      "humidity": 0.36,
+      "time": "2014-12-17 12:47:11.172"
+    },
+    {
+      "_id": "5b0059e347a01c50f3cb253b",
+      "description": "cloudy",
+      "temperature": 39.4,
+      "humidity": 0.08,
+      "time": "2016-05-13 10:58:32.837"
+    },
+    {
+      "_id": "5b0059e38c730a19bc75e382",
+      "description": "snowy",
+      "temperature": 18.94,
+      "humidity": 0.28,
+      "time": "2016-01-17 09:17:00.277"
+    },
+    {
+      "_id": "5b0059e3c52ecf199501a226",
+      "description": "snowy",
+      "temperature": 35.98,
+      "humidity": 0.48,
+      "time": "2017-03-19 05:44:27.937"
+    },
+    {
+      "_id": "5b0059e304a77e63d2268f47",
+      "description": "cloudy",
+      "temperature": 17.95,
+      "humidity": 0.29,
+      "time": "2017-07-04 12:13:04.824"
+    },
+    {
+      "_id": "5b0059e3c62ed8cb640a42bf",
+      "description": "cloudy",
+      "temperature": -14.26,
+      "humidity": 0.16,
+      "time": "2018-01-01 09:09:51.559"
+    },
+    {
+      "_id": "5b0059e301527dff88e0e367",
+      "description": "sunny",
+      "temperature": 18.52,
+      "humidity": 0.49,
+      "time": "2014-07-24 03:08:26.984"
+    },
+    {
+      "_id": "5b0059e32bb758255436d1be",
+      "description": "rainy",
+      "temperature": 4.64,
+      "humidity": 0.68,
+      "time": "2017-08-11 06:56:12.853"
+    },
+    {
+      "_id": "5b0059e3c6630535a48fc9ce",
+      "description": "rainy",
+      "temperature": -1.99,
+      "humidity": 0.49,
+      "time": "2014-10-19 09:30:58.262"
+    },
+    {
+      "_id": "5b0059e30abe37a342bb3e43",
+      "description": "rainy",
+      "temperature": 17.71,
+      "humidity": 0.38,
+      "time": "2017-03-06 03:27:34.44"
+    },
+    {
+      "_id": "5b0059e3ce3670570bd10993",
+      "description": "cloudy",
+      "temperature": 19.22,
+      "humidity": 0.08,
+      "time": "2014-03-28 06:14:52.267"
+    },
+    {
+      "_id": "5b0059e3f3822db929b5d5be",
+      "description": "rainy",
+      "temperature": 10.62,
+      "humidity": 0.76,
+      "time": "2016-02-01 08:10:04.863"
+    },
+    {
+      "_id": "5b0059e3dacd7e6cb35f2d67",
+      "description": "snowy",
+      "temperature": 0.6,
+      "humidity": 0.83,
+      "time": "2014-12-04 01:41:31.659"
+    },
+    {
+      "_id": "5b0059e3f1dac17badb92868",
+      "description": "sunny",
+      "temperature": 35.88,
+      "humidity": 0.57,
+      "time": "2016-07-29 01:32:45.669"
+    },
+    {
+      "_id": "5b0059e3b1363438beaef1e4",
+      "description": "rainy",
+      "temperature": 42.99,
+      "humidity": 0.96,
+      "time": "2015-05-12 02:20:04.340"
+    },
+    {
+      "_id": "5b0059e326c7699f52b9aa91",
+      "description": "snowy",
+      "temperature": 16.83,
+      "humidity": 0.74,
+      "time": "2014-03-09 02:42:42.282"
+    },
+    {
+      "_id": "5b0059e35164967ce4bd1cc9",
+      "description": "snowy",
+      "temperature": 14.21,
+      "humidity": 0.08,
+      "time": "2014-09-07 07:51:39.891"
+    },
+    {
+      "_id": "5b0059e3a97e683347a8118f",
+      "description": "sunny",
+      "temperature": 39.52,
+      "humidity": 0.65,
+      "time": "2014-02-25 08:36:21.483"
+    },
+    {
+      "_id": "5b0059e3e607dd2e8c344a9a",
+      "description": "rainy",
+      "temperature": -13.21,
+      "humidity": 0.01,
+      "time": "2015-10-18 06:58:09.262"
+    },
+    {
+      "_id": "5b0059e3e73bbeb574a7708f",
+      "description": "rainy",
+      "temperature": 22.85,
+      "humidity": 0.06,
+      "time": "2015-09-14 10:20:08.464"
+    }
+  ]
+}
