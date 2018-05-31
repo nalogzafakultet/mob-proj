@@ -3,7 +3,7 @@
 {% block title %} Index {% endblock %}
 
 {% block content %}
-<div class="jumbotron jumbo-primary">
+    <div class="jumbotron jumbo-primary">
         <div class="container">
           <h1 class="display-3">Kumodraz Weather Station</h1>
           <p>Welcome to the Kumodraz Weather Station. Here you'll find the latest tempratures measured in Kumodraz, Belgrade.</p>
@@ -13,14 +13,14 @@
 
       <div class="container">
         <!-- Example row of columns -->
-        <div class="row">
+        <div class="row no-gutters">
             {% for weather in weathers %}
             <div class="col-md-4 border">
                 <h2>Weather</h2>
-                <p>Temperature: {{ weather['temperature'] }}</p>
-                <p>Humidity: {{ weather['humidity'] }}</p>
-                <p>Time: {{ weather['time'] }}</p>
-                <p>Description: {{ weather['description'] }}</p>
+                <p>Temperature: {{ weather['temperatura'] }}</p>
+                <p>Humidity: {{ weather['vlaznost'] }}</p>
+                <p>Time: {{ weather['vreme'] }}</p>
+                <p>Osvetljenje: {{ weather['osvetljenje'] }}</p>
                 <p><a class="btn btn-secondary btn-success" href="/more/{{ weather['_id'] }}" role="button">View details &raquo;</a></p>
               </div>
             {% endfor %}

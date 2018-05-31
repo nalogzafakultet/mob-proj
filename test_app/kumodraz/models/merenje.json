@@ -1,0 +1,7 @@
+{
+	"vreme": "date",
+	"temperatura": "double",
+	"vlaznost": "double",
+	"brzina_vetra": null,
+	"jacina_svetlosti": "int",
+}

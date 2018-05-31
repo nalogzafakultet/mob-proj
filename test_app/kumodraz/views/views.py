@@ -19,8 +19,11 @@ def index():
 def more_info(idx):
 
     current_weather = weather.get_weather_by_id(idx)
-    current_weather['img_url'] = get_picture_url(current_weather)
     return render_template('more.html', weather=current_weather)
+
+@main_blueprint.route('/api/getall')
+def get_all():
+    return "asdsa"
 
 def get_picture_url(weather):
     return '/static/img/' + weather['description'] + '.png'

@@ -33,6 +33,21 @@ services:
         networks:
             - mobnet
 
+    parser:
+        container_name: parser
+        build:
+            context: ./parser/
+        restart: always
+        ports:
+            - 5001:5001
+        depends_on:
+            mongodb:
+                condition: service_healthy
+        links:
+            - mongodb
+        networks:
+            - mobnet
+
 volumes:
     db-data:
 
