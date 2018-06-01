@@ -7,7 +7,7 @@ from kumodraz.utils.config import DB_COLLECTION_NAME, DATE_FORMAT
 
 def format_object(weather):
     for key in weather:
-        if key == 'time':
+        if key == 'vreme':
             weather[key] = datetime.strptime(weather[key], DATE_FORMAT)
     return weather
 
@@ -38,7 +38,7 @@ class Weather:
         :return:            weathers dict sorted by time
         '''
         try:
-            sorted_weathers = self.collection.find().sort('time', pymongo.DESCENDING)[:number]
+            sorted_weathers = self.collection.find().sort('vreme', pymongo.DESCENDING)[:number]
             weathers = [format_object(weather) for weather in sorted_weathers]
             if sorted_weathers:
                 return weathers
@@ -53,10 +53,10 @@ class Weather:
     def get_all_weathers_after(self, date, sort_order=pymongo.DESCENDING):
         try:
             weathers_after = self.collection.find({
-                'time': {
+                'vreme': {
                     '$gte': str(date)
                 }
-            }).sort('time', sort_order)
+            }).sort('vreme', sort_order)
             weathers = [format_object(weather) for weather in weathers_after]
             return weathers
 
