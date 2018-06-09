@@ -23,6 +23,20 @@ def more_info(idx):
     current_weather = weather.get_weather_by_id(idx)
     return render_template('more.html', weather=current_weather)
 
+
+# /api/day?datum=09-06-2018
+
+@main_blueprint.route('/api/day')
+def get_day():
+    dan = request.args.get('datum')
+
+    print(dan)
+
+    if dan is None:
+        return {}
+    else:
+        return jsonify(weather.get_weather_for_day(dan))
+
 @main_blueprint.route('/api/getall')
 def get_all():
     return "asdsa"

@@ -21,7 +21,7 @@ services:
             context: ./test_app/
         restart: always
         ports:
-            - 3005:3005
+            - 80:80
         depends_on:
             mongodb:
                 condition: service_healthy

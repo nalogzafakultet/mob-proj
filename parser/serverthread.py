@@ -5,7 +5,7 @@ MSGLEN = 5000
 DATE_FORMAT = '%Y-%m-%d %H:%M:%S.%f'
 
 DB_HOST = '167.99.39.202'
-DB_PORT = 27017
+DB_PORT = 5055
 
 DB_NAME = 'weather_db'
 COLLECTION_NAME = 'weathers'

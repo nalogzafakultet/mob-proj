@@ -1,15 +1,27 @@
 import json
 from datetime import datetime
+from datetime import timedelta
 import pymongo
 from bson import ObjectId
 
-from kumodraz.utils.config import DB_COLLECTION_NAME, DATE_FORMAT
+from kumodraz.utils.config import DB_COLLECTION_NAME, DATE_FORMAT, DAY_FORMAT
 
 def format_object(weather):
     for key in weather:
         if key == 'vreme':
             weather[key] = datetime.strptime(weather[key], DATE_FORMAT)
     return weather
+
+def format_fo_api(weather):
+    for key in weather:
+        if key == 'vreme':
+            weather[key] = int(unix_time_millis(datetime.strptime(weather[key], DATE_FORMAT)))
+    return weather
+
+epoch = datetime.utcfromtimestamp(0)
+
+def unix_time_millis(dt):
+    return (dt - epoch).total_seconds() * 1000.0
 
 class Weather:
 
@@ -30,6 +42,30 @@ class Weather:
             print('Error getting all weathers')
 
         return None
+
+    def get_weather_for_day(self, date):
+        
+        try:
+            start_date = datetime.strptime(date, DAY_FORMAT)
+            end_date = start_date + timedelta(days=1)
+
+            print('Start: {}'.format(str(start_date)))
+            print('End: {}'.format(str(end_date)))
+
+            all_weathers = [format_fo_api(weather) for weather in self.collection.find({
+                    'vreme': {
+                        '$gte': str(start_date),
+                        '$lt': str(end_date)
+                    }
+            }, {'_id': 0})]
+
+            print(all_weathers)
+            return all_weathers
+
+        except:
+            print('Error getting day weathers')
+
+        return {}
 
     def get_last_n_by_time(self, number):
         '''
