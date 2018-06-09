@@ -9,7 +9,7 @@ services:
         volumes:
             - db-data:/data/db
         ports:
-            - 27017:27017
+            - 5055:27017
         healthcheck:
             test: exit 0
         networks:

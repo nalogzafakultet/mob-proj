@@ -49,8 +49,8 @@ class Weather:
             start_date = datetime.strptime(date, DAY_FORMAT)
             end_date = start_date + timedelta(days=1)
 
-            print('Start: {}'.format(str(start_date)))
-            print('End: {}'.format(str(end_date)))
+            # print('Start: {}'.format(str(start_date)))
+            # print('End: {}'.format(str(end_date)))
 
             all_weathers = [format_fo_api(weather) for weather in self.collection.find({
                     'vreme': {
@@ -59,8 +59,8 @@ class Weather:
                     }
             }, {'_id': 0})]
 
-            print(all_weathers)
-            return all_weathers
+            ret = {"data": all_weathers}
+            return ret
 
         except:
             print('Error getting day weathers')
