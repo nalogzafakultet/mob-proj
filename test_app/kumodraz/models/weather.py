@@ -81,7 +81,7 @@ class Weather:
         """
         try:
             # Finds all weathers in database, excludes ids from the query
-            all_weathers = [format_object(weather) for weather in self.collection.find({}, {'_id': 0})]
+            all_weathers = [format_object(weather) for weather in self.collection.find()]
             return all_weathers
         except:
             print('Error getting all weathers')
