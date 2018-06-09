@@ -1,7 +1,11 @@
 from flask import request, jsonify, render_template, Blueprint, url_for
 from kumodraz.models import weather
 from datetime import datetime
+from datetime import timedelta
 from pprint import pprint as pp
+from dateutil.relativedelta import relativedelta
+
+from kumodraz.utils.config import DATE_FORMAT, DAY_FORMAT
 
 main_blueprint = Blueprint('main_blueprint', __name__)
 
@@ -35,7 +39,39 @@ def get_day():
     if dan is None:
         return {}
     else:
-        return jsonify(weather.get_weather_for_day(dan))
+        start_date = datetime.strptime(date, DAY_FORMAT)
+        end_date = start_date + timedelta(days=1)
+
+        return jsonify(weather.get_weather_for_date(start_date, end_date))
+
+@main_blueprint.route('/api/month')
+def get_month():
+    dan = request.args.get('datum')
+
+    print(dan)
+
+    if dan is None:
+        return {}
+    else:
+        start_date = datetime.strptime(dan, DAY_FORMAT)
+        end_date = start_date + relativedelta(months=1)
+
+        return jsonify(weather.get_weather_for_date(start_date, end_date))
+
+@main_blueprint.route('/api/year')
+def get_year():
+    dan = request.args.get('datum')
+
+    print(dan)
+
+    if dan is None:
+        return {}
+    else:
+        start_date = datetime.strptime(dan, DAY_FORMAT)
+        end_date = start_date + relativedelta(years=1)
+
+        return jsonify(weather.get_weather_for_date(start_date, end_date))
+
 
 @main_blueprint.route('/api/getall')
 def get_all():

@@ -1,6 +1,5 @@
 import json
 from datetime import datetime
-from datetime import timedelta
 import pymongo
 from bson import ObjectId
 
@@ -48,6 +47,31 @@ class Weather:
         try:
             start_date = datetime.strptime(date, DAY_FORMAT)
             end_date = start_date + timedelta(days=1)
+
+            # print('Start: {}'.format(str(start_date)))
+            # print('End: {}'.format(str(end_date)))
+
+            all_weathers = [format_fo_api(weather) for weather in self.collection.find({
+                    'vreme': {
+                        '$gte': str(start_date),
+                        '$lt': str(end_date)
+                    }
+            }, {'_id': 0})]
+
+            ret = {"data": all_weathers}
+        
+            return ret
+
+        except:
+            print('Error getting day weathers')
+
+        return {}
+    
+    def get_weather_for_date(self, start_date, end_date):
+        
+        try:
+            # start_date = datetime.strptime(date, DAY_FORMAT)
+            # end_date = start_date + timedelta(days=1)
 
             # print('Start: {}'.format(str(start_date)))
             # print('End: {}'.format(str(end_date)))
