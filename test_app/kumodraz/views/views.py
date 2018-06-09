@@ -30,8 +30,8 @@ def more_info(idx):
 
 # /api/day?datum=09-06-2018
 
-@main_blueprint.route('/api/day')
-def get_day():
+@main_blueprint.route('/api/weathers/day')
+def get_weathers_day():
     dan = request.args.get('datum')
 
     print(dan)
@@ -44,8 +44,8 @@ def get_day():
 
         return jsonify(weather.get_weather_for_date(start_date, end_date))
 
-@main_blueprint.route('/api/month')
-def get_month():
+@main_blueprint.route('/api/weathers/month')
+def get_weathers_month():
     dan = request.args.get('datum')
 
     print(dan)
@@ -58,8 +58,8 @@ def get_month():
 
         return jsonify(weather.get_weather_for_date(start_date, end_date))
 
-@main_blueprint.route('/api/year')
-def get_year():
+@main_blueprint.route('/api/weathers/year')
+def get_weathers_year():
     dan = request.args.get('datum')
 
     print(dan)
@@ -71,6 +71,49 @@ def get_year():
         end_date = start_date + relativedelta(years=1)
 
         return jsonify(weather.get_weather_for_date(start_date, end_date))
+
+@main_blueprint.route('/api/stats/year')
+def get_stats_year():
+    dan = request.args.get('datum')
+
+    print(dan)
+
+    if dan is None:
+        return {}
+    else:
+        start_date = datetime.strptime(dan, DAY_FORMAT)
+        end_date = start_date + relativedelta(years=1)
+
+        return jsonify(weather.get_stats_for_date(start_date, end_date))
+
+@main_blueprint.route('/api/stats/day')
+def get_stats_day():
+    dan = request.args.get('datum')
+
+    print(dan)
+
+    if dan is None:
+        return {}
+    else:
+        start_date = datetime.strptime(dan, DAY_FORMAT)
+        end_date = start_date + relativedelta(days=1)
+
+        return jsonify(weather.get_stats_for_date(start_date, end_date))
+
+@main_blueprint.route('/api/stats/month')
+def get_stats_month():
+    dan = request.args.get('datum')
+
+    print(dan)
+
+    if dan is None:
+        return {}
+    else:
+        start_date = datetime.strptime(dan, DAY_FORMAT)
+        end_date = start_date + relativedelta(months=1)
+
+        return jsonify(weather.get_stats_for_date(start_date, end_date))
+
 
 
 @main_blueprint.route('/api/getall')

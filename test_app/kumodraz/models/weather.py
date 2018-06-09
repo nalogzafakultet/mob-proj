@@ -17,6 +17,52 @@ def format_fo_api(weather):
             weather[key] = int(unix_time_millis(datetime.strptime(weather[key], DATE_FORMAT)))
     return weather
 
+def statistics(weathers):
+    ret = {
+        'min_temperatura': 500.0,
+        'max_temperatura': -500.0,
+        'min_osvetljenje': 500,
+        'max_osvetljenje': -500,
+        'min_brzina': 500.0,
+        'max_brzina': -500.0,
+        'min_vlaznost': 500.0,
+        'max_vlaznost': -500.0
+    }
+
+    sum_vlaz = 0
+    sum_t = 0
+    sum_brz = 0
+    sum_osv = 0
+    for weather in weathers:
+        if weather['brzina_vetra'] > ret['max_brzina']:
+            ret['max_brzina'] = weather['brzina_vetra']
+        if weather['brzina_vetra'] < ret['min_brzina']:
+            ret['min_brzina'] = weather['brzina_vetra']
+        if weather['osvetljenje'] > ret['max_osvetljenje']:
+            ret['max_osvetljenje'] = weather['osvetljenje']
+        if weather['osvetljenje'] < ret['min_osvetljenje']:
+            ret['min_osvetljenje'] = weather['osvetljenje']
+        if weather['temperatura'] > ret['max_temperatura']:
+            ret['max_temperatura'] = weather['temperatura']
+        if weather['temperatura'] < ret['min_temperatura']:
+            ret['min_temperatura'] = weather['temperatura']
+        if weather['vlaznost'] > ret['max_vlaznost']:
+            ret['max_vlaznost'] = weather['vlaznost']
+        if weather['vlaznost'] < ret['min_vlaznost']:
+            ret['min_vlaznost'] = weather['vlaznost']
+
+        sum_vlaz += weather['vlaznost']
+        sum_t += weather['temperatura']
+        sum_brz += weather['brzina_vetra']
+        sum_osv += weather['osvetljenje']
+
+    ret['avg_vlaznost'] = sum_vlaz / len(weathers)
+    ret['avg_temperatura'] = sum_t / len(weathers)
+    ret['avg_osvetljenje'] = sum_osv / len(weathers)
+    ret['avg_brzina'] = sum_brz / len(weathers)
+
+    return ret
+
 epoch = datetime.utcfromtimestamp(0)
 
 def unix_time_millis(dt):
@@ -41,31 +87,6 @@ class Weather:
             print('Error getting all weathers')
 
         return None
-
-    def get_weather_for_day(self, date):
-        
-        try:
-            start_date = datetime.strptime(date, DAY_FORMAT)
-            end_date = start_date + timedelta(days=1)
-
-            # print('Start: {}'.format(str(start_date)))
-            # print('End: {}'.format(str(end_date)))
-
-            all_weathers = [format_fo_api(weather) for weather in self.collection.find({
-                    'vreme': {
-                        '$gte': str(start_date),
-                        '$lt': str(end_date)
-                    }
-            }, {'_id': 0})]
-
-            ret = {"data": all_weathers}
-        
-            return ret
-
-        except:
-            print('Error getting day weathers')
-
-        return {}
     
     def get_weather_for_date(self, start_date, end_date):
         
@@ -90,6 +111,32 @@ class Weather:
             print('Error getting day weathers')
 
         return {}
+
+    def get_stats_for_date(self, start_date, end_date):
+        
+        try:
+            # start_date = datetime.strptime(date, DAY_FORMAT)
+            # end_date = start_date + timedelta(days=1)
+
+            # print('Start: {}'.format(str(start_date)))
+            # print('End: {}'.format(str(end_date)))
+
+            all_weathers = [format_fo_api(weather) for weather in self.collection.find({
+                    'vreme': {
+                        '$gte': str(start_date),
+                        '$lt': str(end_date)
+                    }
+            }, {'_id': 0})]
+
+            return statistics(all_weathers)
+
+        except Exception as e:
+            print('Error getting day weathers')
+            print('Exception:', str(e))
+
+        return {}
+
+    
 
     def get_last_n_by_time(self, number):
         '''
