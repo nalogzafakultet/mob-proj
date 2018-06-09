@@ -58,7 +58,7 @@ class Weather:
                 }
             }).sort('vreme', sort_order)
             weathers = [format_object(weather) for weather in weathers_after]
-            return weathers
+            return None
 
         except:
             print('Error getting all weathers after {}'.format(str(date)))

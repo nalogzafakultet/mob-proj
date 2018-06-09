@@ -3,9 +3,6 @@ services:
 
     mongodb:
         container_name: mongodb
-        environment:
-            - MONGO_INITDB_ROOT_USERNAME=nemanja
-            - MONGO_INITDB_ROOT_PASSWORD=changeme
         build:
             context: ./mongodb/
         restart: always
@@ -24,7 +21,7 @@ services:
             context: ./test_app/
         restart: always
         ports:
-            - 80:80
+            - 3005:3005
         depends_on:
             mongodb:
                 condition: service_healthy

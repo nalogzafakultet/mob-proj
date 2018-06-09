@@ -14,6 +14,6 @@ RUN pip install -r requirements.txt
 ADD . /usr/src/app
 
 # run server
-CMD python manage.py
+CMD python run.py
 
-EXPOSE 80
+EXPOSE 3005
