@@ -12,10 +12,6 @@ main_blueprint = Blueprint('main_blueprint', __name__)
 @main_blueprint.route('/', methods=['GET'])
 def index():
     date_q = datetime(2017, 1, 1, 0, 0, 0, 0)
-    # weathers = weather.get_n_weathers_after(
-    #     date=date_q,
-    #     number=12
-    # )
 
     weathers = weather.get_all()
     return render_template('index.html', weathers=weathers)
@@ -27,8 +23,6 @@ def more_info(idx):
     current_weather = weather.get_weather_by_id(idx)
     return render_template('more.html', weather=current_weather)
 
-
-# /api/day?datum=09-06-2018
 
 @main_blueprint.route('/api/weathers/day')
 def get_weathers_day():
@@ -114,6 +108,21 @@ def get_stats_month():
 
         return jsonify(weather.get_stats_for_date(start_date, end_date))
 
+@main_blueprint.route('/api/recent/day')
+def get_recent_day():
+
+    now = datetime.now()
+    yday = now - relativedelta(hours=24)
+
+    return jsonify(weather.get_weather_for_date(yday, now))
+
+@main_blueprint.route('/api/recent/month')
+def get_recent_month():
+
+    now = datetime.now()
+    yday = now - relativedelta(month=1)
+
+    return jsonify(weather.get_weather_for_date(yday, now))
 
 
 @main_blueprint.route('/api/getall')

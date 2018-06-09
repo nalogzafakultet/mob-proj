@@ -102,7 +102,7 @@ class Weather:
                         '$gte': str(start_date),
                         '$lt': str(end_date)
                     }
-            }, {'_id': 0})]
+            }, {'_id': 0}).sort('vreme', pymongo.DESCENDING)]
 
             ret = {"data": all_weathers}
             return ret
