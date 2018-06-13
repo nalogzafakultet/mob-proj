@@ -23,6 +23,24 @@ def more_info(idx):
     current_weather = weather.get_weather_by_id(idx)
     return render_template('more.html', weather=current_weather)
 
+@main_blueprint.route('/api/test/month')
+def get_test_stats():
+    dan = request.args.get('datum')
+
+    if dan is None:
+        return {}
+    else:
+        start_date = datetime.strptime(dan, DAY_FORMAT)
+        
+        month = start_date.month
+        year = start_date.year
+
+        print('Month: {}, Year: {}'.format(month, year))
+
+        return jsonify(weather.stats_per_month(month, year))
+
+        # return jsonify(weather.get_weather_for_date(start_date, end_date))
+
 
 @main_blueprint.route('/api/weathers/day')
 def get_weathers_day():
