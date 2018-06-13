@@ -28,17 +28,17 @@ def weathers_stats(weathers):
         'max_temperatura': 500.0,
         'min_osvetljenje': -500.0,
         'max_osvetljenje': 500.0,
-        'min_brzina': -500.0,
-        'max_brzina': 500.0,
+        'min_pritisak': -500.0,
+        'max_pritisak': 500.0,
         'min_vlaznost': -500.0,
         'max_vlaznost': 500.0,
     }
 
     for weather in weathers:
-        if weather['brzina_vetra'] > ret['max_brzina']:
-            ret['max_brzina'] = weather['brzina_vetra']
-        if weather['brzina_vetra'] < ret['min_brzina']:
-            ret['min_brzina'] = weather['brzina_vetra']
+        if weather['pritisak'] > ret['max_pritisak']:
+            ret['max_pritisak'] = weather['pritisak']
+        if weather['pritisak'] < ret['min_pritisak']:
+            ret['min_pritisak'] = weather['pritisak']
         if weather['osvetljenje'] > ret['max_osvetljenje']:
             ret['max_osvetljenje'] = weather['osvetljenje']
         if weather['osvetljenje'] < ret['min_osvetljenje']:
@@ -63,8 +63,8 @@ def aggregate_stats(stats):
     sum_max_tmp = 0.0
     sum_min_vlaz = 0.0
     sum_max_vlaz = 0.0
-    sum_min_brz = 0.0
-    sum_max_brz = 0.0
+    sum_min_pritisak = 0.0
+    sum_max_pritisak = 0.0
     sum_min_osvetljenje = 0.0
     sum_max_osvetljenje = 0.0
 
@@ -73,8 +73,8 @@ def aggregate_stats(stats):
         sum_max_tmp += stat['max_temperatura']
         sum_min_vlaz += stat['min_vlaznost']
         sum_max_vlaz += stat['max_vlaznost']
-        sum_min_brz += stat['min_brzina']
-        sum_max_brz += stat['max_brzina']
+        sum_min_pritisak += stat['min_pritisak']
+        sum_max_pritisak += stat['max_pritisak']
         sum_min_osvetljenje += stat['min_osvetljenje']
         sum_max_osvetljenje += stat['max_osvetljenje']
 
@@ -85,8 +85,8 @@ def aggregate_stats(stats):
         "avg_max_vlaz": sum_max_vlaz / len(stats),
         "avg_min_osvetljenje": sum_min_osvetljenje / len(stats),
         "avg_max_osvetljenje": sum_max_osvetljenje / len(stats),
-        "avg_min_brz": sum_min_brz / len(stats),
-        "avg_max_brz": sum_max_brz / len(stats)
+        "avg_min_pritisak": sum_min_pritisak / len(stats),
+        "avg_max_pritisak": sum_max_pritisak / len(stats)
     }
 
 
