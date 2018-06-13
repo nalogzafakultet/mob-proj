@@ -1,6 +1,6 @@
 import threading, pymongo
 from datetime import datetime
-from dateutil import relativedelta
+from dateutil.relativedelta import relativedelta
 
 MSGLEN = 5000
 DATE_FORMAT = '%Y-%m-%d %H:%M:%S.%f'
