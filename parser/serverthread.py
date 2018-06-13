@@ -1,6 +1,6 @@
 import threading, pymongo
 from datetime import datetime
-from dateutil.relativedelta import relativedelta
+from datetime import timedelta
 
 MSGLEN = 5000
 DATE_FORMAT = '%Y-%m-%d %H:%M:%S.%f'
@@ -40,7 +40,7 @@ class ServerThread(threading.Thread):
         obj['vlaznost'] = float(data[1])
         obj['pritisak'] = float(data[2])
         obj['osvetljenje'] = int(data[3])
-        obj['vreme'] = str(datetime.now()) + relativedelta(hours=2)
+        obj['vreme'] = str(datetime.now()) + timedelta(hours=2)
 
         client = pymongo.MongoClient(host=DB_HOST, port=DB_PORT)
         db = client[DB_NAME]
