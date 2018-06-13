@@ -51,7 +51,7 @@ def get_weathers_day():
     if dan is None:
         return {}
     else:
-        start_date = datetime.strptime(date, DAY_FORMAT)
+        start_date = datetime.strptime(dan, DAY_FORMAT)
         end_date = start_date + timedelta(days=1)
 
         return jsonify(weather.get_weather_for_date(start_date, end_date))
