@@ -64,16 +64,15 @@ class Weather:
             print('Start Date: {}'.format(start_date))
             print('End Date: {}'.format(end_date))
 
-            stats = [stat for stat in self.collection_stats_day.find({
+            stats = self.collection_stats_day.find({
                     'date': {
                         '$gte': str(start_date),
                         '$lt': str(end_date)
                     }
-            }, {'_id': 0})]
+            }, {'_id': 0})[0]
 
-            print(stats)
 
-            if stats is None or len(stats) == 0:
+            if stats is None:
                 return {}
             else:
                 return stats
@@ -92,16 +91,15 @@ class Weather:
             print('Start Date: {}'.format(start_date))
             print('End Date: {}'.format(end_date))
 
-            stats = [stat for stat in self.collection_stats_month.find({
+            stats = self.collection_stats_month.find({
                 'date': {
                     '$gte': str(start_date),
                     '$lt': str(end_date)
                 }
-            }, {'_id': 0})]
+            }, {'_id': 0})[0]
 
-            print(stats)
 
-            if stats is None or len(stats) == 0:
+            if stats is None:
                 return {}
             else:
                 return stats
@@ -119,16 +117,16 @@ class Weather:
             print('Start Date: {}'.format(start_date))
             print('End Date: {}'.format(end_date))
 
-            stats = [stat for stat in self.collection_stats_year.find({
+            stats = self.collection_stats_year.find({
                 'date': {
                     '$gte': str(start_date),
                     '$lt': str(end_date)
                 }
-            }, {'_id': 0})]
+            }, {'_id': 0})[0]
 
             print(stats)
 
-            if stats is None or len(stats) == 0:
+            if stats is None:
                 return {}
             else:
                 return stats
