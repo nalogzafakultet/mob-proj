@@ -84,6 +84,10 @@ def get_weathers_year():
 
         return jsonify(weather.get_weather_for_date(start_date, end_date))
 
+@main_blueprint.route('/api/now')
+def get_last_weather():
+    return jsonify(weather.get_last())
+
 @main_blueprint.route('/api/stats/year')
 def get_stats_year():
     dan = request.args.get('datum')
@@ -96,7 +100,7 @@ def get_stats_year():
         start_date = datetime.strptime(dan, DAY_FORMAT)
         end_date = start_date + relativedelta(years=1)
 
-        return jsonify(weather.get_stats_for_date(start_date, end_date))
+        return jsonify(weather.get_stats_for_year(start_date, end_date))
 
 @main_blueprint.route('/api/stats/day')
 def get_stats_day():
@@ -110,7 +114,7 @@ def get_stats_day():
         start_date = datetime.strptime(dan, DAY_FORMAT)
         end_date = start_date + relativedelta(days=1)
 
-        return jsonify(weather.get_stats_for_date(start_date, end_date))
+        return jsonify(weather.get_stats_for_day(start_date, end_date))
 
 @main_blueprint.route('/api/stats/month')
 def get_stats_month():
@@ -124,7 +128,7 @@ def get_stats_month():
         start_date = datetime.strptime(dan, DAY_FORMAT)
         end_date = start_date + relativedelta(months=1)
 
-        return jsonify(weather.get_stats_for_date(start_date, end_date))
+        return jsonify(weather.get_stats_for_month(start_date, end_date))
 
 @main_blueprint.route('/api/recent/day')
 def get_recent_day():

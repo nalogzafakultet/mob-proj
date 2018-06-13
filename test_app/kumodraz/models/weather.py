@@ -4,7 +4,7 @@ import pymongo
 from bson import ObjectId
 from dateutil.relativedelta import relativedelta
 
-from kumodraz.utils.config import DB_COLLECTION_NAME, DATE_FORMAT, DAY_FORMAT
+from kumodraz.utils.config import DB_COLLECTION_NAME, DATE_FORMAT, DAY_FORMAT, DB_COLLECTION_STATS_DAY, DB_COLLECTION_STATS_MONTH, DB_COLLECTION_STATS_YEAR
 
 def format_object(weather):
     for key in weather:
@@ -18,126 +18,6 @@ def format_fo_api(weather):
             weather[key] = int(unix_time_millis(datetime.strptime(weather[key], DATE_FORMAT)))
     return weather
 
-def weathers_stats(weathers):
-
-    if len(weathers) == 0:
-        return {}
-
-    ret = {
-        'min_temperatura': -500.0,
-        'max_temperatura': 500.0,
-        'min_osvetljenje': -500.0,
-        'max_osvetljenje': 500.0,
-        'min_pritisak': -500.0,
-        'max_pritisak': 500.0,
-        'min_vlaznost': -500.0,
-        'max_vlaznost': 500.0,
-    }
-
-    for weather in weathers:
-        if weather['pritisak'] > ret['max_pritisak']:
-            ret['max_pritisak'] = weather['pritisak']
-        if weather['pritisak'] < ret['min_pritisak']:
-            ret['min_pritisak'] = weather['pritisak']
-        if weather['osvetljenje'] > ret['max_osvetljenje']:
-            ret['max_osvetljenje'] = weather['osvetljenje']
-        if weather['osvetljenje'] < ret['min_osvetljenje']:
-            ret['min_osvetljenje'] = weather['osvetljenje']
-        if weather['temperatura'] > ret['max_temperatura']:
-            ret['max_temperatura'] = weather['temperatura']
-        if weather['temperatura'] < ret['min_temperatura']:
-            ret['min_temperatura'] = weather['temperatura']
-        if weather['vlaznost'] > ret['max_vlaznost']:
-            ret['max_vlaznost'] = weather['vlaznost']
-        if weather['vlaznost'] < ret['min_vlaznost']:
-            ret['min_vlaznost'] = weather['vlaznost']
-
-    return ret
-
-
-def aggregate_stats(stats):
-    if len(stats) == 0:
-        return {}
-
-    sum_min_tmp = 0.0
-    sum_max_tmp = 0.0
-    sum_min_vlaz = 0.0
-    sum_max_vlaz = 0.0
-    sum_min_pritisak = 0.0
-    sum_max_pritisak = 0.0
-    sum_min_osvetljenje = 0.0
-    sum_max_osvetljenje = 0.0
-
-    for stat in stats:
-        sum_min_tmp += stat['min_temperatura']
-        sum_max_tmp += stat['max_temperatura']
-        sum_min_vlaz += stat['min_vlaznost']
-        sum_max_vlaz += stat['max_vlaznost']
-        sum_min_pritisak += stat['min_pritisak']
-        sum_max_pritisak += stat['max_pritisak']
-        sum_min_osvetljenje += stat['min_osvetljenje']
-        sum_max_osvetljenje += stat['max_osvetljenje']
-
-    ret = {
-        "avg_min_temp": sum_min_tmp / len(stats),
-        "avg_max_temp": sum_max_tmp / len(stats),
-        "avg_min_vlaz": sum_min_vlaz / len(stats),
-        "avg_max_vlaz": sum_max_vlaz / len(stats),
-        "avg_min_osvetljenje": sum_min_osvetljenje / len(stats),
-        "avg_max_osvetljenje": sum_max_osvetljenje / len(stats),
-        "avg_min_pritisak": sum_min_pritisak / len(stats),
-        "avg_max_pritisak": sum_max_pritisak / len(stats)
-    }
-
-
-def statistics(weathers):
-    if len(weathers) == 0:
-        return {}
-
-    ret = {
-        'min_temperatura': 500.0,
-        'max_temperatura': -500.0,
-        'min_osvetljenje': 500,
-        'max_osvetljenje': -500,
-        'min_brzina': 500.0,
-        'max_brzina': -500.0,
-        'min_vlaznost': 500.0,
-        'max_vlaznost': -500.0
-    }
-
-    sum_vlaz = 0
-    sum_t = 0
-    sum_brz = 0
-    sum_osv = 0
-    for weather in weathers:
-        if weather['brzina_vetra'] > ret['max_brzina']:
-            ret['max_brzina'] = weather['brzina_vetra']
-        if weather['brzina_vetra'] < ret['min_brzina']:
-            ret['min_brzina'] = weather['brzina_vetra']
-        if weather['osvetljenje'] > ret['max_osvetljenje']:
-            ret['max_osvetljenje'] = weather['osvetljenje']
-        if weather['osvetljenje'] < ret['min_osvetljenje']:
-            ret['min_osvetljenje'] = weather['osvetljenje']
-        if weather['temperatura'] > ret['max_temperatura']:
-            ret['max_temperatura'] = weather['temperatura']
-        if weather['temperatura'] < ret['min_temperatura']:
-            ret['min_temperatura'] = weather['temperatura']
-        if weather['vlaznost'] > ret['max_vlaznost']:
-            ret['max_vlaznost'] = weather['vlaznost']
-        if weather['vlaznost'] < ret['min_vlaznost']:
-            ret['min_vlaznost'] = weather['vlaznost']
-
-        sum_vlaz += weather['vlaznost']
-        sum_t += weather['temperatura']
-        sum_brz += weather['brzina_vetra']
-        sum_osv += weather['osvetljenje']
-
-    ret['avg_vlaznost'] = sum_vlaz / len(weathers)
-    ret['avg_temperatura'] = sum_t / len(weathers)
-    ret['avg_osvetljenje'] = sum_osv / len(weathers)
-    ret['avg_brzina'] = sum_brz / len(weathers)
-
-    return ret
 
 epoch = datetime.utcfromtimestamp(0)
 
@@ -149,6 +29,9 @@ class Weather:
     def __init__(self, db):
         self.db = db
         self.collection = db[DB_COLLECTION_NAME]
+        self.collection_stats_day = db[DB_COLLECTION_STATS_DAY]
+        self.collection_stats_month = db[DB_COLLECTION_STATS_MONTH]
+        self.collection_stats_year = db[DB_COLLECTION_STATS_YEAR]
 
     def get_all(self):
         """
@@ -163,43 +46,65 @@ class Weather:
             print('Error getting all weathers')
 
         return None
-    
-    def get_weather_for_date(self, start_date, end_date):
-        
+
+    def get_last(self):
+
         try:
-            # start_date = datetime.strptime(date, DAY_FORMAT)
-            # end_date = start_date + timedelta(days=1)
-
-            # print('Start: {}'.format(str(start_date)))
-            # print('End: {}'.format(str(end_date)))
-
-            all_weathers = [format_fo_api(weather) for weather in self.collection.find({
-                    'vreme': {
-                        '$gte': str(start_date),
-                        '$lt': str(end_date)
-                    }
-            }, {'_id': 0}).sort('vreme', pymongo.DESCENDING)]
-
-            ret = {"data": all_weathers}
-            return ret
+            weather = self.collection.find({}, {'_id': 0}).sort('vreme', pymongo.DESCENDING)[0]
+            return weather
 
         except:
-            print('Error getting day weathers')
+            return None
 
-        return {}
 
-    def get_stats_for_date(self, start_date, end_date):
+    def get_stats_for_day(self, start_date, end_date):
         
         try:
 
-            all_weathers = [format_fo_api(weather) for weather in self.collection.find({
-                    'vreme': {
+            print('Start Date: {}'.format(start_date))
+            print('End Date: {}'.format(end_date))
+
+            stats = [stat for stat in self.collection_stats_day.find({
+                    'date': {
                         '$gte': str(start_date),
                         '$lt': str(end_date)
                     }
             }, {'_id': 0})]
 
-            return statistics(all_weathers)
+            print(stats)
+
+            if stats is None or len(stats) == 0:
+                return {}
+            else:
+                return stats
+
+        except Exception as e:
+            print('Error getting day weathers')
+            print('Exception:', str(e))
+
+            return {}
+
+
+    def get_stats_for_month(self, start_date, end_date):
+
+        try:
+
+            print('Start Date: {}'.format(start_date))
+            print('End Date: {}'.format(end_date))
+
+            stats = [stat for stat in self.collection_stats_month.find({
+                'date': {
+                    '$gte': str(start_date),
+                    '$lt': str(end_date)
+                }
+            }, {'_id': 0})]
+
+            print(stats)
+
+            if stats is None or len(stats) == 0:
+                return {}
+            else:
+                return stats
 
         except Exception as e:
             print('Error getting day weathers')
@@ -207,20 +112,32 @@ class Weather:
 
         return {}
 
-    def stats_per_month(self, month, year):
+    def get_stats_for_year(self, start_date, end_date):
 
-        current_date = datetime(year, month, 1)
-        end_date = current_date + relativedelta(months=1)
+        try:
 
-        stats = []
+            print('Start Date: {}'.format(start_date))
+            print('End Date: {}'.format(end_date))
 
-        while current_date < end_date:
-            stats.append(self.get_stats_for_date(current_date, current_date + relativedelta(days=1)))
-            current_date += relativedelta(days=1)
+            stats = [stat for stat in self.collection_stats_year.find({
+                'date': {
+                    '$gte': str(start_date),
+                    '$lt': str(end_date)
+                }
+            }, {'_id': 0})]
 
-        ret = {"data": stats}
-        print('ret:', ret)
-        return ret
+            print(stats)
+
+            if stats is None or len(stats) == 0:
+                return {}
+            else:
+                return stats
+
+        except Exception as e:
+            print('Error getting day weathers')
+            print('Exception:', str(e))
+
+        return {}
 
     def get_last_n_by_time(self, number):
         '''
