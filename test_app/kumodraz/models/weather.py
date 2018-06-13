@@ -171,6 +171,25 @@ class Weather:
 
         return None
 
+    def get_weather_for_date(self, start_date, end_date):
+        try:
+            all_weathers = [format_fo_api(weather) for weather in self.collection.find({
+                'vreme': {
+                    '$gte': str(start_date),
+                    '$lt': str(end_date)
+                }
+            }, {'_id': 0}).sort('vreme', pymongo.DESCENDING)]
+
+            if all_weathers is not None and len(all_weathers) > 0:
+                return all_weathers
+
+            return {}
+
+        except:
+            print('Error getting all weathers after {}'.format(str(start_date)))
+
+        return {}
+
     def get_n_weathers_after(self, date, number, sort_order=pymongo.DESCENDING):
         return self.get_all_weathers_after(date, sort_order)[:number]
 
