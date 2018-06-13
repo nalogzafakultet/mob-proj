@@ -232,7 +232,7 @@ class ServerThread(threading.Thread):
         start_date = datetime(current_year, 1, 1)
         end_date = start_date + relativedelta(years=1)
 
-        all_stats = [stat for stat in self.collection_stats_day.find({
+        all_stats = [stat for stat in self.collection_stats_month.find({
             'date': {
                 '$gte': str(start_date),
                 '$lt': str(end_date)
