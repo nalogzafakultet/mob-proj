@@ -37,7 +37,7 @@ class ServerThread(threading.Thread):
         obj = {}
         obj['temperatura'] = float(data[0])
         obj['vlaznost'] = float(data[1])
-        obj['brzina_vetra'] = float(data[2])
+        obj['pritisak'] = float(data[2])
         obj['osvetljenje'] = int(data[3])
         obj['vreme'] = str(datetime.now())
 
