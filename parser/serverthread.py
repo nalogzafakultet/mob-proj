@@ -239,5 +239,5 @@ class ServerThread(threading.Thread):
             }
         }, {'_id': 0})]
 
-        return aggregate_stats(all_stats)
+        return aggregate_year_stats(all_stats)
 
