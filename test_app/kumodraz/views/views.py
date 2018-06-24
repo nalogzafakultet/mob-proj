@@ -138,13 +138,35 @@ def get_recent_day():
 
     return jsonify(weather.get_weather_for_date(yday, now))
 
+@main_blueprint.route('/api/recent/threedays')
+def get_recent_threedays():
+
+    now = datetime.now()
+    yday = now - relativedelta(hours=72)
+
+    return jsonify(weather.get_weather_for_date(yday, now))
+
 @main_blueprint.route('/api/recent/month')
 def get_recent_month():
 
     now = datetime.now()
-    yday = now - relativedelta(month=1)
+    today = datetime(now.year, now.month, now.day)
+    start = today - relativedelta(days=30)
 
-    return jsonify(weather.get_weather_for_date(yday, now))
+    print('START: {}, END: {}'.format(start, today))
+
+    return jsonify(weather.get_new_stats_for_month(start, today))
+
+@main_blueprint.route('/api/newstats/year')
+def newstats_year():
+    year = request.args.get('year')
+    return jsonify(weather.new_stats_for_year(year))
+
+@main_blueprint.route('/api/newstats/month')
+def newstats_month():
+    year = request.args.get('year')
+    month = request.args.get('month')
+    return jsonify(weather.new_stats_for_month(year, month))
 
 
 @main_blueprint.route('/api/getall')

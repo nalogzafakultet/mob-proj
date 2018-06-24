@@ -101,15 +101,15 @@ def weather_stats(weathers):
         return None
 
     ret = {
-        'min_temperatura': 500.0,
-        'max_temperatura': -500.0,
-        'min_osvetljenje': 500.0,
-        'max_osvetljenje': -500.0,
-        'min_pritisak': 500.0,
-        'max_pritisak': -500.0,
-        'min_vlaznost': 500.0,
-        'max_vlaznost': -500.0,
-    }
+        'min_temperatura': 50000.0,
+        'max_temperatura': -50000.0,
+        'min_osvetljenje': 50000.0,
+        'max_osvetljenje': -50000.0,
+        'min_pritisak': 50000.0,
+        'max_pritisak': -50000.0,
+        'min_vlaznost': 50000.0,
+        'max_vlaznost': -50000.0,
+    }   
 
     for weather in weathers:
         if weather['pritisak'] > ret['max_pritisak']:
@@ -182,7 +182,7 @@ class ServerThread(threading.Thread):
         latest_month = latest_datetime.month
         latest_year = latest_datetime.year
 
-        if curr_datetime > latest_datetime:
+        if current_day > latest_day:
             stats = self.stats_for_day(latest_year, latest_month, latest_day)
             stats['date'] = str(latest_datetime)
 

@@ -71,7 +71,6 @@ class Weather:
                     }
             }, {'_id': 0})[0]
 
-
             if stats is None:
                 return {}
             else:
@@ -109,6 +108,85 @@ class Weather:
             print('Exception:', str(e))
 
         return {}
+
+    def get_new_stats_for_month(self, start_date, end_date):
+
+        try:
+            res = []
+            curr_start = start_date
+            curr_end = start_date + relativedelta(days=1)
+
+            while curr_start < end_date:
+                ret = self.get_stats_for_day(curr_start, curr_end)
+                res.append(ret)
+                curr_start = curr_end
+                curr_end = curr_end + relativedelta(days=1)
+
+            return res
+
+
+        except Exception as e:
+            print('Error getting day weathers')
+            print('Exception:', str(e))
+
+        return {}
+
+    def new_stats_for_year(self, year):
+        y = int(year)
+        curr_start_date = datetime(y, 1, 1)
+        curr_end_date = curr_start_date + relativedelta(months=1)
+        end_date = datetime(y+1, 1, 1)
+
+        res = []
+        try:
+            while curr_start_date < end_date:
+                stats = self.collection_stats_month.find({
+                'date': {
+                    '$gte': str(curr_start_date),
+                    '$lt': str(curr_end_date)
+                }
+            }, {'_id': 0})
+                agg_stats = [s for s in stats]
+                if len(agg_stats) > 0:
+                    res.append(agg_stats[0])
+                else:
+                    res.append({})
+                curr_start_date = curr_end_date
+                curr_end_date = curr_end_date + relativedelta(months=1)
+
+            return res
+        except Exception as e:
+            print('EXCEPTION NEW STATS %s' % str(e))
+            return []
+
+    def new_stats_for_month(self, year, month):
+        y = int(year)
+        m = int(month)
+        curr_start_date = datetime(y, m, 1)
+        curr_end_date = curr_start_date + relativedelta(days=1)
+        end_date = datetime(y, m+1, 1)
+
+        res = []
+        try:
+            while curr_start_date < end_date:
+                stats = self.collection_stats_day.find({
+                'date': {
+                    '$gte': str(curr_start_date),
+                    '$lt': str(curr_end_date)
+                }
+            }, {'_id': 0})
+                agg_stats = [s for s in stats]
+                if len(agg_stats) > 0:
+                    res.append(agg_stats[0])
+                else:
+                    res.append({})
+                curr_start_date = curr_end_date
+                curr_end_date = curr_end_date + relativedelta(days=1)
+
+            return res
+        except Exception as e:
+            print('EXCEPTION NEW STATS %s' % str(e))
+            return []
 
     def get_stats_for_year(self, start_date, end_date):
 
