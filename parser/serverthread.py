@@ -101,14 +101,14 @@ def weather_stats(weathers):
         return None
 
     ret = {
-        'min_temperatura': -500.0,
-        'max_temperatura': 500.0,
-        'min_osvetljenje': -500.0,
-        'max_osvetljenje': 500.0,
-        'min_pritisak': -500.0,
-        'max_pritisak': 500.0,
-        'min_vlaznost': -500.0,
-        'max_vlaznost': 500.0,
+        'min_temperatura': 500.0,
+        'max_temperatura': -500.0,
+        'min_osvetljenje': 500.0,
+        'max_osvetljenje': -500.0,
+        'min_pritisak': 500.0,
+        'max_pritisak': -500.0,
+        'min_vlaznost': 500.0,
+        'max_vlaznost': -500.0,
     }
 
     for weather in weathers:
