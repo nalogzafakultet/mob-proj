@@ -134,9 +134,15 @@ def get_stats_month():
 def get_recent_day():
 
     now = datetime.now()
-    yday = now - relativedelta(hours=24)
+    yday = now - timedelta(hours=24)
+
+    print('NOW: {}, YDAY: {}'.format(str(now), str(yday)))
 
     return jsonify(weather.get_weather_for_date(yday, now))
+
+@main_blueprint.route('/api/newrecent/day')
+def get_new_recent_day():
+    return jsonify(weather.get_recent_weather(hours=24))
 
 @main_blueprint.route('/api/recent/threedays')
 def get_recent_threedays():

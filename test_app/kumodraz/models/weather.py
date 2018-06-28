@@ -131,6 +131,30 @@ class Weather:
 
         return {}
 
+    def get_recent_weather(self, hours=1):
+        last_weather = self.collection.find({}, {'_id': 0}).sort('vreme', pymongo.DESCENDING)[0]
+        end_time = datetime.strptime(last_weather['vreme'], DATE_FORMAT)
+        start_time = end_time - relativedelta(hours=hours)
+
+        try:
+            all_weathers = [format_fo_api(weather) for weather in self.collection.find({
+                'vreme': {
+                    '$gte': str(start_time),
+                    '$lt': str(end_time)
+                }
+            }, {'_id': 0}).sort('vreme', pymongo.DESCENDING)]
+
+            if all_weathers is not None and len(all_weathers) > 0:
+                return all_weathers
+
+            return {}
+
+        except:
+            print('Error getting all weathers after {}'.format(str(start_date)))
+
+        return {}
+
+
     def new_stats_for_year(self, year):
         y = int(year)
         curr_start_date = datetime(y, 1, 1)
