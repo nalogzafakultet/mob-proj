@@ -145,13 +145,10 @@ def get_new_recent_week():
 @main_blueprint.route('/api/recent/month')
 def get_recent_month():
 
-    now = datetime.now()
-    today = datetime(now.year, now.month, now.day)
-    start = today - relativedelta(days=30)
-
-    print('START: {}, END: {}'.format(start, today))
-
-    return jsonify(weather.get_new_stats_for_month(start, today))
+    last_weather = weather.get_last()
+    last_date = datetime.strptime(last_weather['vreme'], DATE_FORMAT)
+    start_date = last_date - relativedelta(days=30)
+    return jsonify(weather.get_new_stats_for_month(start_date, last_date))
 
 @main_blueprint.route('/api/newstats/year')
 def newstats_year():
