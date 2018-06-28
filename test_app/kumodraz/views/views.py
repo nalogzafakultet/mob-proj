@@ -146,6 +146,14 @@ def get_recent_threedays():
 
     return jsonify(weather.get_weather_for_date(yday, now))
 
+@main_blueprint.route('/api/recent/week')
+def get_recent_week():
+
+    now = datetime.now()
+    yday = now - relativedelta(hours=168)
+
+    return jsonify(weather.get_weather_for_date(yday, now))
+
 @main_blueprint.route('/api/recent/month')
 def get_recent_month():
 
