@@ -40,7 +40,7 @@ class Weather:
         """
         try:
             # Finds all weathers in database, excludes ids from the query
-            all_weathers = [format_object(weather) for weather in self.collection.find()]
+            all_weathers = [format_object(weather) for weather in self.collection.find({}).sort('vreme', pymongo.DESCENDING)][:20]
             return all_weathers
         except:
             print('Error getting all weathers')
